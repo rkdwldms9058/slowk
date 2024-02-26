@@ -1,0 +1,136 @@
+@charset "utf-8";
+*{margin: 0; padding: 0; box-sizing: border-box; font-size: 13.5px;}
+li{list-style: none;}
+a{text-decoration: none; display: block;}
+
+/*공통*/
+.inner{width: 1170px; margin: 0 auto;}
+.wrap{display: flex; flex-flow: row wrap; justify-content: space-between;}
+.content{width: 100%; padding: 100px 0; background: #222221; background-size: cover;}
+h2{font-size: 15px; padding-bottom: 20px; color: white;}
+p{line-height: 20px;}
+select{margin-right: 5px;}
+
+@media screen and (max-width: 1200px){
+    .inner{width: 100%;}
+    .content{padding: 80px 30px;}
+}
+@media screen and (max-width: 768px){
+    .content{padding: 60px 20px;}
+}
+@media screen and (max-width: 640px){
+    .content{padding: 50px 10px;}
+}
+@media screen and (max-width: 340px){
+    .content{padding: 50px 0px;}
+}
+
+
+
+/*#header*/
+#header .title{background: url(../img/bg-gnb-tft.png) 100% no-repeat; padding: 50px 0;}
+#header .title .logo{display: inline-block;}
+#header .title .logo::before{content: '롤체지지'; color: #ea3395; float: right;}
+#header .title .search{float: right; background: white; padding: 8px 15px; margin-top: 20px;}
+#header .title .search select, #header .title .search .fa-search{color: crimson;}
+#header .title .search .fa-search{float: right; line-height: 20px;}
+#header .title .search select, #header .title .search .summoner_search{border: none;}
+#header .title .search .summoner_search{width: 40%;}
+
+#header .menu{background: rgba(0,0,0,0.9); padding: 10px 0;}
+#header .menu .gnb{height: 25px; display: flex; align-items: center;}
+#header .menu .gnb li a{margin-right: 20px; color: #ddd;}
+#header .menu .gnb li a:hover{border-bottom: 4px solid white;}
+#header .menu .gnb li:first-child a{border: 1px solid #ea3395;color: #ea3395; padding: 3px;}
+#header .menu .gnb li:first-child a:hover{background: #ea3395; color: black; border: none;}
+
+#header .update{background: #5b4ba5;}
+#header .update a{color: white; padding: 15px 0;}
+#header .update a span{color: aqua;}
+
+@media screen and (max-width: 1200px){
+    #header .inner{padding: 0 40px;}
+}
+@media screen and (max-width: 640px){
+    #header .inner{padding: 0 20px;}
+    #header .title{padding: 0 0 50px 0;}
+    #header .title .logo img{width: 150px; padding: 10px 0;}
+    #header .title .logo::before{display: none;}
+    #header .title .search{display: flow-root; float: none;}
+    #header .menu .gnb li a{margin-right: 11px;}
+    #header .menu .gnb{flex-direction: column; flex-wrap: wrap; overflow: hidden; justify-content: center;}
+    
+}
+
+
+/*#type-1*/
+#recommended_meta_title .title{background: url('../img/sub2-content/bg-meta.jpg'); background-size: cover; padding: 20px; margin-bottom: 20px;}
+#recommended_meta_title .title h1{padding: 10px 0;}
+#recommended_meta_title .title .box{display: flex; padding: 10px 0;}
+#recommended_meta_title .title .button a{display: inline-block; margin-right: 10px; padding: 8px 15px;}
+#recommended_meta_title .title .button:first-child a{background: #c5906f; color: white;}
+#recommended_meta_title .title .button:last-child a{border: 1px solid #ea3395; color: #ea3395;}
+#recommended_meta_title .notice{background: #352c2e; padding: 10px 20px; display: flex; align-items: center; border-radius: 5px;}
+#recommended_meta_title .notice {background: #352c2e;}
+#recommended_meta_title .notice img{margin-right: 10px;}
+
+
+
+
+
+
+/*#type-2*/
+#recommended_meta .wrap{flex-flow: column wrap;}
+#recommended_meta .box{background: #27282e; padding: 15px 20px; margin-bottom: 20px; border: 2px solid #323232; display: flex; flex-flow: row wrap; justify-content: space-between; align-items: center; color: white;}
+#recommended_meta .box .btn{border: 1px solid #c5906f; color: #c5906f; border-radius: 3px; padding: 10px 20px;}
+#recommended_meta .box .lnb{display: flex;}
+#recommended_meta .box .icon{width: 250px;}
+#recommended_meta .box .icon li{width: 30px; height: 30px;}
+#recommended_meta .box .icon li img{width: 20px; height: 20px; margin: 5px;}
+#recommended_meta .box .icon>.gold{background: url('../img/icon/gold.svg'); }
+#recommended_meta .box .icon>.silver{background: url('../img/icon/silver.svg');}
+#recommended_meta .box .icon>.bronze{background: url('../img/icon/bronze.svg');}
+
+#recommended_meta .box .champion{height: 60px;}
+#recommended_meta .box .champion>li{position: relative; margin-right: 5px;}
+#recommended_meta .box .champion>li>img{width: 45px; height: 45px; border-radius: 8px;}
+#recommended_meta .box .champion>li>.box_item{width: 50px; position: absolute; bottom: 0px; display: flex; justify-content: center;}
+#recommended_meta .box .champion>li>.box_item>.item>img{width: 15px;}
+#recommended_meta .box .champion>.grey>img{border: 2px solid grey;}
+#recommended_meta .box .champion>.green>img{border: 2px solid #11b288;}
+#recommended_meta .box .champion>.blue>img{border: 2px solid #207ac7;}
+#recommended_meta .box .champion>.pink>img{border: 2px solid #c440da;}
+#recommended_meta .box .champion>.yellow>img{border: 2px solid #ffb93b;}
+
+#recommended_meta .box .champion>li>p{position: absolute; top: 0; right: 0; padding: 0 3px; color: white; text-shadow: 2px 0 2px black;}
+#recommended_meta .box .champion .grey>p{background: gray;}
+#recommended_meta .box .champion .green>p{background: #11b288;}
+#recommended_meta .box .champion .blue>p{background: #207ac7;}
+#recommended_meta .box .champion .pink>p{background: #c440da;}
+#recommended_meta .box .champion .yellow>p{background: #ffb93b;}
+
+@media screen and (max-width: 1200px){
+    #recommended_meta .box .lnb{justify-content: flex-end;}
+    #recommended_meta .box .icon, #Recommended_meta .box .synergy{padding-bottom: 40px;}
+}
+    
+@media screen and (max-width: 640px){
+    #recommended_meta .box{width: 100%; position: relative;}
+    #recommended_meta .box .lnb{justify-content: flex-start; flex-wrap: wrap;}
+    #recommended_meta .box .icon, #recommended_meta .box .synergy {padding-bottom: 12px;}
+    #recommended_meta .box .champion>li>img{width: 43px; height: 43px; margin-bottom: 4px;}
+    #recommended_meta .box .champion>li>.box_item{width: 100%; bottom: -10%;}
+    #recommended_meta .box .champion>li>.box_item>.item>img{width: 15px;}
+    #recommended_meta .box .btn{padding: 5px; position: absolute; bottom: 10%; right: 3%;}
+    #recommended_meta .box{padding: 10px 0px 40px 10px;}
+}
+
+
+/*#footer*/
+#footer{background: black; padding: 20px;}
+#footer .inner a, #footer .inner h2, #footer .inner p{padding: 10px 0;  color: gray;}
+
+
+
+
+

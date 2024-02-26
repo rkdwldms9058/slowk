@@ -1,0 +1,170 @@
+@charset "utf-8";
+#header{padding: 20px 40px;}
+#header .logo .cn_logo::after{content: ''; border-right: 1px solid #ccc; margin: 0 10px; height: 20px; display: inline-block; vertical-align: super;}
+#header .logo .main_logo{margin-top: 8px;}
+#header .nav{width: 450px; font-size: 1.25rem; font-weight: bold;}
+
+@media screen and (max-width: 850px){
+    #header .nav{display: none;}
+}
+@media screen and (max-width: 500px){
+    #header{padding: 20px;}
+}
+
+
+
+
+#visual{background: url(../images/main/visual/visual_bg.jpg); object-fit: cover; background-repeat: no-repeat; background-size: cover; padding: 80px 0;}
+#visual .pic{padding-bottom: 60px;}
+#visual .info{width: 590px;}
+#visual .info .btn a{width: 285px; background: #0065E8; padding: 15px 30px; border-radius: 50px; font-size: 1.1rem; color: white;}
+#visual .info .btn img{margin-left: 15px; width: 25px; display: block;}
+@media screen and (max-width: 768px){
+    #visual{padding: 40px 0;}
+    #visual .pic{padding-bottom: 25px;}
+    #visual .pic img{width: 100%;}
+    #visual .info{width: 100%;}
+    #visual .info .btn{width: 100%; margin-bottom: 20px;}
+    #visual .info .btn:last-child{margin-bottom: 0;}
+}
+
+
+
+#type-1{border-bottom: 1px solid #ddd; background: rgb(245, 245, 245);}
+#type-1 .view_more{padding-bottom: 30px;}
+
+#type-1 .tab_title .tab{width: 320px; font-size: 1.25rem; font-weight: bold; padding-bottom: 30px;}
+#type-1 .tab_title .tab a{color: #aaa;}
+#type-1 .tab_title .tab .on a{border-bottom: 4px solid #0065E8; color: #0065E8; padding-bottom: 5px;}
+#type-1 .cont{width: 270px; border: 1px solid #ddd; padding: 20px 25px; font-size: 1.1rem; background: white;}
+#type-1 .cont li{line-height: 35px;}
+#type-1 .cont li:first-child{height: 60px; line-height: 28px; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; text-overflow: ellipsis; white-space: normal; letter-spacing: -1px;}
+@media screen and (max-width: 1172px){
+    #type-1{padding: 40px;}
+    #type-1 .cont{width: 49%; margin-bottom: 20px;}
+}
+@media screen and (max-width: 500px){
+    #type-1{padding: 20px;}
+    #type-1 .cont{width: 100%;}
+    #type-1 .cont:nth-child(3), #type-1 .cont:nth-child(4){display: none;}
+    #type-1 .tab_title{width: 100%;}
+    #type-1 .tab_title .tab{width: 100%;}
+    #type-1 .tab_title .tab a{color: #0065e8a9;}
+    #type-1 .tab_title .tab .on{background: #0065E8;}
+    #type-1 .tab_title .tab .on a{border: none; color: white;}
+    #type-1 .tab_title .tab li{padding: 10px 0; width: 31%; text-align: center; border: 2px solid #0065e885; border-radius: 5px;}
+    #type-1 .view_more{width: 100%; text-align: end; padding-bottom: 15px;}
+}
+
+#type-2 .inner>.wrap{align-items: flex-start;}
+#type-2 .content{padding:  40px 0; width: auto;}
+#type-2 .title{display: flex; align-items: center; padding-bottom: 20px;}
+#type-2 .title h1{margin-right: 20px; color: #aaa; font-weight: bold;}
+#type-2 .left{border-right: 1px solid #ddd; padding-right: 70px;}
+#type-2 .left>.wrap{flex-direction: column;}
+#type-2 .left .box{width: 300px; background: white; border: 1px solid #ddd; padding: 25px 30px;}
+#type-2 .left .box:last-child{margin-top: 40px;}
+#type-2 .left .box h3{padding-bottom: 20px;}
+#type-2 .left .box .veiw_more{padding-bottom: 69px;}
+#type-2 .left .box .wrap a{color: white; text-align: center;}
+#type-2 .left .box .btn{background: #0065E8; padding: 15px 20px; border-radius: 15px; font-size: 1.1rem;}
+#type-2 .left .box .btn li img{width: 70px; padding-bottom: 10px;}
+#type-2 .right{padding: 40px 0;}
+#type-2 .right .top{padding-left: 70px; padding-bottom: 40px; border-bottom: 1px solid #ddd;}
+#type-2 .right .top .view_more{padding-bottom: 20px;}
+#type-2 .right .bottom{padding: 40px 0 0 70px;}
+#type-2 .right .bottom .box{width: 219px; height: 136px; position: relative; border-radius: 15px; display: block;}
+#type-2 .right .bottom a{color: white;}
+#type-2 .right .bottom a:nth-child(1) .box{background: url(../images/main/content/ingun_bg1.jpg); background-size: cover;}
+#type-2 .right .bottom a:nth-child(2) .box{background: url(../images/main/content/ingun_bg2.jpg); background-size: cover;}
+#type-2 .right .bottom a:nth-child(3) .box{background: url(../images/main/content/ingun_bg3.jpg); background-size: cover;}
+#type-2 .right .bottom .box .wrap{position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); justify-content: center;}
+
+#type-2 .right .bottom .box .btn{width: 150px; height: 50px; background: #F5486F; border-radius: 50px; text-align: center; line-height: 48px;}
+
+@media screen and (max-width: 1200px){
+    #type-2 .left{padding-right: 40px; padding-left: 40px; width: 100%; border-bottom: 1px solid #ddd;}
+    #type-2 .left>.wrap{flex-direction: row;}
+    #type-2 .left .box{width: 49%;}
+    #type-2 .left .box .veiw_more{display: none;}
+    #type-2 .left .box:last-child{margin: 0;}
+    #type-2 .left .box .btn{border-radius: 0; padding: 8px 0; background: white; color: #0065E8; border: 1px solid #0065E8;}
+    #type-2 .left .box .btn li img{display: none;}
+    #type-2 .left .box .wrap a{width: 230px;}
+    #type-2 .right{width: 100%;}
+    #type-2 .right .top{padding-left: 30px; padding-right: 40px;}
+    #type-2 .right .bottom{padding: 40px 40px 0 40px;}
+    #type-2 .right .bottom .box{width: auto;}
+    #type-2 .right .bottom a{width: 350px;}
+    #type-2 .right iframe{width: 100%; height: 400px;}
+}
+@media screen and (max-width: 1172px){
+    #type-2 .left .box .wrap a{width: 47.5%;}
+    #type-2 .right .bottom a{width: 32%;}
+}
+@media screen and (max-width: 768px){
+    #type-2 .right .bottom a{width: 100%; margin-bottom: 20px;}
+    #type-2 .right .bottom .box{height: 85px;}
+    #type-2 .right .bottom .box .btn{margin-left: 25px;}
+}
+@media screen and (max-width: 685px){
+    #type-2 .left .box{width: 100%; margin-bottom: 20px;}
+    #type-2 .right .bottom .box{height: 136px;}
+}
+@media screen and (max-width: 500px){
+    #type-2 .content{padding: 20px;}
+    #type-2 .title h1{display: none;}
+    #type-2 .left .box .btn{border-radius: 5px;}
+    #type-2 .right .top{padding: 0 0 20px 0;}
+    #type-2 .right .bottom{padding: 20px 0 0 0;}
+    #type-2 .right .bottom .box .btn{margin-left: 0;}
+    #type-2 .right iframe{height: 210px;}
+}
+
+
+
+#footer{background: dimgray; height: 100px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

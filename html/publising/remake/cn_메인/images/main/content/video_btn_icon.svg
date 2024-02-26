@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="97.34" height="77.63" viewBox="0 0 97.34 77.63">
+  <defs>
+    <filter id="모서리가_둥근_직사각형_2_복사" x="0" y="0" width="97.34" height="77.63" filterUnits="userSpaceOnUse">
+      <feOffset dx="-2.598" dy="1.5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+      <feFlood flood-opacity="0.349"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="그룹_43" data-name="그룹 43" transform="translate(-1417.902 -2468)">
+    <g transform="matrix(1, 0, 0, 1, 1417.9, 2468)" filter="url(#모서리가_둥근_직사각형_2_복사)">
+      <rect id="모서리가_둥근_직사각형_2_복사-2" data-name="모서리가 둥근 직사각형 2 복사" width="76.34" height="56.63" rx="10" transform="translate(13.1 9)" fill="#fff" opacity="0.749"/>
+    </g>
+    <path id="다각형_1_복사" data-name="다각형 1 복사" d="M1485.8,2502.315l-23.5,14.648v-29.3Z" transform="translate(0 3)" fill="#6eb92b" opacity="0.749"/>
+  </g>
+</svg>

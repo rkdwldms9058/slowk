@@ -1,0 +1,1410 @@
+@charset "utf-8";  
+
+#main_visual_wrap .swiper-pagination_top {
+    bottom: 110px !important;
+    text-align: left;
+}
+
+.swiper-pagination-bullet-active {
+    opacity: var(--swiper-pagination-bullet-opacity, 1);
+    background: #e61e2b;
+}
+
+.snsbox{height:56px; background:#fff; width:100%; clear:both;}
+.snsbox h3{position:absolute; color:#000; left:0px; top:calc(50% - 12px);}
+.snsbox ul{padding:11px 0 0 150px;}
+.snsbox ul li{float:left; padding-left:15px;}
+.snsbox ul li:nth-child(1){padding-left:25px;}
+.snsbox ul li a{display:block; width:33px; height:33px; border-radius:50%; border:1px solid #2a333a; background-position:center 6px; background-repeat:no-repeat; background-color:#2a333a; text-indent:-9999px;}
+.snsbox ul li:nth-child(1) a{background-image:url(http://www.chungnam.go.kr/images/main/2018/responsive/sns001_ov.png);}
+.snsbox ul li:nth-child(2) a{background-image:url(http://www.chungnam.go.kr/images/main/2018/responsive/sns002_ov.png);}
+.snsbox ul li:nth-child(3) a{background-image:url(http://www.chungnam.go.kr/images/main/2018/responsive/sns003_ov.png);}
+.snsbox ul li:nth-child(4) a{background-image:url(http://www.chungnam.go.kr/images/main/2018/responsive/sns004_ov.png);}
+.snsbox ul li:nth-child(5) a{background-image:url(http://www.chungnam.go.kr/images/main/2018/responsive/sns005_ov.png);}
+.snsbox ul li:nth-child(6) a{background-image:url(http://www.chungnam.go.kr/images/main/2018/responsive/sns006_ov.png);}
+.snsbox ul li a:hover{background-color:#2a333a; border:1px solid #2a333a;}
+.snsbox ul li:nth-child(1) a:hover{background-image:url(http://www.chungnam.go.kr/images/main/2018/responsive/sns001_on.png);}
+.snsbox ul li:nth-child(2) a:hover{background-image:url(http://www.chungnam.go.kr/images/main/2018/responsive/sns002_on.png);}
+.snsbox ul li:nth-child(3) a:hover{background-image:url(http://www.chungnam.go.kr/images/main/2018/responsive/sns003_on.png);}
+.snsbox ul li:nth-child(4) a:hover{background-image:url(http://www.chungnam.go.kr/images/main/2018/responsive/sns004_on.png);}
+.snsbox ul li:nth-child(5) a:hover{background-image:url(http://www.chungnam.go.kr/images/main/2018/responsive/sns005_on.png);}
+.snsbox ul li:nth-child(6) a:hover{background-image:url(http://www.chungnam.go.kr/images/main/2018/responsive/sns006_on.png);}
+
+/* 메인 탑 코로나19 현황 : 2020.02.24 */
+.t_banner_wrap {background:url('//www.chungnam.go.kr/images/main/2018/responsive/main_top_corona_19.jpg') no-repeat center center #d3dfef; overflow:hidden; font-family: 'Nanum Gothic'; }
+.t_banner_wrap .inner {width: 1050px;margin:0 auto 10px auto;overflow:hidden;}
+.t_banner_wrap .inner h2 {position:relative;text-align:center;color:#000;font-weight:bold;padding: 8px 0 8px 0;}
+.t_banner_wrap .inner h2 a {color:#000;}
+.t_banner_wrap .inner h2 span {text-align:center !important; font-family: 'Nanum Gothic'; font-size:18px; color:#0a3aba; letter-spacing: 3px;}
+.t_banner_wrap .inner h2 span > b {font-size:14px; font-family: 'NanumGothic'; font-weight:700; color:#000; letter-spacing: -1px;}
+.t_banner_wrap .inner h2 strong {position:absolute;right:0;top: 8px;}
+.t_banner_wrap .inner h2 strong a {position: relative;top: -6px;color:#fff;padding: 5px 7px 6px 7px;background:#000;color:#fff;border-radius:7px;font-weight:normal;font-size: 12px;}
+.t_banner_wrap .inner > div {float:left;display:inline-block;height:45px;border-radius:7px;padding:5px 5px 3px 5px;font-size:13px;color:#000;width: 48.5%;}
+.t_banner_wrap .inner > div a {color:#000;}
+.t_banner_wrap .inner > div span {color:#fff;display: inline-block;line-height:40px;padding-left:10px;width: 52px;font-weight:bold;font-family: 'Nanum Gothic';}
+.t_banner_wrap .inner > div ul {overflow:hidden;}
+.t_banner_wrap .inner > div ul{float: right;}
+
+.t_banner_wrap .inner > div li {float:left;margin-left:3px;overflow:hidden;background:#fff;border-radius:7px;padding: 6px 6px 0px 6px;height: 36px;}
+.t_banner_wrap .inner > div li span {float:left;margin-top:10px;background:#bffcfd;color:#000;border-radius:12px;padding: 4px 10px 5px 10px;position: relative;z-index: 10;}
+.t_banner_wrap .inner > div dl {float:left;}
+.t_banner_wrap .inner > .green_bg dl:first-child {position:relative}
+.t_banner_wrap .inner > .green_bg dl:first-child::before {content:'';width:1px;height: 29px;background:#4da02e;position:absolute;top:0;right: 0px;}
+/* .t_banner_wrap .inner > div dl {overflow:hidden;background:#fff;border-radius:7px;padding: 6px 6px 0px 6px;height: 36px;} */
+.t_banner_wrap .inner > div dt {clear:both;text-align: center;width: 95px;font-weight:bold;}
+.t_banner_wrap .inner > div dd {text-align: center;}
+
+.t_banner_wrap .inner .list1 {background:#d74d02;}
+.t_banner_wrap .inner .list2 {background:#394e91;margin-left: 9px;}
+.t_banner_wrap .inner .list3 {background: #4da02e;margin-left: 8px;}
+.t_banner_wrap .inner .green_bg {background: #4da02e !important; margin-left: 8px;}
+.t_banner_wrap .inner .list3 li span {background:#9bda6d;}
+.t_banner_wrap .red {color:#d74d02; font-weight:bold;}
+
+
+.aftet_contect:after {content:'(자가격리)';position: absolute;top: 15px;left: 0;}
+
+@media all and (max-width:1300px) {
+    .aftet_contect:after {position: relative;top: 0;}
+	.t_banner_wrap .inner {width:94%;}
+	.t_banner_wrap .inner h2 {text-align:left;}
+	.t_banner_wrap .inner > div {float:none; width:100%; height:auto; box-sizing:border-box; text-align:center; padding:5px; margin:0 0 5px 0;}
+	.t_banner_wrap .inner > div span {width:100%;line-height:normal;padding: 2px 0 0 0;text-align:center;top:7px;}
+	.t_banner_wrap .inner > div ul {margin: 7px 0 0 0;float:none;}
+	.t_banner_wrap .inner > div li {margin-left:0;width: calc(24.6% - 15px);margin-bottom:5px;padding:6px;height: 45px;}
+
+	.t_banner_wrap .inner > div li:first-child {/* margin-left: 0px; */}
+	.t_banner_wrap .inner > div li span {float:none; display:block; margin-bottom:5px; margin-top:0;}
+	.t_banner_wrap .inner .list1 li {margin-left: 5px;}
+
+    .t_banner_wrap .inner > div dl { float:none; left:0;}
+	.t_banner_wrap .inner > div.list2 li {width:49%; margin-left:0; margin:0 0 3px 0;}
+	.t_banner_wrap .inner > div.list2 li:first-child {margin-right:1%;}
+	.t_banner_wrap .inner > div.list3 li {width:49%; margin-left:0; margin:0 0 3px 0;}
+	.t_banner_wrap .inner > div.list3 li:first-child {margin-right:1%;}
+	.t_banner_wrap .inner > div dt {width:100%; float:none;}
+	.t_banner_wrap .inner .list1 dl {height:auto; width:100%; box-sizing:border-box; padding:5px; font-size:15px;}
+	.t_banner_wrap .inner .list1 dt, .t_banner_wrap .inner .list1 dd {width:100%; text-align:center;}
+	.t_banner_wrap .inner .list1 dt {clear:none !important;}
+	.t_banner_wrap .inner .list1 dd {text-align:center;}
+
+	.t_banner_wrap .inner .list2 {margin-right:0;}
+	.t_banner_wrap .inner .green_bg {margin-left:0;}
+
+	.t_banner_wrap .inner > .green_bg  li {width: calc(49.5% - 5px) !important;margin-bottom:5px;box-sizing: border-box;height: 53px;}
+	.t_banner_wrap .inner > .green_bg  li >  dl {width:50%; float:left !important; display:inline-block;}
+	.t_banner_wrap .inner > .green_bg dl:first-child::before {top:4px}
+
+}
+@media all and (max-width:768px) {
+	.t_banner_wrap .inner .list2, .t_banner_wrap .inner .list3 {float:none; width:100%; margin-right:0;}
+	}
+@media all and (max-width:650px) {
+    .t_banner_wrap .inner h2 p {text-align:left !important;}
+    .t_banner_wrap .inner > div li {width: calc(49.3% - 5px);box-sizing:border-box;height:53px;}
+	.t_banner_wrap .inner > .green_bg  li {width: 97.6% !important; margin-bottom:5px;}
+}
+@media all and (max-width:480px) {
+	.t_banner_wrap .inner h2 span {display:block;}
+	.t_banner_wrap .inner > div dd {width:auto;}
+
+}
+
+body{overflow-x:hidden; overflow-y:auto;}
+/*레이어팝업 명절*/
+#divpop8{position:absolute;left:28px;top: 40px;z-index:22;width: 687px;padding: 50px 40px;box-sizing: border-box;height: 269px;background:url(//www.chungnam.go.kr/images/popup/support/pop_img_2020_bg.jpg) no-repeat 0 0;}
+#pop_btn{z-index:30; position:absolute; width:478px; bottom:36%;text-align:center;}
+#pop_btn .btn03{ margin-top:3px;}
+#divpop8 table{width: 613px;bottom:0;position:absolute;}
+#divpop8 table tr{ border-radius:20px; background:#000; }
+#divpop8 table td{ color:#000; height:21px !important; } 
+#divpop8 table td a{color:#fff;}  
+#divpop8 table td.left{font-size:13px; padding:0 0 0 42px;  }
+#divpop8 table td.right{text-align:right;font-size:13px; }
+#divpop8 table td.right a {padding:0 48px 0 0;}
+#divpop8 .main_popup_img8{position: relative;}
+#divpop8 .btn_close {position:absolute;right: -21px;top: -32px;width: 71px;height: 25px;background:url(//www.chungnam.go.kr/images/popup/support/close_img.png) no-repeat;background-size:100%;}
+#divpop8 .sr-only {position: absolute;width: 1px;height: 1px;padding: 0;margin: -1px;overflow: hidden;clip: rect(0, 0, 0, 0);border: 0;}
+
+#divpop8 button { cursor: pointer;  border: 0; background-color: #fff;}
+
+/* .main_popup_img_r {float:left; overflow: hidden; width:47%;margin:32px 0 0 43px;}
+.main_popup_img_l {float:right;overflow: hidden;} */
+
+#divpop8 .mobile {display:none;}
+#divpop8 .main_popup_img8 > .pc > ul > li {display:inline-block;}
+#divpop8 .main_popup_img8 > .pc > ul > li:first-child {}
+#divpop8 .main_popup_img8 > .pc > ul > li:last-child {
+    padding: 0 0 0 20px;
+}
+
+
+@media screen and (min-width:1px) and (max-width:1049px) {
+	#divpop8{position:absolute;margin:0;left:auto;left: 24%;margin-left: -150px;}	
+}
+
+@media screen and (min-width:1px) and (max-width:720px) {
+	#divpop8{height:auto; display:block; margin:0; left:auto; width:96%; min-width:300px; top:0; background:none;}
+	#divpop8 .main_popup_img8 > .mobile {position: relative;}
+	#divpop8 .main_popup_img8 > .mobile > .btn_close {top: 14px;right: 13px; width:100px; height:33px; background:url(//www.chungnam.go.kr/images/popup/support/close_img_big.png) no-repeat;}
+	#divpop8 .pc {display:none;}
+    #divpop8 .mobile {display:block; text-align:center;}
+    #divpop8 .mobile img {width:100%}
+	.main_popup_img_r {float:none; width:100%; text-align:center; margin:13px 0 12px 0;}
+	.main_popup_img_l {float:none;text-align:center; margin:0 0 0 0;}
+	#divpop8 table td.left{ padding:0 0 0 10px; }
+	#divpop8 table td.right a {padding:0 10px 0 0;}
+}
+@media screen and (min-width:1px) and (max-width:400px) {
+	#divpop8{height:auto; display:block; margin:0; left:auto; width:98%; top:0;}
+
+
+}
+
+/*레이어팝업 끝*/
+
+/* 2019.11.07 김동현 추가 */
+/*레이어팝업 1*/
+#divpop1{position:absolute; right:30%; z-index:22; width:300px; height:218px; background:#fff; border-radius:20px; border:2px solid #668903; margin-top:10%;}
+#divpop1 p{font-size:0; background:url(//www.chungnam.go.kr/images/main/2018/responsive/pop_txt_191107.jpg) no-repeat center; width:100%; height:80px; position:absolute; top:14%;}
+#pop_btn1{z-index:30; position:absolute; width:300px; bottom:23%;text-align:center;}
+#pop_btn1 .btn03{ margin-top:3px;}
+#divpop1 table {width:300px; bottom:0; position:absolute;}
+#divpop1 table tr{ border-radius:20px;}
+#divpop1 table td{color:#e3ff94;  background:#668903; padding:7px; height:28px;} 
+#divpop1 table td a{color:#e3ff94;}  
+#divpop1 table td.left{border-radius:0 0 0 16px; font-size:13px; }
+#divpop1 table td.right{text-align:right; border-radius:0 0 16px 0; font-size:13px; }
+#divpop1 span {color:#777777; font-size:13px;font-weight: bold; text-align:center; }
+#notice_form1{background:#668903;}
+
+
+@media screen and (min-width:1px) and (max-width:1049px) {
+		
+#divpop1{ position:absolute; margin-top:0%; left:50%; margin-left:-150px;}	
+#divpop1 table{width:100%; bottom:0;}
+#divpop1 table td{font-size:12px;}
+
+}
+
+
+/*레이어팝업 끝*/
+
+/*레이어팝업 명절*/
+#divpop2{position:absolute;left:28px;top: 40px;z-index:22;width: 613px;height: 266px;background:#fff;}
+#pop_btn{z-index:30; position:absolute; width:478px; bottom:36%;text-align:center;}
+#pop_btn .btn03{ margin-top:3px;}
+#divpop2 table{width: 613px;bottom:0;position:absolute;}
+#divpop2 table tr{ border-radius:20px; background:#000; }
+#divpop2 table td{ color:#000; height:21px !important; } 
+#divpop2 table td a{color:#fff;}  
+#divpop2 table td.left{font-size:13px; padding:0 0 0 42px;  }
+#divpop2 table td.right{text-align:right;font-size:13px; }
+#divpop2 table td.right a {padding:0 48px 0 0;}
+#divpop2 .btn_close {position:absolute;right: 12px;top: 10px;width: 71px;height: 25px;background:url(//www.chungnam.go.kr/images/close_img.png) no-repeat;background-size:100%;}
+#divpop2 .sr-only {position: absolute;width: 1px;height: 1px;padding: 0;margin: -1px;overflow: hidden;clip: rect(0, 0, 0, 0);border: 0;}
+
+#divpop2 button { cursor: pointer;  border: 0; background-color: #fff;}
+
+.main_popup_img_r {float:left; overflow: hidden; width:47%;margin:32px 0 0 43px;}
+.main_popup_img_l {float:right;overflow: hidden;}
+
+.main_popup_img_l .mobile {display:none;}
+
+@media screen and (min-width:1px) and (max-width:1049px) {
+	#divpop2{ position:absolute; margin-top:0%; left:38%; margin-left:-223px;}	
+	#divpop2 table{width:100%; bottom:0;}
+	#divpop2 table td{font-size:12px;}
+}
+
+@media screen and (min-width:1px) and (max-width:649px) {
+	#divpop2{height:auto; display:block; margin:0; left:auto; width:96%; min-width:300px; top:0;}
+	.main_popup_img_l .pc {display:none;}
+    .main_popup_img_l .mobile {display:block; text-align:center;}
+    .main_popup_img_l .mobile img {width:100%}
+	.main_popup_img_r {float:none; width:100%; text-align:center; margin:13px 0 12px 0;}
+	.main_popup_img_l {float:none;text-align:center; margin:0 0 0 0;}
+	#divpop2 table td.left{ padding:0 0 0 10px; }
+	#divpop2 table td.right a {padding:0 10px 0 0;}
+}
+
+/*레이어팝업 끝*/
+
+/* 긴급생활안정자금 변경안내 레이어팝업 2020.0414*/
+#divpop4 {position:absolute;left: 25px;top: 17px;z-index:22;width: 700px;z-index: 9;}
+#divpop4 ul li {display:inline-block;float:left;}
+#divpop4 ul li img {padding: 5px 0 5px 0;}
+#divpop4 ul li:first-child {margin: 0 14px 0 36px;}
+#divpop4 ul li:nth-child(2) {margin:0 3px 0 0;}
+#divpop4 ul li:last-child {margin:0 0 0 0;}
+
+
+
+/* 긴급생활안정자금 변경안내 레이어팝업 2020.0414*/
+#divpop5 {position:absolute;left: 25px;top: 17px;z-index:22;width: 700px;/* height:287px; */background:url(//www.chungnam.go.kr/images/popup/support/emergency_bg.jpg) top right no-repeat;z-index: 9;}
+#divpop5 ul li {display:inline-block;float:left;}
+#divpop5 ul li img {padding:5px 0 5px 0; }
+#divpop5 ul li:first-child {margin:0 14px 0 36px;}
+#divpop5 ul li:nth-child(2) {margin:0 3px 0 0;}
+#divpop5 ul li:last-child {margin:0 0 0 0;/* border: 1px solid red; */}
+
+
+
+.emergency_box {display:block; text-align:center !important;}
+.emergency_box p {text-align:center !important;}
+
+.emergency_box .poptitle img {padding: 14px 0 0px 0;}/* 타이틀이미지 */
+.emergency_box .btn_pop_go img {padding:7px 0 5px 0;} 
+.close_wrap {float: left;width:100%;background:#122e76;padding:7px 0;}
+.close_wrap input {vertical-align: middle;}
+.close_wrap .white {color:#fff;}
+#divpop4 button {vertical-align: middle;cursor: pointer;border: 0;color: #fff;background:#122e76;z-index:9999;float: right; padding:0 5px 0 0;}
+#divpop5 button {vertical-align: middle;cursor: pointer;border: 0;color: #fff;background:#122e76;z-index:9999;float: right; padding:0 5px 0 0;}
+.mobile_popup {display:none;}
+
+.btn_gov {position:absolute;top: 235px;left: 108px;}
+.btn_job {position:absolute; top:235px; left:362px;}
+.btn_nojob {position:absolute; top:235px; left:515px;}
+
+
+@media screen and (min-width:1px) and (max-width:1050px) {
+#divpop4 {z-index:22;}
+#divpop5 {z-index:22;}
+}
+
+@media screen and (min-width:1px) and (max-width:770px) {
+	#divpop4 {width: 96%;left: 0px;margin: 0 2%;}
+	#divpop5 {width: 96%;left: 0px;margin: 0 2%;}
+	.mobile_popup {display:block;text-align:center;float: left;background:url(//www.chungnam.go.kr/images/popup/support/emergency_bg.jpg) top right no-repeat;position: relative;}
+	.mobile_popup img:first-child {padding: 17px 0 0px 0;}
+	
+	.emergency_box {display:none;}
+	.mobile_popup li:first-child {margin:0 5px 0 15px;}
+	.btn_pop_go  {text-align:center !important; padding:0 0 5px 0}
+	.mobile_btn_list p {text-align:center;}
+	.mobile_btn_list p img {padding:2px 0 0 0 !important;}
+	.mobile_btn_list .btn_gov {position: relative;top: 0;left: 0;display: inline-block;}
+	.btn_job {position: relative;top: 0;left: 0; display: inline-block;}
+	.btn_nojob {position: relative;top: 0;left: 0; display: inline-block;}
+}
+
+@media screen and (min-width:1px) and (max-width:760px) {
+	#divpop4 ul li:first-child {margin:0;}
+	#divpop5 ul li:first-child {margin:0;}
+	.mobile_popup li:first-child {margin:0;}
+	.mobile_popup ul li {display:block; width:100%;}
+	#divpop4 ul li {padding:0;}
+    #divpop5 ul li {padding:0;}
+    
+}
+
+
+@media screen and (min-width:1px) and (max-width:470px) {
+	#divpop4 {top: -462px;}
+    #divpop5 {top: -462px;}
+    #divpop5 ul {position:relative;}
+
+}
+@media screen and (min-width:1px) and (max-width:350px) {
+    .mobile_popup img{width:80%;}   
+}
+@media screen and (min-width:1px) and (max-width:315px) {
+	#divpop4 {top: -498px;}
+    #divpop5 {top: -498px;}
+
+}
+/* 긴급생활안정자금 변경안내 레이어팝업 2020.0414*/
+
+
+/* 2019.11.07 김동현 추가 */
+/*레이어팝업 1*/
+#divpop1{position:absolute; right:30%; z-index:22; width:300px; height:218px; background:#fff; border-radius:20px; border:2px solid #668903; margin-top:10%;}
+#divpop1 p{font-size:0; background:url(//www.chungnam.go.kr/images/main/2018/responsive/pop_txt_191107.jpg) no-repeat center; width:100%; height:80px; position:absolute; top:14%;}
+#pop_btn1{z-index:30; position:absolute; width:300px; bottom:23%;text-align:center;}
+#pop_btn1 .btn03{ margin-top:3px;}
+#divpop1 table {width:300px; bottom:0; position:absolute;}
+#divpop1 table tr{ border-radius:20px;}
+#divpop1 table td{color:#e3ff94;  background:#668903; padding:7px; height:28px;} 
+#divpop1 table td a{color:#e3ff94;}  
+#divpop1 table td.left{border-radius:0 0 0 16px; font-size:13px; }
+#divpop1 table td.right{text-align:right; border-radius:0 0 16px 0; font-size:13px; }
+#divpop1 span {color:#777777; font-size:13px;font-weight: bold; text-align:center; }
+#notice_form1{background:#668903;}
+
+
+@media screen and (min-width:1px) and (max-width:1049px) {
+		
+#divpop1{ position:absolute; margin-top:0%; left:50%; margin-left:-150px;}	
+#divpop1 table{width:100%; bottom:0;}
+#divpop1 table td{font-size:12px;}
+
+}
+/*레이어팝업 끝*/
+
+
+/* 200721 홈페이지 서비스 일시중단 레이어팝업 */
+#divpop4.notice, #divpop5.notice {background:none;}	
+#divpop4.notice .main_popup_img img, #divpop5.notice .mobile_popup img {display: block;width: 100%;padding: 0;}
+#divpop5.notice .mobile_popup {display: block;background:none;}
+/* 200721 홈페이지 서비스 일시중단 레이어팝업 끝 */
+
+
+
+/* 20201218 서비스 중지 */
+#divpop_stop {position:absolute;left:28px;top: 40px;z-index:22;width: 687px; box-sizing: border-box;height: 269px;}
+#pop_btn{z-index:30; position:absolute; width:478px; bottom:36%;text-align:center;}
+
+#divpop_stop .main_popup_img{position: relative;}
+#divpop_stop .btn_close {position:absolute;right: 7px;top: 5px;width: 71px;height: 25px;background:url(//www.chungnam.go.kr/images/popup/support/close_img.png) no-repeat;background-size:100%;}
+#divpop_stop .sr-only {position: absolute;width: 1px;height: 1px;padding: 0;margin: -1px;overflow: hidden;clip: rect(0, 0, 0, 0);border: 0;}
+#divpop_stop button { cursor: pointer;  border: 0; background-color: #fff;}
+
+
+#divpop_stop .mobile {display:none;}
+
+
+@media screen and (min-width:1px) and (max-width:1049px) {
+	#divpop_stop{position:absolute;margin:0;left:auto;left: 24%;margin-left: -150px;}	
+}
+
+@media screen and (min-width:1px) and (max-width:720px) {
+	#divpop_stop{height:auto; display:block; margin:0; left:auto; width:96%; min-width:300px; top:0; background:none;}
+	#divpop_stop .main_popup_img > .mobile {position: relative;}
+	#divpop_stop .main_popup_img > .mobile > .btn_close {top: 14px;right: 13px; width:100px; height:33px; background:url(http://www.chungnam.go.kr/images/popup/support/close_img_big.png) no-repeat;}
+	#divpop_stop .pc {display:none;}
+    #divpop_stop .mobile {display:block; text-align:center;}
+    #divpop_stop .mobile img {width:100%}
+
+}
+@media screen and (min-width:1px) and (max-width:400px) {
+	#divpop_stop{height:auto; display:block; margin:0; left:auto; width:98%; top:0;}
+
+}
+
+
+
+/* 레이어팝업 새해인사 */
+#divpop10{position:absolute;left:28px;top: 36px;z-index:22;width: 690px;box-sizing: border-box;height: 269px;}
+#pop_btn{z-index:30; position:absolute; width:478px; bottom:36%;text-align:center;}
+#pop_btn .btn03{ margin-top:3px;}
+#divpop10 table{width: 613px;bottom:0;position:absolute;}
+#divpop10 table tr{ border-radius:20px; background:#000; }
+#divpop10 table td{ color:#000; height:21px !important; } 
+#divpop10 table td a{color:#fff;}  
+#divpop10 table td.left{font-size:13px; padding:0 0 0 42px;  }
+#divpop10 table td.right{text-align:right;font-size:13px; }
+#divpop10 table td.right a {padding:0 48px 0 0;}
+#divpop10 .main_popup_img{position: relative;}
+#divpop10 .btn_close {position:absolute;right: 18px;top: 12px;width: 71px;height: 25px;background:url(http://www.chungnam.go.krhttp://www.chungnam.go.kr/images/popup/support/close_img.png) no-repeat;background-size:100%;}
+#divpop10 .sr-only {position: absolute;width: 1px;height: 1px;padding: 0;margin: -1px;overflow: hidden;clip: rect(0, 0, 0, 0);border: 0;}
+
+#divpop10 button { cursor: pointer;  border: 0; background-color: #fff;}
+
+#divpop10 .mobile {display:none;}
+#divpop10 .main_popup_img > .pc > ul > li {display:inline-block;}
+#divpop10 .main_popup_img > .pc > ul > li:first-child {}
+#divpop10 .main_popup_img > .pc > ul > li:last-child {
+    padding: 0 0 0 20px;
+}
+
+
+@media screen and (min-width:1px) and (max-width:1049px) {
+	#divpop10{position:absolute;margin:0;left:auto;left: 24%;margin-left: -150px;}	
+}
+
+@media screen and (min-width:1px) and (max-width:720px) {
+	#divpop10{height:auto; display:block; margin:0; left:auto; width:96%; min-width:300px; top:0; background:none;}
+	#divpop10 .main_popup_img > .mobile {position: relative;}
+	#divpop10 .main_popup_img > .mobile > .btn_close {top: 5px;right: 10px; width:100px; height:33px; background:url(http://www.chungnam.go.krhttp://www.chungnam.go.kr/images/popup/support/close_img_big.png) no-repeat;}
+	#divpop10 .pc {display:none;}
+    #divpop10 .mobile {display:block; text-align:center;}
+    #divpop10 .mobile img {width:100%}
+	.main_popup_img_r {float:none; width:100%; text-align:center; margin:13px 0 12px 0;}
+	.main_popup_img_l {float:none;text-align:center; margin:0 0 0 0;}
+	#divpop10 table td.left{ padding:0 0 0 10px; }
+	#divpop10 table td.right a {padding:0 10px 0 0;}
+	.main_popup_img {width:100% !important;}
+}
+@media screen and (min-width:1px) and (max-width:400px) {
+	#divpop10{height:auto; display:block; margin:0; left:auto; width:98%; top:0;}
+
+
+}
+
+
+
+
+
+
+
+h3.photo_mainh3 { color:#000000; font-size:24px; text-align:center; letter-spacing:1px; font-weight:600;}
+h3.photo_mainh3 span{ font-weight:normal; color:#777;}
+h3.sns_mainh3 { color:#000000; font-size:24px; text-align:center; letter-spacing:1px; position:relative; padding-bottom: 50px; font-weight:600;}
+h3.fix_ban { font-size:19px; color:#333333; font-weight:600; height:22px;}
+
+h3.fix_ban_01 {font-size:19px;color:#333333;font-weight:600;background:url(http://www.chungnam.go.kr/images/main/2018/responsive/donewspa_ic.png) no-repeat left top;padding:0 0 0 30px;height:22px; display:inline-block;}
+h3.fix_ban_01 span{color:#f27d00;}
+
+h3.repor { color:#000000; padding:30px 0 25px 60px; font-size:24px; height:60px; line-height:60px; background:url(http://www.chungnam.go.kr/images/main/2018/responsive/repor_tit_ic.png) no-repeat left 28px; width:270px; margin:0 auto; font-weight:600;}
+/* 2019.06.7 김동현 추가 */
+h3.repor a:hover{color:#399716;}
+
+
+
+#main_Container {position:relative;}
+
+/*헤드라인 뉴스- 모바일*/
+.headline_visual{display:none;}
+
+@media screen and (min-width:1px) and (max-width:1049px) {
+/* #main_visual_wrap{ display:none;} */
+.headline_visual{display:block; position:relative;}
+.headline_visual > .inr{padding:15px 10px 0;}
+.headline_visual .nav_visual{position:absolute; top:0; left:0; width:100%; padding:15px 0; text-align:center;}
+.headline_visual .nav_visual a{display:inline-block; box-sizing:border-box; width:90px; height:35px; margin:0 3px; color:#444; border-radius:35px; border:2px solid #3483ce; font-weight:600; font-size:15px; line-height:31px;}
+.headline_visual .visual_wrap:after{content:''; display:block; clear:both;}
+.headline_visual .visual_wrap .headline{display:none;}
+.headline_visual .spotzone_wrap{position:relative;}
+.headline_visual .spotzone_wrap .spotzone a{display:block;}
+.headline_visual .spotzone_wrap .spotzone img{width:100%;}
+.headline_visual .spotzone_wrap .bx-controls{position:absolute; left:15px; bottom:100px; z-index:20; display: none;}
+.headline_visual .spotzone_wrap .bx-controls *{float:left;}
+.headline_visual .spotzone_wrap .bx-pager-link{box-sizing:border-box; width:13px; height:13px; margin:0 2px; border:1px solid #aaaaaa; background:#fff; border-radius:100px; font-size:0;}
+.headline_visual .spotzone_wrap .bx-pager-link.active{width:30px; background-color:#fff; border:1px solid #6eb92b;}
+.headline_visual .spotzone_wrap .bx-controls-auto a{margin:0 0 0 5px;}
+.headline_visual .spotzone_wrap .bx-stop{width:14px; height:13px; background:url(http://www.chungnam.go.kr/images/main/2018/visual/sliderbtn_stop.png) no-repeat left top; font-size:0;}
+.headline_visual .spotzone_wrap .bx-start{width:8px; height:13px; background:url(http://www.chungnam.go.kr/images/main/2018/visual/sliderbtn_play.png) no-repeat left top; font-size:0;}
+
+.headline_visual .spotzone_wrap .fix_popup {position:absolute; left:0; top:0; z-index:22;}
+.headline_visual .spotzone_wrap .fix_popup p img {width:100%;}
+.headline_visual .spotzone_wrap .fix_popup span {position:absolute; right:15px; bottom:15px; width:26px; height:26px; z-index:9999;}
+.headline_visual .spotzone_wrap .fix_popup span a img {width:26px; height:26px;}
+
+.headline_visual .main_speech {position:absolute; width:100%; left:0; bottom:53px; text-align:center; overflow:hidden;}
+.headline_visual .main_speech p {position:relative; background:url('/open_contents/ko/img/main/bg_speech.jpg') right top no-repeat #17a1c2;  text-align:center;}
+.headline_visual .main_speech p img {height:95px; }
+.headline_visual .main_speech span {position:absolute; right:0; bottom:0;  width:26px; height:26px;}
+.headline_visual .main_speech span a img {width:26px; height:26px;}
+
+.headline_tit_box{background:#575757; padding:20px 15px; margin-top:-3px;}
+.headline_tit{display:block; font-size:17px; font-weight:600; color:#fff; text-overflow:ellipsis; white-space:nowrap; overflow:hidden; width:100%;}
+.headline_tit_s{display:block; font-size:15px; color:#eaeaea; text-overflow:ellipsis; white-space:nowrap; overflow:hidden; width:100%; margin-top:10px;}
+}
+
+/* 헤드라인 뉴스- PC*/
+#main_visual_wrap{ width:870px; float:left; position:relative; }
+.main_visaul_box{width: 870px; height:341px; overflow:hidden;}
+.representNewsArea{width:770px;position:relative;}
+.representNewsArea a{ display:block;}
+.representNewsArea .slide_text{position:absolute; z-index:1; left:0; top:0; width:446px; height:341px; background:url(http://www.chungnam.go.kr/images/main/2018/visual/visual_text_bg.png) no-repeat 0 0;}
+
+.representNewsArea span.btitle {position:relative; top:70px; left:49px; font-weight:600; word-break:keep-all; display:block;
+width:230px; margin:0; font-size:27px; color:#000; letter-spacing:-0.025em; height:70px; line-height:130%; overflow:hidden;}
+.representNewsArea span.btitle em{ font-size:0;}
+.representNewsArea span.mstitle {position:relative; top:80px; left:50px; word-break:keep-all; font-weight:400;
+display:block; margin:0; width:230px; height:45px; font-size:15px; color:#000000; line-height:150%; letter-spacing:-1px; overflow:hidden;}
+
+.representNewsArea a {position:relative; top:100px; left:50px; width:112px; height:25px; text-indent:18px; font-size:12px; line-height:25px; border:1px solid #cccccc; border-radius:30px; display:block; 
+background:url(http://www.chungnam.go.kr/images/main/2018/visual/slidervisual_more.png) no-repeat 85% center;}
+
+.representNewsArea .thumb{position:absolute; right:-100px; top:0; display:inline-block;}
+.representNewsArea .thumb img{vertical-align:top; width:720px; height:341px;}
+
+
+.representNewsArea a{cursor:pointer; text-decoration:none; }
+.representNewsArea a:link {cursor:pointer; text-decoration:none;}
+.representNewsArea a:hover {cursor:pointer; text-decoration:none;}
+.representNewsArea a:active {cursor:pointer; text-decoration:none;}
+.representNewsArea a:focus {cursor:pointer; text-decoration:none;}
+
+
+.slide_control{position:absolute;left: 50px;bottom:60px;z-index:1;}
+.slide_control a{vertical-align:top;display:inline-block;position:relative;width: 20px;height: 20px;line-height: 20px;margin-right:0;text-align:center;background:url(http://www.chungnam.go.kr/images/main/2018/visual/sliderbtn_off.png) no-repeat center center;font-size:0;}
+.slide_control a.over{vertical-align:top;display:inline-block;position:relative;width: 20px;height:20px;line-height:20px;margin-right:0;text-align:center;background:url(http://www.chungnam.go.kr/images/main/2018/visual/sliderbtn_on.png) no-repeat center center;}
+
+
+.visual_slide_control{position:absolute;left: 170px;margin-right:2px;bottom:60px;}
+.visual_slide_control a{ vertical-align:top;display:inline-block; position:relative; width:17px; height:17px; line-height:17px; text-align:center;}
+.visual_slide_control a span{ position:absolute; left:-1050px; top:-800px; font-size:0px;visibility:hidden;}
+.visual_slide_control a.over{ background:#FF7800; color:#fff;font-weight:bold;}
+.visual_slide_control a.btn_pause{ background:url(http://www.chungnam.go.kr/images/main/2018/visual/sliderbtn_pause.png) no-repeat center center;  z-index:1;}
+.visual_slide_control a.btn_next{background:url(http://www.chungnam.go.kr/images/main/2018/visual/sliderbtn_next.png) no-repeat center center;  z-index:1;}
+.visual_slide_control a.btn_prev{position:relative; z-index:100; display:inline-block; background:url(http://www.chungnam.go.kr/images/main/2018/visual/sliderbtn_prev.png) no-repeat center center;  z-index:1;}
+
+.headline_tit_box{position: absolute;background: rgb(0 0 0 / 70%); padding:20px 15px;bottom: 0;width: 100%;z-index: 200;}
+.headline_tit{display:block; font-size:30px; font-weight:600; color:#fff; text-overflow:ellipsis; white-space:nowrap; overflow:hidden; width:100%;}
+.headline_tit_s{display:block; font-size:15px; color:#eaeaea; text-overflow:ellipsis; white-space:nowrap; overflow:hidden; width:100%; margin-top:10px;}
+/* //헤드라인 뉴스 */
+
+@media screen and (max-width: 1200px){
+	.headline_tit{font-size: 20px;}
+}
+
+
+
+/* 오늘의 주요뉴스 */
+.todaynews{float:right; width:295px; height:341px; background:url(/images/main/2018/responsive/todaynews_bg2.png) no-repeat 0 0; }
+.todaynews_con > span.todaynews_tit a {font-size:20px; font-weight:600; color:#1b1b1b;}
+.todaynews_con ul {position:relative; left:0px; top:22px;}
+/*20180622 변경*/
+.todaynews_con ul li {background:url(http://www.chungnam.go.kr/images/main/2018/responsive/mboard_list_ic.png) no-repeat 3px 16px; height:43px; line-height:40px;
+font-weight:600; padding:0 15px; text-overflow:ellipsis; white-space:nowrap; overflow:hidden; color:#fff;}
+.todaynews_con ul li a {position:relative; font-size:15px; color:#1b1b1b;}
+/*//20180622 변경*/
+.todaynews_con ul li a:hover {color:#1b1b1b;font-weight: bold;}
+/* //오늘의 주요뉴스 */
+
+
+
+/* 자추찾는메뉴 */
+.micon_wrap {float:left; height:120px; width:1050px; padding:20px 10px 20px 10px; box-sizing:border-box; background:url(http://www.chungnam.go.kr/images/main/2018/responsive/micon_bg.png) no-repeat left top;}
+.micon_wrap ul li {float:left; width:10%;}
+
+.micon_wrap ul li a.micon_img_01 {height:70px; display:block; width:100%; text-align:center; background:url(http://www.chungnam.go.kr/images/main/2018/responsive/micon_exam.png) no-repeat center 10px;}
+.micon_wrap ul li a.micon_img_01:hover {height:70px; display:block; width:100%; text-align:center; background:url(http://www.chungnam.go.kr/images/main/2018/responsive/micon_exam_ov.png) no-repeat center 0;}
+
+
+.micon_wrap ul li a.micon_img_02 {height:70px; display:block; width:100%; text-align:center; background:url(http://www.chungnam.go.kr/images/main/2018/responsive/micon_emp.png) no-repeat center 10px;}
+.micon_wrap ul li a.micon_img_02:hover {height:70px; display:block; width:100%; text-align:center; background:url(http://www.chungnam.go.kr/images/main/2018/responsive/micon_emp_ov.png) no-repeat center 0;}
+
+
+.micon_wrap ul li a.micon_img_03 {height:70px; display:block; width:100%; text-align:center; background:url(http://www.chungnam.go.kr/images/main/2018/responsive/micon_app.png) no-repeat center 10px;}
+.micon_wrap ul li a.micon_img_03:hover {height:70px; display:block; width:100%; text-align:center; background:url(http://www.chungnam.go.kr/images/main/2018/responsive/micon_app_ov.png) no-repeat center 0;}
+
+.micon_wrap ul li a.micon_img_04 {height:70px; display:block; width:100%; text-align:center; background:url(http://www.chungnam.go.kr/images/main/2018/responsive/micon_free.png) no-repeat center 10px;}
+.micon_wrap ul li a.micon_img_04:hover {height:70px; display:block; width:100%; text-align:center; background:url(http://www.chungnam.go.kr/images/main/2018/responsive/micon_free_ov.png) no-repeat center 0;}
+
+
+.micon_wrap ul li a.micon_img_05 {height:70px; display:block; width:100%; text-align:center; background:url(http://www.chungnam.go.kr/images/main/2018/responsive/micon_samnong.png) no-repeat center 10px;}
+.micon_wrap ul li a.micon_img_05:hover {height:70px; display:block; width:100%; text-align:center; background:url(http://www.chungnam.go.kr/images/main/2018/responsive/micon_samnong_ov.png) no-repeat center 0;}
+
+.micon_wrap ul li a.micon_img_06 {height:70px; display:block; width:100%; text-align:center; background:url(http://www.chungnam.go.kr/images/main/2018/responsive/micon_dobo.png) no-repeat center 10px;}
+.micon_wrap ul li a.micon_img_06:hover {height:70px; display:block; width:100%; text-align:center; background:url(http://www.chungnam.go.kr/images/main/2018/responsive/micon_dobo_ov.png) no-repeat center 0;}
+
+.micon_wrap ul li a.micon_img_07 {height:70px; display:block; width:100%; text-align:center; background:url(http://www.chungnam.go.kr/images/main/2018/responsive/micon_newslet.png) no-repeat center 10px;}
+.micon_wrap ul li a.micon_img_07:hover {height:70px; display:block; width:100%; text-align:center; background:url(http://www.chungnam.go.kr/images/main/2018/responsive/micon_newslet_ov.png) no-repeat center 0;}
+
+
+.micon_wrap ul li a.micon_img_08 {height:70px; display:block; width:100%; text-align:center; background:url(http://www.chungnam.go.kr/images/main/2018/responsive/micon_elfare.png) no-repeat center 10px;}
+.micon_wrap ul li a.micon_img_08:hover {height:70px; display:block; width:100%; text-align:center; background:url(http://www.chungnam.go.kr/images/main/2018/responsive/micon_elfare_ov.png) no-repeat center 0;}
+
+
+.micon_wrap ul li a.micon_img_09 {height:70px; display:block; width:100%; text-align:center; background:url(http://www.chungnam.go.kr/images/main/2018/responsive/micon_ozone.png) no-repeat center 10px;}
+.micon_wrap ul li a.micon_img_09:hover {height:70px; display:block; width:100%; text-align:center; background:url(http://www.chungnam.go.kr/images/main/2018/responsive/micon_ozone_ov.png) no-repeat center 0;}
+
+
+.micon_wrap ul li a.micon_img_10 {height:70px; display:block; width:100%; text-align:center; background:url(http://www.chungnam.go.kr/images/main/2018/responsive/micon_libra.png) no-repeat center 10px;}
+.micon_wrap ul li a.micon_img_10:hover {height:70px; display:block; width:100%; text-align:center; background:url(http://www.chungnam.go.kr/images/main/2018/responsive/micon_libra_ov.png) no-repeat center 0;}
+
+
+.micon_wrap ul li a > span.micon_text {display:block; width:100%; text-align:center; font-size:14px; font-weight:600; color:#555555; position:relative; top:55px;}
+.micon_wrap ul li a:hover > span.micon_text {color:#4da300;}
+
+.letts{letter-spacing:-1px;}
+/* //자추찾는메뉴 */
+
+
+
+/* 새소식 공고공시 보도자료게시판 */
+.boards_warp {width:100%; float:none; overflow:hidden;}
+
+.main_board {float:left; background:#fff; border:1px solid #ddd; width:480px; height:280px; float:left; padding:30px 20px 0; box-sizing:border-box;}
+.mainboard_tab {float:left; width:100%; height:33px; position:relative;}
+.mainboard_tab > ul > li {float:left; background:#f9f9f9; font-weight:600; border-left:1px solid #cccccc; border-top:1px solid #cccccc; border-bottom:1px solid #6eb92b; width:134px; height:31px; line-height:31px; text-align:center; font-size:15px; }
+.mainboard_tab > ul > li:hover {float:left; background:#fff; font-weight:600; border-left:1px solid #6eb92b; border-top:1px solid #6eb92b; border-right:1px solid #6eb92b; border-bottom:1px solid #fff; height:31px; line-height:31px; text-align:center; font-size:15px;}
+.mainboard_tab > ul > li.on {float:left; background:#fff; font-weight:600; border-left:1px solid #6eb92b; border-top:1px solid #6eb92b; border-right:1px solid #6eb92b; border-bottom:1px solid #fff; height:31px; line-height:31px; text-align:center; font-size:15px;}
+.mainboard_tab > ul > li.on > a {color:#399716;}
+.mainboard_tab > ul > li.on > a:hover {color:#399716;}
+.mainboard_tab > ul > li > span.mb_more {float:left; width:31px; height:33px; border:none;  position:absolute; top:0; right:1px;}
+.mainboard_tab > ul > li > a {display:block; color:#888888;}
+.mainboard_tab > ul > li > a:hover {display:block; color:#444444;}
+
+
+.mainboard_newcon {float:left; width:430px; margin-top:30px; position:relative; left:0;}
+.mainboard_newcon > ul > li {position:relative; background:url(http://www.chungnam.go.kr/images/main/2018/responsive/mboard_list_ic.png) no-repeat left center;
+padding-left:12px; margin-left:6px; margin-bottom:18px; text-align:left; height:17px; line-height:17px;}
+.mainboard_newcon > ul > li:last-child {position:relative; background:url(http://www.chungnam.go.kr/images/main/2018/responsive/mboard_list_ic.png) no-repeat left center; padding-left:12px;
+margin-left:6px; margin-bottom:0; text-align:left; height:17px; line-height:17px; text-overflow:ellipsis; white-space:nowrap; overflow:hidden;}
+.mainboard_newcon > ul > li > a {position:relative; color:#444444; font-size:15px; font-weight:600; text-overflow:ellipsis; white-space:nowrap; overflow:hidden; width:280px; padding-right:12px; float:left;}
+.mainboard_newcon > ul > li > a:hover {color:#399716;}
+.mainboard_newcon > ul > li > span {position:absolute; right:0; text-align:right; color:#888888; font-size:14px; font-weight:500; width:90px; display:inline-block;}
+.mainboard_newcon > ul > li > a > span.new_ic {position:absolute; right:5px; top:1px; display:inline-block; margin-left:5px; }
+
+
+
+
+.mainboard_noticon {float:left; width:430px; margin-top:30px; position:relative; left:-135px;}
+.mainboard_noticon > ul > li {position:relative; background:url(http://www.chungnam.go.kr/images/main/2018/responsive/mboard_list_ic.png) no-repeat left center;
+padding-left:12px; margin-left:6px; margin-bottom:18px; text-align:left; height:17px; line-height:17px;}
+.mainboard_noticon > ul > li:last-child {position:relative; background:url(http://www.chungnam.go.kr/images/main/2018/responsive/mboard_list_ic.png) no-repeat left center; padding-left:12px;
+margin-left:6px; margin-bottom:0; text-align:left; height:17px; line-height:17px; text-overflow:ellipsis; white-space:nowrap; overflow:hidden;}
+.mainboard_noticon > ul > li > a {position:relative; color:#444444; font-size:15px; font-weight:600; text-overflow:ellipsis; white-space:nowrap; overflow:hidden; width:360px; padding-right:12px; float:left;}
+.mainboard_noticon > ul > li > span {position:absolute;right:0;text-align:right;color:#888888;font-size: 14px;font-weight:500;width:90px;display:inline-block;}
+.mainboard_noticon > ul > li > a > span.new_ic {position:absolute; right:5px; top:1px; display:inline-block; margin-left:5px; }
+
+
+
+.mainboard_repcon {float:left; width:430px; margin-top:30px; position:relative; left:-270px;}
+.mainboard_repcon > ul > li {position:relative; background:url(http://www.chungnam.go.kr/images/main/2018/responsive/mboard_list_ic.png) no-repeat left center;
+padding-left:12px; margin-left:6px; margin-bottom:18px; text-align:left; height:17px; line-height:17px;}
+.mainboard_repcon > ul > li:last-child {position:relative; background:url(http://www.chungnam.go.kr/images/main/2018/responsive/mboard_list_ic.png) no-repeat left center; padding-left:12px;
+margin-left:6px; margin-bottom:0; text-align:left; height:17px; line-height:17px; text-overflow:ellipsis; white-space:nowrap; overflow:hidden;}
+.mainboard_repcon > ul > li > a {position:relative; color:#444444; font-size:15px; font-weight:600; text-overflow:ellipsis; white-space:nowrap; overflow:hidden; width:360px; padding-right:12px; float:left;}
+.mainboard_repcon > ul > li > span {position:absolute;right:0;text-align:right;color:#888888;font-size: 14px;font-weight:500;width:90px;display:inline-block;}
+.mainboard_repcon > ul > li > a > span.new_ic {position:absolute; right:5px; top:1px; display:inline-block; margin-left:5px; }
+/* //새소식 공고공시 보도자료게시판 */
+
+
+
+/* 도정신문, 민관협치, 롤링배너 쪽 영역 */
+.ban_warp {float:left; width:270px; height:280px;}
+
+	/*도정신문, 민관협치*/
+	.fix_banner{float:left; height:140px; width:100%; border-top:1px solid #dcdcdc; box-sizing:border-box;}
+
+		/* 도정신문 */
+		.donewspa_box{float:left;padding:25px 17px 0 17px;border-right:1px solid #dcdcdc;box-sizing:border-box;width:52%;height:140px;background:#f9f9f9;position:relative;}
+		.fix_ban_text {font-size:13px; color:#666666; margin-top:11px; float:left;}
+		.fb_btn_wrap {float:left; width:100%; margin-top:15px;}
+		.fb_btn a{border:1px solid #acacac; padding:0 20px 0 12px; height:26px; line-height:26px;  margin-bottom:4px; box-sizing:border-box; background:#fff url(http://www.chungnam.go.kr/images/main/2018/responsive/fb_btn_arrow.png) no-repeat 90% center; display:block;}
+		.fb_btn a:hover {border:1px solid #666; }
+		/* //도정신문 */
+		
+		/*민관협치*/
+		.condomin_box{float:right; width:48%; height:140px; background:#fdf4ce; box-sizing:border-box; border-right:1px solid #dcdcdc;}
+		.condomin_b_01{border-bottom:1px solid #d5c896; height:50%; display:block;}
+		.condomin_b_01 a{display:block;font-size:15px;font-weight:600;color:#333;box-sizing:border-box;height:100%;background: url(http://www.chungnam.go.kr/images/main/2018/responsive/ic_condo_01.png) no-repeat 6px 21px;padding: 22px  0px 0 37px;}
+		.condomin_b_02{height:50%; display:block;}
+		.condomin_b_02 a{display:block;font-size:15px;font-weight:600;color:#333;box-sizing:border-box;height:100%;background: url(http://www.chungnam.go.kr/images/main/2018/responsive/ic_condo_02.png) no-repeat 7px 14px;padding:16px 20px 0 52px;}
+		.condomin_b_01 a em{color:inherit;font-weight:inherit;font-size: 11px;display: block;margin: 0 0 3px 0;}
+		.condomin_b_02 a em{color:inherit;font-weight:inherit;}
+		.condomin_b_01 a:hover, .condomin_b_02 a:hover{color:#e65c00;}
+		
+	/*도정신문, 민관협치*/
+
+
+	/* 롤링배너 */
+	.roll_banner2{display:none;}
+	.rollban_pic{height:265px;}
+	#rollban_pic_id{height:100%; overflow:hidden;}
+	.roll_banner {float:left; width:295px; height:100%; position:relative;}
+	.rollban_btns {position:absolute; right:0; top:0; z-index:1; height:100%;}
+	.rollban_btns ul li{float:left; display:inline-block;}
+	.rollban_pic ul li{border-bottom:1px solid #dddddd; overflow:hidden; height:100%;}
+	.rollban_pic ul li img{box-sizing:border-box; width:100%;height:100%;}
+	/* //롤링배너 */
+
+/* //도정신문, 민관협치, 롤링배너 쪽 영역 */
+
+
+
+/* 열린도지사실 */
+.main_governor {width:100%; height:100%;}
+.main_governor img{min-width: 295px;height: 341px;}
+.mgover {float:left; width:100%; box-sizing:border-box; }
+span.mgover_text {color:#333333;font-size:15px;font-weight:600;padding-top:10px;display: inline-block;}
+.mgover_list {margin:38px 0 9px;}
+.mgover_list ul li {border-bottom:1px solid #d8e8dd; padding-bottom:4px; margin-bottom:4px;}
+.mgover_list ul li.int {background:url(http://www.chungnam.go.kr/images/main/2018/responsive/mgover_smore_btn.png) no-repeat right 3px; font-size:13px; color:#1b1b1b; width:48px;}
+.mgover_list ul li.pledge {background:url(http://www.chungnam.go.kr/images/main/2018/responsive/mgover_smore_btn.png) no-repeat right 3px; font-size:13px; color:#1b1b1b; width:72px;}
+.mgover_list ul li.wish {background:url(http://www.chungnam.go.kr/images/main/2018/responsive/mgover_smore_btn.png) no-repeat right 3px; font-size:13px; color:#1b1b1b; width:88px; margin-bottom:2px;}
+.mgover_list ul li.domin {background:url(http://www.chungnam.go.kr/images/main/2018/responsive/mgover_smore_btn.png) no-repeat right 3px; font-size:13px; color:#1b1b1b; width:60px; margin-bottom:2px; border-bottom:0;}
+
+.mgover_list ul li > a {color:#1b1b1b;}
+.mgover_list ul li > a:hover {color:#399716;}
+
+
+.mgover .tf{display: flex; font-size: 14px; font-weight: bold; margin: 6px 0;}
+.mgover .tf a:hover{color: firebrick;}
+.mgover .tf img{width: 30px; vertical-align: bottom;}
+.mgover .pic{width: 250px; height: 100%;}
+.mgover .pic img{width: 100%; height: 100%; vertical-align: bottom;}
+
+
+
+
+
+
+
+
+
+
+	/* 충남도의회 */
+	.mcouncil_warp {float:left; width:100%;}
+	.mcouncil_warp ul li{width:50%; height:87px; float:left; box-sizing:border-box;}
+	.mcouncil_warp ul li.council {
+
+    background-position: 20px;
+    border: 1px solid #ffffff;
+    border-width: 0px 5px 0px 0px;
+}
+	
+	.mcouncil_warp ul li.council > a {    position: relative;
+    display: block;
+    height: 84px;
+    width: 100%;
+    background: #484747;
+    text-align: center;
+    color: #fff;
+    padding-top: 10px;
+    font-size: 15px;
+    letter-spacing: -.5px;
+}
+	.mcouncil_warp ul li.council > a > span {font-size:12px; text-align:center; color:#fff; display:block; font-weight:600; position:relative; top:10px;left:20px;} 
+	.mcouncil_warp ul li.council > a:hover > span {color:#399716; margin-top:-2px;} 
+	/* //충남도의회 */
+
+
+	/* 충남도감사위원회 */
+	.mcouncil_warp ul li.audit {background:#fff url(http://www.chungnam.go.kr/images/main/2018/responsive/ic_audit.png) no-repeat left 8px;background-position:10px;border:1px solid #a5c0af;border-width:1px 1px 1px 1px;} 
+	
+	.mcouncil_warp ul li.audit > a {display:block;  height:46px; } 
+	.mcouncil_warp ul li.audit > a > span {font-size:12px; text-align:center; color:#333333; display:block; font-weight:600; position:relative; top:10px; left:20px;} 
+	.mcouncil_warp ul li.audit > a:hover > span {color:#399716; margin-top:-2px;} 
+	/* //충남도감사위원회 */
+
+	/* 충남도관광 */
+	.mcouncil_warp ul li.travel {
+  
+    background-position: 20px;
+    border: 1px solid #ffffff;
+    border-width: 0px;
+}
+	.mcouncil_warp ul li.travel > a  {position: relative;
+    display: block;
+    height: 84px;
+    width: 100%;
+    background: #dc3400;
+    text-align: center;
+    color: #fff;
+    padding: 21px;
+    font-size: 15px;
+    letter-spacing: -.5px;}
+	.mcouncil_warp ul li.travel > a > span {font-size:12px; text-align:center; color:#333333; display:block; font-weight:600; position:relative; top:10px; left:20px;} 
+	.mcouncil_warp ul li.travel > a:hover > span {color:#399716; margin-top:-2px;} 
+	/* //충남도관광 */
+	
+	
+	/* 통계정보관 */
+	.mcouncil_warp ul li.governance {background:#fff url(http://www.chungnam.go.kr/images/main/2018/responsive/ic_stats.png) no-repeat left 8px; background-position:15px; border:1px solid #a5c0af; border-width:0px 0px 1px 1px;} 
+	
+	.mcouncil_warp ul li.governance > a  {display:block; height:46px; padding-top:6px; box-sizing:border-box;}
+	.mcouncil_warp ul li.governance > a > span {font-size:12px; text-align:center; color:#333333; display:block; font-weight:600; position:relative; top:10px; left:20px;} 
+	.mcouncil_warp ul li.governance > a:hover > span {color:#399716; margin-top:-2px;} 
+	/* //통계정보관 */
+
+    /* 자치경찰위원회 */
+	.mcouncil_warp ul li.police {background:#fff url(http://www.chungnam.go.kr/images/main/2018/responsive/ic_audit.png) no-repeat left 8px;background-position:10px;border:1px solid #a5c0af;border-width:0px 1px 1px 1px;} 
+	
+	.mcouncil_warp ul li.police > a {display:block;  height:46px; } 
+	.mcouncil_warp ul li.police > a > span {font-size:12px; text-align:center; color:#333333; display:block; font-weight:600; position:relative; top:10px; left:20px;} 
+	.mcouncil_warp ul li.police > a:hover > span {color:#399716; margin-top:-2px;} 
+    
+	/* 통합복지 */
+	li.welfare {display:none; background:#fff url(../../..http://www.chungnam.go.kr/images/main/2018/responsive/ic_welfare.jpg) no-repeat left 8px; background-position:15px; border:1px solid #a5c0af; border-width:0px 0px 1px 1px;} 
+	li.welfare > a  {display:block; height:46px; padding-top:6px; box-sizing:border-box;}
+	li.welfare > a > span {font-size:12px; text-align:center; color:#333333; display:block; font-weight:600; position:relative; top:10px; left:20px;} 
+	li.welfare > a:hover > span {color:#399716; margin-top:-2px;} 
+
+	/* 충남청년 */
+	li.youth {display:none; background:#fff url(../../..http://www.chungnam.go.kr/images/main/2018/responsive/ic_youth.jpg) no-repeat left 8px;background-position:10px;border:1px solid #a5c0af;border-width:0px 1px 1px 1px;} 
+	li.youth  > a {display:block;  height:46px; padding-top:6px; box-sizing:border-box;} 
+	li.youth  > a > span {font-size:12px; text-align:center; color:#333333; display:block; font-weight:600; position:relative; top:10px; left:20px;} 
+	li.youth  > a:hover > span {color:#399716; margin-top:-2px;} 
+
+	@media screen and (max-width: 1200px){
+		.mgover{background-position: 100% 50px;}
+		.mgover {
+    /* float: left; */
+    /* width: 100%; */
+    /* box-sizing: border-box; */
+    padding: 0px 0 0;
+}
+		
+	}
+
+	@media screen and (max-width: 1050px) and (min-width: 1px) {
+		.mcouncil_warp{padding: 0;}
+		.mgover {background-position: 93% 48px;}
+		.mgover_list ul li {border-bottom:1px solid #d8e8dd; padding-bottom:4px; margin-bottom:4px; padding:0 10px 0 0; display:inline-block;}
+		.mgover_list ul li.int {background:url(http://chungnam.go.kr/images/main/2018/responsive/mgover_smore_btn.png) no-repeat right 3px; font-size:13px; color:#1b1b1b;}
+		.mgover_list ul li.pledge {background:url(http://www.chungnam.go.kr/images/main/2018/responsive/mgover_smore_btn.png) no-repeat right 3px; font-size:13px; color:#1b1b1b; margin-left:10px}
+		.mgover_list ul li.wish {background:url(http://www.chungnam.go.kr/images/main/2018/responsive/mgover_smore_btn.png) no-repeat right 3px; font-size:13px; color:#1b1b1b;margin-bottom:2px; margin-left:10px}
+		.mgover_list ul li.domin {background:url(http://www.chungnam.go.kr/images/main/2018/responsive/mgover_smore_btn.png) no-repeat right 3px; font-size:13px; color:#1b1b1b; margin-bottom:2px; border-bottom:0;}
+
+
+
+		li.welfare {display:block}
+		li.youth {display:block}
+		.mgover {
+    /* float: left; */
+    /* width: 100%; */
+    /* box-sizing: border-box; */
+    padding: 0px 0 0;
+}
+
+	}
+
+	@media screen and (max-width: 768px){
+		.mgover{background-position: 93% 40px;}
+		.mgover .link{float: left; margin-right: 30px;}
+		.mgover_list{margin: 50px 0 9px;}
+		h3.fix_ban{margin-bottom: 30px;}
+		.mgover {
+    /* float: left; */
+    /* width: 100%; */
+    /* box-sizing: border-box; */
+    padding: 0px 0 0;
+}
+		
+	}
+
+	
+	@media screen and (max-width: 500px) and (min-width: 1px) {
+		.mgover{background-image: none;}
+		.mgover_list{margin: 10px 0 9px;}
+		.mgover_list ul li {display:block}
+		.mgover_list ul li.int,
+		.mgover_list ul li.pledge,
+		.mgover_list ul li.wish {margin-left:0}
+		
+.main_governor img{
+  min-width: 100%;
+  height: auto;
+}
+		.mgover .link{display: flex; padding: 10px 0; float: none;}
+		.mgover .tf{margin-right: 15px;}
+		
+		
+		
+		
+		
+
+ 
+.mgover {
+    /* float: left; */
+    /* width: 100%; */
+    /* box-sizing: border-box; */
+    padding: 0px 0 0;
+}
+		
+		
+	}
+
+
+
+	
+/* //열린도지사실 */
+
+
+
+/* 포토 카드 영상 뉴스 */
+.photonews_wrap {float:left; width:100%; margin-top:15px;} 
+
+   /* 미디어 플러스 사이트 오픈 배너추가*/ 
+    .media_plus {background: url(http://www.chungnam.go.kr/images/main/2018/responsive/media_bg.png) no-repeat right bottom; margin:60px 0 0 0; padding:19px 0 0 0; text-align:center; }
+    .media_plus a img {margin:0 auto;width:241px;display: inline-block;padding: 0 0 3px 0;}
+    @media screen and (max-width: 640px) and (min-width: 1px) {
+		.media_plus {margin:45px 0 20px 0; padding:10px 0 10px 0; background-color:#1b306a}
+        .media_plus a img {width:330px; padding:7px 0 5px 0;}
+    }
+
+	/* 포토뉴스 */
+	.photonews_t_box{float:left; width:536px;}
+	.photonews_t_box h3 { color:#000000; font-size:24px; text-align:center; letter-spacing:1px; font-weight:600; margin-bottom:20px; margin-left:-22px; box-sizing:border-box;}
+	.photonews_t_box h3 a:hover{color:#399716;}
+
+	.photonews {float:left; width:246px; border-top:1px solid #ccc; margin-left:22px; position:relative;}
+	.photonews > a {display:block;}
+	/*20180622 변경*/
+	.photonews > a > p.photonews_tit {font-size:17px;color:#444;font-weight:600;text-align:center;margin: 25px 0 4px 0;width:100%;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;display: inline-block;}
+	/*//20180622 변경*/
+	.photonews > a > p.photonews_tit {color:#444;}
+	.photonews > a:hover > p.photonews_tit {color:#399716;}
+	/*20180622 변경*/
+	.photonews > a > p.photonews_stit {font-size:13px;font-weight:500;text-align:center;margin: 0 0 21px 0;width:100%;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;display: inline-block;}
+	/*//20180622 변경*/
+	.photonews > a > p.photonews_stit {color:#777;}
+	.photonews > a:hover > p.photonews_stit {color:#399716;}
+	.photonews_pic {width:100%; }
+	.photonews_pic > img {width:100%;  height:177px;}
+	.photonews > a:hover > .photonews_pic {opacity:0.8;}
+
+	span.photonews_ic {position:absolute; width:56px; height:46px; bottom:135px; right:0;}
+	/* //포토뉴스 */
+
+	/* 카드뉴스 */
+	.cardnews {float:left; width:246px; margin-left:22px; position:relative;}
+	.cardnews h3 { color:#000000; font-size:24px; text-align:center; letter-spacing:1px; font-weight:600;}
+	.cardnews h3 a:hover{color:#399716;}
+	.cardnews > a {display:block;  border-top:1px solid #ccc;  margin-top:20px;}
+	/*20180622 변경*/
+	.cardnews > a > p.cardnews_tit {font-size:17px;font-weight:600;text-align:center;margin: 25px 0 4px 0;width:100%;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;display: inline-block;}
+	/*//20180622 변경*/
+	.cardnews > a > p.cardnews_tit {color:#444;}
+	.cardnews > a:hover > p.cardnews_tit {color:#399716;}
+	/*20180622 변경*/
+	.cardnews > a > p.cardnews_stit {font-size:13px;font-weight:500;text-align:center;margin: 0 0 21px 0;width:100%;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;display: inline-block;}
+	/*//20180622 변경*/
+	.cardnews > a > p.cardnews_stit {color:#777;}
+	.cardnews > a > p.cardnews_stit:hover {color:#399716;}
+	.cardnews > a:hover > p.cardnews_stit {color:#399716;}
+	.cardnews_pic {width:100%;}
+	.cardnews_pic > img {width:100%; height:177px;}
+	.cardnews > a:hover > .cardnews_pic {opacity:0.8;}
+	span.cardnews_ic {position:absolute; width:46px; height:46px; bottom:134px; right:0;}
+	/* //카드뉴스 */
+
+	/* 영상뉴스 */
+	.movienews {float:left; width:246px;  position:relative;}
+	.movienews h3 { color:#000000; font-size:24px; text-align:center; letter-spacing:1px; font-weight:600;}
+	.movienews h3 a:hover{color:#399716;}
+	.movienews > a {display:block; border-top:1px solid #ccc; margin-top:20px;}
+	/*20180622 변경*/
+	.movienews > a > p.movienews_tit {font-size:17px;font-weight:600;text-align:center;margin: 25px 0 4px 0;width:100%;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;display: inline-block;}
+	/*//20180622 변경*/
+	.movienews > a > p.movienews_tit {color:#444;}
+	.movienews > a:hover > p.movienews_tit {color:#399716;}
+	/*20180622 변경*/
+	.movienews > a > p.movienews_stit {font-size:13px;font-weight:500;text-align:center;margin: 0 0 21px 0;width:100%;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;display: inline-block;}
+	/*//20180622 변경*/
+	.movienews > a > p.movienews_stit {color:#777;}
+	.movienews > a:hover > p.movienews_stit {color:#399716;}
+	.movienews_pic {width:100%; height:177px; background:url(http://www.chungnam.go.kr/images/main/2018/responsive/movienews_pic_bg.png) no-repeat left top;}
+	.movienews_pic > img {width:100%; height:149px; padding-top:14px;}
+	.movienews_pic > a {display:block;}
+	
+	.movienews_pic_back{position:absolute; width:100%; height:177px; left:0; bottom:0; background:rgba(0,0,0,0); }
+	a:hover .movienews_pic_back{background:rgba(255,255,255,0.2); }
+	
+	.movienews_ic{position:absolute;width:74px;height:74px;top: 150px;left:86px;background:url(http://www.chungnam.go.kr/images/main/2018/responsive/movienews_ic.png) no-repeat 0 0;}
+	
+	
+
+
+	/* //영상뉴스 */
+/* //포토 카드 영상 뉴스 */
+
+
+/* sns새소식 */
+	/* sns새소식 상단부분 */
+	.blog_wrap {display:inline-block; color:#555555; font-size:15px; font-weight:600; margin-top:7px;}
+	.blog_wrap > span {padding-right:9px; margin-right:6px; background:url(http://www.chungnam.go.kr/images/main/2018/responsive/blog_line.png) no-repeat right center;}
+	.blog_wrap > span:last-child {padding-right:0; margin-right:0; background:none;} 
+	.blog_wrap > span > a > img {margin-right:3px; vertical-align:middle;}
+	.blog_wrap > span > a > img.last {margin-right:0; vertical-align:middle;}
+	.sns_wrap {float:left; width:100%;}
+	/* //sns새소식 상단부분 */
+
+	/* 페이스북 */
+	.sns_top_tit{ font-size:0; margin-bottom:15px;}
+	.sns_top_tit a{ display:block; height:40px; width:100%; }
+	.mainsns_facebook {background:#fff url(http://chungnam.go.kr/images/main/2018/responsive/facebook_top.png) no-repeat center top; width:246px; box-sizing:border-box; border:1px solid #cbcbcb; float:left; padding:0 10px 15px 14px; margin-right:22px;}
+	.sns_box{width:230px; border-bottom:1px dotted #ccc; padding-bottom:10px; overflow:hidden; margin-bottom:15px;}
+	.msface_con {height:230px; overflow-y:scroll; overflow-x:hidden;}
+	.msface_top {height:34px; margin-bottom:10px; }
+	.msface_cnlogo {float:left; width:43px; margin-right:10px;}
+	.msface_date {float:left; font-weight:600;}
+	.msface_date > p.msface_cntext {color:#3b589e; font-weight:600; font-size:12px;} 
+	.msface_pic {float:left; margin-bottom:10px; height:100px; width:100%;}
+	.msface_pic > a > img{width:100%;}
+	.msface_text {float:left; width:190px; font-size:12px; line-height:16px; word-break:keep-all; }
+	.msface_text {color:#555555;}
+
+	/* //페이스북 */
+
+	/* 트위터 */
+	.mainsns_twitter {background:#fff url(http://chungnam.go.kr/images/main/2018/responsive/twitter_top.png) no-repeat center top; width:246px; box-sizing:border-box; border:1px solid #cbcbcb; float:left; padding:0 10px 15px 14px; margin-right:22px;}
+	.mstwi_con {height:230px; overflow-y:scroll; overflow-x:hidden}
+	.mstwi_top {height:34px; margin-bottom:10px;}
+	.mstwi_cnlogo {float:left; width:43px; margin-right:10px;}
+	.mstwi_date {float:left; font-weight:600;}
+	.mstwi_date > p.mstwi_cntext {color:#008dc9; font-weight:600; font-size:12px;} 
+	.mstwi_pic {float:left; margin-bottom:10px; height:100px;  width:100%;}
+	.mstwi_pic > a > img{width:100%;}
+	.mstwi_text {float:left; width:190px; font-size:12px; line-height:16px; word-break:keep-all; }
+	.mstwi_text {color:#555555;}
+	/* //트위터 */
+
+	/* 카카오스토리 */
+	.mainsns_kakao {background:#fff url(http://chungnam.go.kr/images/main/2018/responsive/kakao_top.png) no-repeat center top; width:246px; box-sizing:border-box; border:1px solid #cbcbcb; float:left; padding:0 10px 15px 14px; }
+	.mskakao_con {height:230px; overflow-y:scroll; overflow-x:hidden}
+	.mskakao_top {height:34px; margin-bottom:10px;}
+	.mskakao_cnlogo {float:left; width:43px; margin-right:10px;}
+	.mskakao_date {float:left;  font-weight:600;}
+	.mskakao_date > p.mskakao_cntext {color:#e43434; font-weight:600; font-size:12px;} 
+	.mskakao_pic {float:left; margin-bottom:10px; height:100px; width:100%;}
+	.mskakao_pic > a > img{width:100%;}
+	.mskakao_text {float:left; width:190px; font-size:12px; line-height:16px; word-break:keep-all;}
+	.mskakao_text {color:#555555;}
+	/* //카카오스토리 */
+
+	/* 인스타그램 */
+	.mainsns_insta {background:#fff url(http://chungnam.go.kr/images/main/2018/responsive/insta_top.png) no-repeat center top; width:246px; box-sizing:border-box; border:1px solid #cbcbcb; float:left; padding:0 10px 15px 14px;  margin-right:22px;}
+	.msinsta_con {height:230px; overflow-y:scroll; overflow-x:hidden}
+	.msinsta_top {height:34px; margin-bottom:10px;}
+	.msinsta_cnlogo {float:left; width:43px; margin-right:10px;}
+	.msinsta_date {float:left; font-weight:600;}
+	.msinsta_date > p.msinsta_cntext {color:#c7476c; font-weight:600; font-size:12px;} 
+	.msinsta_pic {float:left; margin-bottom:10px; height:100px;  width:100%;}
+	.msinsta_pic > a > img{width:100%;}
+	.msinsta_text {float:left; width:190px; font-size:12px; line-height:16px; word-break:keep-all;}
+	.msinsta_text {color:#555555;}
+	/* //인스타그램 */
+
+
+
+/* 충남 도민리포터 */
+.cn_reporter_wrap {width:100%; background:#fff url(http://chungnam.go.kr/images/main/2018/responsive/mainrepor_bg.png) repeat-y 0 0; padding:0 0 40px 0;}
+.cn_repor {float:left; width:330px; margin-right:30px;}
+.cn_repor:last-child {float:left; width:330px; margin-right:0;}
+.cnrep_pic {float:left; width:100%; margin-bottom:20px;}
+.cnrep_pic > img{width:100%; height:220px;}
+/*20180622 변경*/
+/*p.cnrep_btit {font-size:17px;line-height:20px;text-align:center;color:#444;font-weight:600;width:100%;float:left;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;display: inline-block;}*/
+p.cnrep_stit {font-size:13px;text-align:center;color:#777;font-weight:500;margin:0;width:100%;float:left;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;display: inline-block;}
+/*//20180622 변경*/
+.cn_repor > a {display:block;width:  100%;height:  100%;overflow:  hidden;}
+.cn_repor > a:hover p.cnrep_btit {color:#399716;}
+.cn_repor > a:hover p.cnrep_stit {color:#399716;}
+.cn_repor > a:hover > .cnrep_pic {opacity:0.8;}
+/* //충남 도민리포터 */
+
+
+@media screen and (min-width:1px) and (max-width:1200px) {
+	.main_Container{width:100%;}	
+		
+	/*헤드라인 뉴스*/
+	.main_visaul_box{width: auto; height:auto; overflow:hidden;}
+	.main_visaul_box img{width: 100%;}
+	.representNewsArea{height:auto;}
+	#main_visual_wrap {width:100%; float:none;}
+	.representNewsArea{width:100%;}
+
+
+	.representNewsArea .slide_text{background:rgba(0,0,0,0.7); bottom:0; top:inherit; width:100%; height:120px; padding:50px 30px 30px; box-sizing:border-box;}
+	.representNewsArea .thumb{width:100%; position:inherit; right:inherit; top:inherit;}
+	.representNewsArea .thumb img{width:100%; height:auto;}
+	.slide_control{left:20px;bottom:80px;}
+	.visual_slide_control{left:150px; bottom:80px;}
+	.representNewsArea span.btitle{position:inherit;  width:90%; left:20px; top:inherit; font-size:18px; line-height:24px; font-weight:600; color:#fff; height:auto;}
+	.representNewsArea span.btitle img{ display:none; }
+	.representNewsArea span.btitle em{ display:block; height:40px; color:#fff; font-size:18px; line-height:24px; font-weight:600;  text-overflow: ellipsis; white-space: nowrap; overflow: hidden;}
+	.representNewsArea span.mstitle{position:inherit; left:20px; color:#d7d7d7; width:90%; display:block; text-overflow: ellipsis; white-space: nowrap; overflow: hidden;}
+	.representNewsArea span.more_btn{ display:none;}
+
+	/* 오늘의 주요뉴스 */
+	.todaynews{width:100%; height:inherit; border-radius:0; margin-top:20px;}
+	.todaynews_con{ padding:30px 20px 15px;}
+	.todaynews_con > span.todaynews_tit a{ width:300px; position:inherit; margin-bottom:10px; box-sizing:border-box;}	
+	.main_board {float:none; width:100%;}
+
+	.todaynews_con ul{ position:inherit; width:96%; padding:0 2%; height:250px; overflow:hidden;}
+	.todaynews_con ul li{width:100%; background:none; border-bottom:1px solid #8fbf7f; padding: 0 0;}
+
+		
+	/*바로가기*/
+	.micon{width:100%;}
+	.micon_wrap{ width:100%; float:none;  border:1px solid #ccc; overflow:hidden; height:inherit; margin-bottom:20px; background:url(http://www.chungnam.go.kr/images/main/2018/responsive/micon_bg_2.png) repeat left 10px;}
+	.micon_wrap ul li{ margin-bottom:10px;}
+
+
+
+	/*공지사항*/
+
+	.mainboard_tab{ background:url(http://www.chungnam.go.kr/images/main/2018/responsive/mainboard_tab_bg.gif) repeat-x left top;}
+	.mainboard_tab > ul > li:last-child{border-right:1px solid #cccccc;}
+	.mainboard_tab > ul > li > span.mb_more {right:0;}
+
+	.mainboard_newcon {float:none; width:100%; margin-top:30px; position:absolute; left:0;}
+	.mainboard_noticon {float:none; width:100%; margin-top:30px; position:absolute; left:0;}
+	.mainboard_repcon {float:none; width:100%; margin-top:30px; position:absolute; left:0;}
+
+	/*포토카드뉴스*/
+	h3.photo_mainh3{padding-top:40px !important;}
+
+
+	/*열린도지사실*/
+	.mgover_list ul li{ border-bottom: 1px solid #b5beba;}
+}
+
+
+@media screen and (min-width:1px) and (max-width:1049px) {
+	.photonews_t_box{float:left; width:100%;}
+	
+} 
+
+@media screen and (min-width:1px) and (max-width:600px){
+	.main_visaul_box img{height: 250px;}
+}
+/*바로가기*/
+.micon_wrap ul li{width:20%;}
+	
+/* 고정배너 */
+.ban_warp {float:left; width:50%; height:280px;}
+
+/* 고정배너 */
+
+.fix_banner {float:left; height:280px; width:100%; border-top:none; border-left:1px solid #dcdcdc; box-sizing:border-box;}
+
+		/* 도정신문 */
+		.donewspa_box{float:left; padding:25px 17px 0 17px; border-right:1px solid #dcdcdc; box-sizing:border-box; width:52%; height:280px; background:#f9f9f9 ; position:relative;}
+		h3.fix_ban_01 { font-size:19px; color:#333333; font-weight:600; text-align:center;  background:url(http://www.chungnam.go.kr/images/main/2018/responsive/donewspa_ic_mo.png) no-repeat center 20px; padding:130px 0 0 0; height:auto;}
+		.fix_ban_text {font-size:13px; color:#666666; margin-top:11px; float:left;}
+		.fb_btn_wrap {float:left; width:100%; margin-top:20px;}
+		.fb_btn a{border:1px solid #acacac; padding:0 20px 0 12px; height:26px; line-height:26px;  margin-bottom:4px; box-sizing:border-box; background:#fff url(http://www.chungnam.go.kr/images/main/2018/responsive/fb_btn_arrow.png) no-repeat 90% center; display:block;}
+		.fb_btn a:hover {border:1px solid #666; }
+		/* //도정신문 */
+		
+		/*민관협치*/
+		.condomin_box{float:right; width:48%; height:280px; background:#fdf4ce; box-sizing:border-box; border-right:1px solid #dcdcdc;}
+		.condomin_b_01{border-bottom:1px solid #d5c896; height:50%; display:block;}
+		.condomin_b_01 a{display:block; font-size:15px; font-weight:600; color:#333; box-sizing:border-box; width:100%; height:100%; background:url(http://www.chungnam.go.kr/images/main/2018/responsive/ic_condo_01_mo.png) no-repeat center 25px; padding:100px  0 0 0; text-align:center;}
+		.condomin_b_02{height:50%; display:block;}
+		.condomin_b_02 a{display:block;  font-size:15px; font-weight:600; color:#333; box-sizing:border-box; width:100%; height:100%;  background:url(http://www.chungnam.go.kr/images/main/2018/responsive/ic_condo_02_mo.png) no-repeat center 25px; padding:100px 0 0 0; text-align:center;}
+
+
+/* //고정배너 */
+
+
+
+
+/*포토뉴스*/
+
+.photonews{width:48.5%;}
+.photonews{margin-right:1.5%; margin-left:0; margin-bottom:0px;}  
+/* .photonews{margin-right:0; margin-left:0; margin-bottom:0px;}  */
+.cardnews{width:48.5%;margin-right:0; margin-left:0; margin-bottom:30px;}
+.movienews{width:48.5%; margin-right:1.5%; margin-left:0; margin-bottom:30px;}
+
+.photonews_pic > img{height:294px;}
+.cardnews_pic > img{height:294px;}
+.movienews_pic > img{height:266px;  padding-top:14px;}
+.movienews_pic_back{height:294px;bottom: -25px;}
+.movienews_pic {width:100%; height:294px; background:url(http://www.chungnam.go.kr/images/main/2018/responsive/movienews_pic_bg_2.png) repeat-x left top;}
+
+.movienews > a{ height:360px;}
+span.photonews_ic{bottom:222px;}
+span.cardnews_ic{bottom:252px;}
+.movienews_ic{left:40%;top: 50%;}
+
+.cn_reporter_wrap > .new_layout_area {height:285px; width:670px; margin:0 auto; padding:0; overflow:hidden;}
+.cn_repor {float:center; width:48.5%; margin-right:3%; overflow:hidden;}
+.cn_repor + .cn_repor{ margin-right:0;overflow:hidden;}
+
+
+
+/*sns*/
+
+.mainsns_facebook {width:48.5%; margin-right:3%; margin-bottom:40px;}
+
+.mainsns_twitter {width:48.5%; margin-right:0;  margin-bottom:40px;  }
+
+.mainsns_kakao {width:48.5%; margin-right:0}
+.mainsns_insta {width:48.5%; margin-right:3%;}
+
+.msface_pic, .mstwi_pic, .mskakao_pic, .msinsta_pic{ height:inherit;}
+.sns_box{width:95%;}
+.msface_text, .mstwi_text, .mskakao_text, .msinsta_text{width:100%;}
+
+
+
+
+@media screen and (min-width: 1px) and (max-width: 660px) {
+	
+/*헤드라인 뉴스*/
+.representNewsArea span.mstitle {display:none;}
+.representNewsArea .slide_text{height:65px; padding:35px 30px 0;}
+.visual_slide_control{bottom:35px;}
+.slide_control{bottom:35px;}	
+.representNewsArea span.btitle em{font-size:16px; line-height:18px; height:20px;}
+
+/*오늘의 주요뉴스*/
+.todaynews_con{ padding:20px 20px 15px;}
+	
+.micon_wrap ul li{width:50%;}	
+/* 고정배너 */
+.ban_warp {float:none; width:100%; height:140px;}
+
+
+/*도정신문, 민관협치*/
+	.fix_banner{float:left; height:140px; width:100%; border-top:none; border-left:1px solid #dcdcdc;}
+
+		
+		
+		/*민관협치*/
+		.condomin_box{float:right; width:48%; height:140px; background:#fdf4ce; box-sizing:border-box; border-right:1px solid #dcdcdc;}
+		.condomin_b_01{border-bottom:1px solid #d5c896; height:50%; display:block;}
+		.condomin_b_01 a{display:block; font-size:15px; font-weight:600; color:#333; box-sizing:border-box;  height:100%; background:url(http://www.chungnam.go.kr/images/main/2018/responsive/ic_condo_01.png) no-repeat 20px 18px; padding:16px  20px 0 62px;}
+		.condomin_b_02{height:50%; display:block;}
+		.condomin_b_02 a{display:block;  font-size:15px; font-weight:600; color:#333; box-sizing:border-box; height:100%;  background:url(http://www.chungnam.go.kr/images/main/2018/responsive/ic_condo_02.png) no-repeat 20px 15px; padding:16px 20px 0 62px;}
+		
+		.condomin_b_01 a em , .condomin_b_02 a em{ display:block; color:inherit; font-weight:inherit;}
+		
+		.condomin_b_01 a:hover, .condomin_b_02 a:hover{color:#e65c00;}
+		
+	/*도정신문, 민관협치*/
+
+
+
+
+/* 열린도지사실 */
+.main_governor {float:none; width:100%; background:#e1ebe5;}
+
+.cn_reporter_wrap > .new_layout_area { height:285px; width:330px; margin:0 auto; padding:0; overflow:hidden;}
+.cn_repor{ margin-right:0;}
+
+/*포토뉴스*/
+.photonews_wrap{float:none; width:96%; padding:0 2%;}
+.photonews{width:100%; margin-left:0; margin-bottom:30px;}
+.photonews +.photonews{margin-right:0;}
+.cardnews{width:100%; margin-left:0; margin-bottom:20px;}
+.movienews{width:100%;margin-bottom: 20px;}	
+
+.photonews_pic > img{height:210px;}
+.cardnews_pic > img{height:210px;}
+.movienews_pic > img{height:210px;}.movienews_pic > img{height:182px;}
+.movienews_pic_back{height:210px;}
+.movienews_pic{height:210px;  background:url(http://www.chungnam.go.kr/images/main/2018/responsive/movienews_pic_bg_3.png) repeat-x left top;}
+
+.movienews_ic{left:40%;top: 50%;}
+span.photonews_ic, span.cardnews_ic{bottom:167px;}
+
+.sns_wrap{float:none; width:100%; padding:0 2%;}
+.mainsns_facebook {width:100%; margin-right:0; margin-bottom:10px; border:none; padding:0; }
+
+.mainsns_twitter {width:100%; margin-right:0;  margin-bottom:10px; border:none; padding:0; }
+
+.mainsns_kakao {width:100%; margin-right:0; margin-bottom:10px; border:none; padding:0;}
+.mainsns_insta {width:100%; margin-right:0; margin-bottom:10px;  border:none;padding:0; }
+.sns_top_tit{ margin-bottom:0;}
+
+.msface_con, .mstwi_con, .msinsta_con, .mskakao_con{ display:none;}
+
+.msface_pic, .mstwi_pic, .mskakao_pic, .msinsta_pic{ height:inherit;}
+.sns_box{width:95%;}
+.msface_text, .mstwi_text, .mskakao_text, .msinsta_text{width:100%;}
+
+.mainboard_newcon > ul > li > span, .mainboard_noticon > ul > li > span, .mainboard_repcon > ul > li > span{ display:none;}
+.mainboard_newcon > ul > li > a, .mainboard_noticon > ul > li > a, .mainboard_repcon > ul > li > a{width:100%; box-sizing:border-box;}
+
+.blog_wrap{width:100%;}
+
+
+
+
+@media screen and (min-width:1px) and (max-width:550px) {
+h3.repor{ letter-spacing:-1px;}	
+
+/* 롤링배너 */
+.roll_banner{display:none; width: 100%;}
+.roll_banner2 { display:block; padding:65px 15px 15px 15px; box-sizing:border-box;  width:100%; position:relative; height: 100%; border: 1px solid #ccc;}
+.roll_banner2 > h3{position:absolute; left:15px; top:25px;  font-size:19px; color:#333333; font-weight:600;}
+.rollban_btns2 {position:absolute; right:15px; top:25px; z-index:100;}
+.rollban_btns2 ul li {float:left; display:inline-block;}
+.rollban_pic2 { overflow:hidden; height:100%;}
+.rollban_pic2 ul li {float:left; width:32%; margin-right:2%; height: 300px;}
+.rollban_pic2 ul li:nth-of-type(3n){ margin-right:0;}
+.rollban_pic2 ul li a{display:block;}
+.rollban_pic2 ul li img{width:100%; height:230px; border:1px solid #ccc; box-sizing:border-box;}
+/* //롤링배너 */
+
+
+/* 롤링배너 */
+
+	.rollban_pic2 ul li {float:left; width:100%; margin-right:0;}
+	.rollban_pic2 ul li img{width:270px;}
+	.rollban_pic2 ul li a{ text-align:center;}
+	.rollban_pic2 ul li:nth-of-type(3n){ margin-right:inherit;}
+	.rollban_pic2 ul li:nth-of-type(2n){ margin-right:inherit;}
+	.roll_banner2 > h3{left:8%;}
+	.rollban_btns2{right:8%;}
+
+	.mainboard_tab > ul > li{width:100px;}	
+	.blog_wrap > span{ margin-bottom:10px;}
+
+
+
+	.snsbox{height:93px;}
+	.snsbox h3{display: none;}
+	.snsbox ul{padding:20px 25px 0 0;}
+}
+
+
+@media screen and (min-width:1px) and (max-width:400px) {
+
+.mainboard_tab > ul > li{width:73px; font-size:14px;}
+.condomin_b_01 a{display:block; font-size:15px; font-weight:600; color:#333; box-sizing:border-box;  height:100%; text-align:center; background:none; padding:16px 0 0 0 ;}
+.condomin_b_02 a{display:block;  font-size:15px; font-weight:600; color:#333; box-sizing:border-box; height:100%; text-align:center; background:none; padding:16px 0 0 0;}
+}
+
+
+/* 새창팝업 이미지 */
+.new_window_popup {width:800px; margin:0 auto;}
+.new_window_popup img {width:100% !important;}
+.ifmobile {display:none; background:#104967; color:#fff;}
+.ifmobile h2 {text-align:center;padding:10px 0 0 0; font-weight:600;}
+.ifmobile ul {padding:15px;}
+.ifmobile ul li {line-height:25px; position: relative; padding:0 0 0 5px;}
+.ifmobile ul li::before {content:'';display:inline-block;position: absolute;left: -5px;top: 11px;width:3px;height:3px;background:#fff;}
+
+.popup_img_list {background:#104967}
+
+@media screen and (max-width: 800px) and (min-width: 1px){
+    .new_window_popup { width: 100%;}
+    .toolong {display:none;}
+    .ifmobile {display:block;}
+}
+
+
+
+/**  레이어팝업 : 서비스일시중단 **/
+.divpop_service_main {position:absolute;right: 14%;top: 0;z-index:9999;width: 370px;}
+.divpop_service_main .btn_close {float:right; padding:0 10px;}
+.divpop_service_main button { cursor: pointer;  border: 0; color: #fff; background:#1a283b; z-index:9999}
+.close_wrap {float:left;width: 370px;height:25px;background:#1a283b;padding:5px 0 0 0;}
+.main_popup_img {height: 447px; width:690px}
+.divpop_service_main input, #divpup img {vertical-align:middle; padding:0; margin:0; border:0;}
+.divpop_service_main .main_popup_img img {float:left !important; width:100%}
+.white {color:#fff;}
+.divpop_service_main h3 {font-size:18px; padding:20px  0 0 0; color:#082274;}
+.divpop_service_main ul li {position:relative; margin:0 0 0 10px;}
+.divpop_service_main ul li::before {content:''; display:inline-block; position:absolute; top:5px; left:-6px; width:2px; height:2px; background:#082274}
+
+.sr-only { position:absolute; overflow:hidden; width:1px; height:1px;padding:0;margin:-1px;border:0;clip:rect(0,0,0,0); }
+.ver_m_text {display:none;}
+.pc_view {}
+
+
+@media screen and (max-width:700px) {
+
+    .divpop_service_main {width: 94%; left: 3%;margin:0 auto;height:auto;}
+    .divpop_service_main .main_popup_img {height:auto;float: left; width:100%;}
+    .divpop_service_main .btn_close { font-size:1.5em}
+	.divpop_service_main .main_popup_img img{width:100%;float: left;}
+	.divpop_service_main .close_wrap{width:100%;}
+}
+
+.popup_design {}
+
+
+
+/* 코로나19 진단검사 및 재택치료 안내 2022.02.15 */
+.popup_design {position:absolute;left:28px;top: 20px;z-index:22;width: 690px;box-sizing: border-box; border-radius: 20px 20px 0  0; overflow: hidden;}
+.popup_design ul li {display:inline-block;float:left;}
+.popup_title {text-align:center; background:#3170b1; padding:5px 0 0 0;}
+
+.popup_design .close_wrap {float: left; width:100%;background:#242424 url(http://www.chungnam.go.kr/images/popup/support/div_popup_bg.jpg) 0 0 repeat;padding:5px 0 0 0; position:relative; top:-3px;}
+.popup_design .close_wrap input {vertical-align: middle;}
+.popup_design .close_wrap .white {color:#fff;}
+.popup_design button {vertical-align: middle;cursor: pointer;border: 0;color: #fff;background:#242424;z-index:9999;float: right; padding:0 5px 0 0;}
+
+@media screen and (max-width:700px) {
+	.popup_design {width:90%; left:10px;}
+	.popup_design .popup_title {padding:10px 10px 0 10px}
+	.popup_design ul li {width:100%; display:block;}
+	.popup_design a img {width:100%; float:left;}
+	.popup_design .popup_title img {width:100%;}
+	
+}
+	

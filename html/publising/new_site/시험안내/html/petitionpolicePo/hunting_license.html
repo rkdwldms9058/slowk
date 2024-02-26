@@ -1,0 +1,132 @@
+<!-- 수렵면허 성적확인 -->
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <meta name="referrer" content="always">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no,address=no,email=no">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+    <!-- No cache -->
+    <meta http-equiv="Expires" content="-1">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-Control" content="no-cache; no-store; no-save">
+    <meta property="og:title" content="충청남도 시험안내">
+    <title>충청남도 시험안내</title>
+
+
+    <link rel="stylesheet" href="../../css/sub.css">
+    <link rel="stylesheet" href="../../css/layout.css">
+    <link rel="stylesheet" href="../../css/base.css">
+    <link rel="stylesheet" href="../../css/components.css">
+    <link rel="stylesheet" href="../../css/board.css">
+
+    <script src="/script/libs/jquery/jquery-1.12.4.min.js"></script>
+    <script src="/script/libs/swiper/swiper-4.5.3.min.js"></script>
+    <script type="text/javascript" src="/html/publising/new_site/시험안내/script/load_sub.js"></script>
+</head>
+
+<body>
+    <header id="header"></header>
+
+    <section id="container" class="content">
+        <div class="inner">
+            <div class="wrap">
+                <div class="left">
+                    <div class="snb_wrap web">
+                        <div class="snb_tit">
+                            <div class="title">
+                                <h2 style="font-size: 23px;">청원경찰, 공무직 수렵변허, 기타</h2>
+                            </div>
+                        </div>
+                        <nav>
+                            <ul class="snb">
+                                <li>
+                                    <a href="../../html/petitionpolicePo/exam_announcement.html" class="arrow">시험공고</a>
+                                </li>
+                                <li>
+                                    <a href="../../html/petitionpolicePo/hunting_license.html" class="on arrow">수렵면허성적확인</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="cont_title mb30 wrap">
+                        <h2>시험공고</h2>
+                        <div class="float-r">
+                            <ul class="breadcrumb-list">
+                                <li class="home"><a href=""><span class="sr-only">홈으로</span></a></li>
+                                <li><a href="">
+                                        <span>청원경찰, 공무직 수렵변허, 기타</span>
+                                    </a>
+                                </li>
+                                <li><a href="">
+                                        <span>수렵면허성적확인</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <h3 class="title01">자격면허시험 성적확인</h3>
+                    <div class="info01 ml20">
+                        <p>- 수렵면허시험 성적은 조회기간동안 아래에서 직접 가능합니다.</p>
+                        <p>- 조회하실 시험명을 선택하신 후 생년월일(주민등록상)과 수험번호를 입력하세요.</p>
+                    </div>
+
+                    <hr class="line_dashed">
+
+                    <fieldset>
+                        <legend>성적확인 조회</legend>
+                        <dl class="examOK">
+                            <dt class="examName"><label for="itemList">시험명</label></dt>
+                            <dd>
+                                <div class="search">
+                                    <select id="itemList" name="usertel1" title="시험명 선택란" style="width:320px;">
+                                        <option value=""> ===== 조회하실 시험명을 선택해 주세요 ==== </option>
+                                        <!-- 							<option value="2019년도 상반기 수렵면허시험(OCR) 응시자 점수.txt" selected >2019년도 상반기 수렵면허시험</option> -->
+
+
+                                        <option value="2022년도 하반기 수렵면허시험(OCR) 성적부(성적순)(0).txt">2022년도 하반기 수렵면허시험
+                                        </option>
+
+
+                                        <option value="2022년도 상반기 수렵면허시험(OCR) 성적부(성적순)(0).txt">2022년도 상반기 수렵면허시험
+                                        </option>
+
+                                    </select>
+                                </div>
+                            </dd>
+                            <dt class="juminNum"><label for="juminNum">생년월일</label></dt>
+                            <dd><input type="text" id="juminNum" size="6" maxlength="6" name="juminNum" value=""
+                                    title="주민등록번호 앞 6자리 입력란" class="w80"> - <input type="password" id="juminNum2"
+                                    size="9" maxlength="7" name="juminNum2" value="0000000" title="주민등록번호 뒤 7자리 입력란"
+                                    class="w80" readonly="readonly"><span class="examOK_txt ml10 mt10">(앞자리만 입력하세요)</span></dd>
+                            <dt class="examNum"><label for="examNum">수험번호</label></dt>
+                            <dd><input type="text" id="examNum" name="examNum" value="" title="수험번호 입력란" class="w250">
+                            </dd>
+                        </dl>
+                    </fieldset>
+
+                    <div class="boardFoot2">
+                        <div class="cSec">
+                        <div>
+                        <span class="btnwhite large"><button type="submit" title="확인">확인</button></span>
+                        <span class="btnwhite large"><button type="reset" title="재작성">재작성</button></span>
+                        </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer_warp"></footer>
+
+</body>
+
+</html>

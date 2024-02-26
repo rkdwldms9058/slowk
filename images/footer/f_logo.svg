@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="201" height="41" viewBox="0 0 201 41">
+  <g id="f_logo" transform="translate(-819 -332)">
+    <rect id="사각형_13" data-name="사각형 13" width="200" height="41" transform="translate(819 332)" fill="none"/>
+    <text id="PORTFOLIO" transform="translate(870 360)" fill="#959595" font-size="26" font-family="TTGulimH, '\32 10 Gulim \30 90'"><tspan x="0" y="0">PORTFOLIO</tspan></text>
+    <g id="그룹_18" data-name="그룹 18" transform="translate(819 332.329)">
+      <path id="패스_39" data-name="패스 39" d="M429.121,522.03h-7.709l.066-19.273,7.583,3.184Z" transform="translate(-391.814 -489.477)" fill="#959595"/>
+      <path id="패스_40" data-name="패스 40" d="M416.772,505.941l-18.616,7.816-.008,0-.008,0-18.615-7.816,7.583-3.184,11.04,4.635,11.04-4.635Z" transform="translate(-379.525 -489.477)" fill="#959595"/>
+      <path id="패스_41" data-name="패스 41" d="M387.235,516.868h-7.709V505.941l7.583-3.184Z" transform="translate(-379.525 -489.477)" fill="#959595"/>
+      <path id="패스_42" data-name="패스 42" d="M416.772,491.779l-18.615-7.816-.008,0-.008,0-18.615,7.816v6.467l7.583-3.283,11.04-4.635,11.039,4.635h0l7.583,3.283v-6.465Z" transform="translate(-379.525 -483.964)" fill="#959595"/>
+      <path id="패스_43" data-name="패스 43" d="M416.756,529.13h.011v-3.177h-7.578l-11.04,4.635-11.04-4.635-.005,0v0l-7.578,3.177h.016l-.016.007,18.615,7.816.008,0,.008,0,18.615-7.816Z" transform="translate(-379.525 -496.283)" fill="#959595"/>
+    </g>
+  </g>
+</svg>

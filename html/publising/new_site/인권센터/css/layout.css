@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+.inner{width: 1170px; margin: 0 auto;}
+.wrap{display: flex; flex-flow: row wrap; justify-content: space-between; align-items: center;}
+.content{width: 100%; padding: 40px 0;}
+.contnet .pic{object-fit: cover; background-repeat: no-repeat; background-size: cover;}
+
+@media screen and (max-width: 1200px){
+    .content{width: 100%; padding: 20px 40px;}
+    .inner{width: 100%;}
+}
+@media screen and (max-width: 768px){
+    .content{padding: 10px 40px;}
+}
+@media screen and (max-width: 500px){
+    .content{padding: 10px 20px;}
+}

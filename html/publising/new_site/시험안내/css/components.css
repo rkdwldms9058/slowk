@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+/* table */
+.tbl-group {overflow:hidden; text-align: center;}
+.tbl-group-inr {overflow:hidden;}
+.tbl {/*overflow:hidden;*/}
+.tbl .align-l {text-align:left;}
+.tbl .align-c {text-align:center;}
+.tbl .align-r {text-align:right;}
+
+.tbl.st01 {border-top:2px solid #39C3F8; border-bottom:1px solid #CFD8DC;}
+.tbl.st01 thead {border-bottom:1px solid #CFD8DC; background-color:#F3F8FF;}
+.tbl.st01 tbody th {background-color:#F3F8FF;}
+.tbl.st01 tbody + tbody {border-top:1px solid #CFD8DC;}
+.tbl.st01 tr + tr {border-top:1px solid #CFD8DC;}
+.tbl.st01 th {padding:14px 0; border-right:1px solid #CFD8DC; border-left:1px solid #CFD8DC; font-weight:700; font-size:1rem; line-height:1.5; letter-spacing:-0.025em; color:#4B4B4B;}
+.tbl.st01 td {padding:14px 2px; border-right:1px solid #CFD8DC; border-left:1px solid #CFD8DC; line-height:1.5; letter-spacing:-0.025em; color:#4B4B4B;}
+.tbl.st01 .depth2 {background-color:#F3F8FF;}
+.tbl.st01 th:first-child,
+.tbl.st01 td:first-child {border-left:none;}
+.tbl.st01 th:last-child,
+.tbl.st01 td:last-child {border-right:none;}
+@media screen and (max-width:500px) {
+	.tbl-group{margin-bottom: 20px;}
+}
+
+/* title */
+.title01{display: flex; align-items: center; margin-bottom: 5px;}
+.title01::before{content: ""; display: inline-block; vertical-align: top; width: 1.5rem; height: 1.5rem; margin-right: 5px; background: url(../images/content/sub/sub_icon.svg) no-repeat center center/100% auto;}
+.title02{display: flex; align-items: center; margin-bottom: 5px;}
+.title02 li{font-size: 15px; line-height: 1.6rem;}
+.title02::before{content: ""; display: inline-block; vertical-align: top; width: 15rem; height: 7.5rem; margin-right: 5px; background: url(../images/content/sub/question_mark.svg) no-repeat center center/100% auto;}
+
+@media screen and (max-width:1170px) {
+	.title02 .wrap{margin-left: 0;}
+	.title02::before{display: none;}
+}
+
+
+/* Input */
+input[type=checkbox]+label,input[type=radio]+label,input[type=file]+label{margin:0 8px 0 2px;line-height:15px;vertical-align:bottom;cursor:pointer}
+input[type=text],input[type=password],textarea{display:inline-block;padding:18px 8px;margin:0;border:1px solid #b7b7b7;border-right-color:#e1e1e1;border-bottom-color:#e1e1e1;background:#fff; border-radius: 3px;}
+input[type=text],input[type=password]{height:23px; box-sizing:border-box;}
+
+@media screen and (min-width:1px) and (max-width:500px) {
+	input[type=text],input[type=password],textarea{width: 40%;}
+}
+
+
+/* examOK */
+.examOK{clear:both;display:inline-block;float:left;width:600px;padding:20px;margin:0 100px 0 140px;}
+.examOK dt{display:inline-block;float:left;width:110px;height:30px}
+.examOK dt label{display:block;width:90px;height:30px;background:url(http://www.chungnam.net/images/cnportal/03administration/img_recordOK.gif) no-repeat;font-size:0;line-height:0}
+.examOK dt.examName label{background-position:left top}
+.examOK dt.juminNum label{background-position:left -30px}
+.examOK dt.examNum label{background-position:left -60px}
+.examOK dd{height:50px;padding:4px 0;}
+.examOK .dotline{clear:both;float:left;overflow:hidden;width:100%;height:25px;padding:0}
+.examOK .dotline.wline{overflow:hidden;width:100%;height:25px;background:url(http://www.chungnam.net/images/board/wline.gif) repeat-x left 5px}
+.examOK span.examOK_txt{ display:inline-block;}
+@media screen and (min-width:1px) and (max-width:1049px) {
+	.examOK{width:100%;padding:20px 0;margin:0;}
+}
+@media screen and (min-width:1px) and (max-width:600px) {
+	.examOK dt{display:block; float:none;}
+	.examOK dd{display:block; height:auto; }
+	.examOK dd select{ width:100% !important;}
+	.examOK > dd > input.w250{ width:100%;}
+}
+@media screen and (min-width:1px) and (max-width:401px) {
+	.examOK span.examOK_txt{display:block;}
+}
+
+
+
+
+/* FAQ List */
+.faq{clear:both;display:inline-block;position:relative;width:100%;margin:0;padding:0;border-top:2px solid #c8c8c8;border-bottom:1px solid #ddd;color:#767676}
+.faq .faqBody{overflow:hidden;width:100%;margin:0;padding:0}
+.faq .faqBody li{font-size: 15px; line-height: 1.5rem;}
+
+
+.faq .q{float:left;width:100%;margin:0;padding:0;border-top:1px dashed #dadada;border-bottom:1px dashed #dadada;background:#fafafa}
+.faq .q.first{border-top:0; border-bottom:0;}
+.faq .q a{display:block;margin:0; border-bottom:1px dashed #dadada; padding: 20px 25px;text-decoration:none !important}
+
+.faq .q span.q{display:inline-block;width:17px;height:17px;margin:-1px 9px 1px -26px;padding:0;border:0;background:url(/images/board/img_faq.gif) no-repeat 0 0;font-size:0;line-height:0;vertical-align:middle}
+
+.faq .a{display:block;float:left;margin:10px 0 10px 0; padding:0 20px 20px 46px;background:url(/images/board/img_faq.gif) no-repeat 20px -21px;line-height:1.75em;vertical-align:top}
+.faq .a	ul{margin-left:15px}
+.faq .hide_faq .q{border-top:1px dashed #dadada;border-bottom:0;}
+.faq .hide_faq .q.first{border-top:0;border-bottom:0;}
+
+/* FAQ Write */
+.faq .title{clear:both;float:left;width:100%;padding:13px 0 10px;border-bottom:1px solid #ddd;background:#fafafa;font-weight:bold;color:#666;text-align:center;white-space:nowrap}
+.faq .title .checkDel{display:inline-block;float:left;width:13px;padding:0 10px 0 20px}
+.faq .title .subject{display:inline-block;float:left;width:530px;padding:0}
+.faq .title .Date{display:inline-block;float:left;width:77px;padding:0 20px}
+.faq .q .checkDel{display:inline-block;float:left;width:13px;padding:13px 0 0 20px}
+.faq .q .subject{width:540px;padding:0}
+.faq .q .subject_ipt{display:inline-block;float:left;width:530px;padding:9px 0 12px 10px}
+.faq .q a.manage{display:block;float:left;width:530px;margin:0;padding:13px 0 10px 10px;padding:11px 0 12px 10px;text-decoration:none !important}
+.faq .q .Date{display:inline-block;width:77px;margin:11px 20px 0 20px;font-family:Tahoma;text-align:center}
+.faq .a.manage{display:block;margin:10px 0 0 0;padding:0 20px 20px 43px;background:none;line-height:1.75em;vertical-align:top}
+.faq .a.cont_ipt{display:block;float:left;width:670px;margin:0;padding:5px 10px;background:none;line-height:1.75em;vertical-align:top}
+.faq .fileAttach{display:block;float:left;width:638px;padding:15px;border:1px solid #dadada}
+.faq .fileAttach dt{float:left;width:90px;font-weight:bold}
+.faq .fileAttach dd{float:left;width:548px}
+.faq .fileAttach_txt{display:block;width:100%;margin-bottom:10px;font-weight:bold}
+.faq .fileAttach_txt .filedown{display:inline-block;width:16px;height:16px;margin-right:3px;background:url(/images/board/ico_disket.gif) no-repeat 0 1px;font-size:0;line-height:0;vertical-align:middle}

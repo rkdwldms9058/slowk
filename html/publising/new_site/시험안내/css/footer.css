@@ -1,0 +1,111 @@
+/* footer */
+#footer_warp {float:left; width:100%; padding:40px 20px 40px 20px; background:#fff; border-top:1px solid #e5e5e5;}
+#footer_warp2 {float:left; width:100%; padding:15px 0; background:#fff; border-top:1px solid #e5e5e5;}
+/* sns새소식 상단부분 */
+.blog_wrap {width:530px; display:inline-block; color:#555555; font-size:15px; font-weight:600; margin-top:7px; display: flex;}
+.blog_wrap > span {padding-right:9px; margin-right:6px; background:url(../images/main/2018/responsive/blog_line.png) no-repeat right center;}
+.blog_wrap > span > a{display: flex;}
+.blog_wrap > span:last-child {padding-right:0; margin-right:0; background:none;} 
+.blog_wrap > span > a > img {margin-right:3px; vertical-align:middle;}
+.blog_wrap > span > a > img.last {margin-right:0; vertical-align:middle;}
+.sns_wrap {float:left; width:100%; margin-top:10px;}
+/* //sns새소식 상단부분 */
+
+
+/* 하단링크부분 */
+.ftlink {width:100%; float:left; margin-bottom:13px; position:relative; border:1px solid #ccc;}
+.ftlink ul li.ftlink_list {float:left;}
+.ftlink ul li.ftlink_list > a {width: 145px;box-sizing:border-box;display:block;border-right:1px solid #cccccc;height:36px;line-height:36px;padding-left: 15px;font-size:13px;color:#444444;background:url(/images/common/2018/qlink_off_ic.png) no-repeat 90% center;}
+.ftlink ul li.ftlink_list > a:hover {color:#111; font-weight:600; background:#f4fcf4 url(/images/common/2018/qlink_on_ic.png) no-repeat 90% center;}
+.ftlink ul li.ftlink_shcut {float:left;}
+.ftlink ul li.ftlink_shcut > a {width:175px;box-sizing:border-box;display:block;height:36px;line-height:36px;padding-left: 15px;font-size:13px;color:#444444;background:url(/images/common/2018/qlink_shcut_off.png) no-repeat 90% center;}
+.ftlink ul li.ftlink_shcut > a:hover {color:#111; font-weight:600; background:#f4fcf4 url(/images/common/2018/qlink_shcut_on.png) no-repeat 90% center;}
+
+.ftlink ul li dl {position:absolute;left:0;bottom:35px;width:950px;padding:20px 50px;background:#fff;line-height:1.6;z-index:100;border:solid #ddd;border-width:1px 1px 1px;overflow:hidden;}
+.ftlink ul li dl dt {display:none;}
+.ftlink ul li dl dd {float:left; width:100%;}
+.ftlink ul li dl dd a {float:left; margin-right:2%; width:17%; height:22px; line-height:22px; font-size:13px; color:#888; background:url(/images/common/2018/ftlink_ic.png) no-repeat left center; padding-left:8px;}
+.ftlink ul li dl dd a:hover {float:left; margin-right:2%; width:17%; height:22px; line-height:22px; font-size:13px; color:#000;}
+/* //하단링크부분 */
+
+
+
+
+
+/* 하단 카피라이트 부분 */
+#footer_warp .copy_cnlogo{float:left; margin:0 50px 0 0;}
+#footer_warp2 .copy_cnlogo{float:left; margin:0 50px 0 0;}
+.foot_cont{float:left; width:100%; position:relative;}
+.foot_cont .copyright{float:left; margin-top:13px;}
+.foot_menu{float:left; text-align:left; width:100%; padding-top:1px; color:#222222; border-bottom:1px solid #e5e5e5; padding-bottom:13px; margin-top:10px; margin-bottom:20px;}
+.foot_menu li{float:left; background:url(/images/common/2018/footermenu_line.png) no-repeat right center; padding-right:18px; margin-right:18px; }
+.foot_menu li a {color:#222222;}
+.foot_menu li a:hover {color:#43830b;}
+span.f_top_btn {position:absolute; right:0; top:0;}
+.copy_tel{ display:inline-block; background:#4aa11c; color:#fff; border-radius:15px; padding:3px 10px 5px; margin-top:5px; margin-left:5px;}
+
+.address2018{ float:left;}
+address{ font-size:13px; font-style:normal; color:#222222;}
+.add_txt{ display:inline-block; margin-right:10px; margin-bottom:5px;}
+/* //하단 카피라이트 부분 */
+
+
+/* 웹접근성 마크 부분 */
+.trademark_warp{position:absolute; right:0; top:60px; width:240px; margin-bottom:20px;}
+.trademark_warp dt{position:absolute;visibility:hidden;width:0;height:0;margin:0;padding:0;background:none;font-size:0;line-height:0}
+.trademark_warp dd{float:right;overflow:hidden;margin:0;padding:0;height:62px;vertical-align:top}
+.trademark_warp dd span{float:left;margin:0;font-size:0;line-height:0}
+.trademark_warp dd span.tm01{height:62px;margin-right:0; margin-left:7px;}
+.trademark_warp dd span.tm02{width:46px;height:37px;background:url(/images/common/2014/foot_trademark02.gif) no-repeat;}
+.trademark_warp dd span.tm03{width:62px;height:37px;background:url(/images/common/2014/foot_trademark03.gif) no-repeat; margin-right:7px}
+/* //웹접근성 마크 부분 */
+
+
+/* Tablet */
+@media screen and (min-width:600px) and (max-width:1049px) {
+	#footer_warp{width:100%;}
+	.ftlink ul li dl{ bottom:72px;}
+	.ftlink ul li{width:33.3%;}
+	.ftlink ul li.ftlink_list > a{width:100%;}
+	.ftlink ul li:nth-of-type(3n).ftlink_list > a{border-right:none;}
+	.ftlink ul li:nth-of-type(1).ftlink_list > a, .ftlink ul li:nth-of-type(2).ftlink_list > a, .ftlink ul li:nth-of-type(3).ftlink_list > a,
+	.ftlink ul li:nth-of-type(4).ftlink_list > a, .ftlink ul li:nth-of-type(5).ftlink_list > a, .ftlink ul li:nth-of-type(6).ftlink_list > a {border-bottom:1px solid #ccc;}
+	.ftlink ul li.ftlink_shcut > a{width:100%;}
+}
+
+
+@media screen and (min-width:1px) and (max-width:600px) {
+	.total_search_warp{width: auto;}
+	h1.cn_logo{width:140px; margin:0 0 10px 15px;}	
+	h1.cn_logo a img{width:140px;}	
+	.foot_menu li{ margin-bottom:10px;}
+    .blog_wrap{display: none;}
+    .trademark_warp dd span.tm01{display: none;}
+}
+
+
+
+@media screen and (min-width:1px) and (max-width:540px) {
+.ftlink ul li dl{ bottom:108px;}
+.ftlink ul li dl dd a, .ftlink ul li dl dd a:hover{width:auto; margin-bottom:10px;}
+.ftlink ul li{width:50%;}
+.ftlink ul li.ftlink_list > a{width:100%;}
+.ftlink ul li:nth-of-type(2).ftlink_list > a,.ftlink ul li:nth-of-type(4).ftlink_list > a,.ftlink ul li:nth-of-type(6).ftlink_list > a {border-right:none;}
+.ftlink ul li:nth-of-type(1).ftlink_list > a, .ftlink ul li:nth-of-type(2).ftlink_list > a, .ftlink ul li:nth-of-type(3).ftlink_list > a , .ftlink ul li:nth-of-type(4).ftlink_list > a,
+.ftlink ul li:nth-of-type(5).ftlink_list > a , .ftlink ul li:nth-of-type(6).ftlink_list > a{border-bottom:1px solid #ccc;}
+.ftlink ul li.ftlink_shcut > a{width:100%;}
+
+.nav_mobile{right: 4%; top: 28%;}
+}
+
+@media screen and (max-width:500px){
+    .total_search_warp #findWordipt{width:30%;}
+    .nav_mobile{right: 4%; top: 25%;}
+}
+@media screen and (max-width:450px){
+    .nav_mobile{right: 4%; top: 23%;}
+}
+@media screen and (max-width:400px){
+    .nav_mobile{right: 4%; top: 22%;}
+}
+/* //footer */

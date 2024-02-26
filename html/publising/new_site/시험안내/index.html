@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <meta name="referrer" content="always">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no,address=no,email=no">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+    <!-- No cache -->
+    <meta http-equiv="Expires" content="-1">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-Control" content="no-cache; no-store; no-save">
+    <meta property="og:title" content="충청남도 시험안내">
+    <title>충청남도 시험안내</title>
+        
+    
+    
+    <link rel="stylesheet" href="/html/publising/new_site/시험안내/css/main.css">
+    <link rel="stylesheet" href="/html/publising/new_site/시험안내/css/layout.css">
+    <link rel="stylesheet" href="/html/publising/new_site/시험안내/css/base.css">
+    <link rel="stylesheet" href="/html/publising/new_site/시험안내/css/components.css">
+
+    <script src="/script/libs/jquery/jquery-1.12.4.min.js"></script>
+    <script src="/script/libs/swiper/swiper-4.5.3.min.js"></script>
+    <script type="text/javascript" src="/html/publising/new_site/시험안내/script/load_sub.js"></script>
+      
+</head>
+<body>
+    <header id="header"></header>
+    
+    <section id="visual" class="content">
+        <div class="inner">
+            <div class="grid">
+                <div class="one">
+                    <img src="images/content/main/CK_ti336a2070733.jpg" alt="">
+                    <div class="go_test_info">
+                        <h3 class="mb10">각 시도 시험안내 게시판 바로가기</h3>
+                        
+                        <form onsubmit="return checksido();" target="_blank">
+                        <fieldset> <select class="form-style" id="sidoSite" name="sidoSite" title="시/도청 시험정보"><option value="">:::: 시ㆍ도청 시험정보</option><option value="http://hrd.seoul.go.kr">서울시 인재개발원</option><option value="http://www.busan.go.kr/job/jobexam01">부산시 시험정보</option><option value="http://www.daegu.go.kr/eco/index.do?menu_id=00936470&amp;servletPath=%2Feco">대구시 시험정보</option><option value="http://gosi.incheon.go.kr/index.do">인천시 시험정보</option><option value="https://www.gwangju.go.kr/boardList.do?pageId=www806&amp;boardId=BD_0000000025">광주시 시험정보</option><option value="http://www.daejeon.go.kr/exa/ExaExamNoticeList.do?menuSeq=305">대전시 시험정보</option><option value="https://www.ulsan.go.kr/u/rep/transfer/testPblanc/list.ulsan?mId=001004008001000000">울산시 시험정보</option><option value="https://www.sejong.go.kr/prog/exam/kor/sub02_0305/list.do">세종시 시험정보</option><option value="https://www.gg.go.kr/contents/contents.do?ciIdx=482&amp;menuId=1550">경기도 시험정보</option><option value="http://www.provin.gangwon.kr/gw/portal/sub05_04_01">강원도 시험정보</option><option value="https://www.chungbuk.go.kr/sihum/index.do">충청북도 시험채용정보</option><option value="http://www.chungnam.go.kr/cnnet/board.do?mnu_cd=CNNMENU00396">충청남도 시험안내</option><option value="https://www.jeonbuk.go.kr/board/list.jeonbuk?boardId=BBS_0000019&amp;menuCd=DOM_000000103002001001&amp;contentsSid=801&amp;cpath=">전라북도 시험안내</option><option value="http://namdo.jeonnam.go.kr/bb/bbBoard.php?boardID=E_OPENRECRUIT&amp;pageID=sihum0102000000">전라남도 시험안내</option><option value="https://www.gb.go.kr/Main/open_contents/section/exam_info/index.html">경상북도 시험정보</option><option value="http://www.gyeongnam.go.kr/board/list.gyeong?boardId=BBS_0000244&amp;menuCd=DOM_000000104002014000&amp;contentsSid=2431&amp;cpath=">경상남도 시험정보</option><option value="http://www.jeju.go.kr/works/exam/exam1/list.html">제주도 시험정보</option> </select> <span>
+                            <button class="btn4 ml10" title="새창으로 열기" type="submit"><a href="">이동</a></button>
+                        </span>
+                        </fieldset>
+                        </form>
+                    </div>
+                </div>
+                <div class="two">
+                    <img src="images/content/main/cont2_221026.jpg" alt="">
+                    <div class="go_test_info">
+                        <h3 class="mb10">인터넷 원서 접수</h3>
+                        <button class="btn4"><a href="https://local.gosi.go.kr/klid/main/sido.do?gubun=20" target="_blank" title="새창열기">원서접수하러  바로가기</a></button>
+                    </div>
+                </div>
+                <div class="three">
+                    <img style="width: 580px;" src="images/content/main/nopage.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="exam_schedule" class="content">
+        <div class="inner">
+            <h3 class="mb10">2022년도 일반직 공무원 시험일정</h3>
+            <div class="tbl-group mb60">
+                <div class="tbl st01">
+                    <table>
+                        <caption class="sr-only">
+                            <strong>판례 검색</strong>
+                            <p>이 표는 한국, 미국, 일본, 유럽, 중국, 합계로 구성되었습니다.</p>
+                        </caption>
+                        <colgroup>
+                            <col style="width: 28%;">
+                            <col style="width: 29%;">
+                            <col style="width: 7%;">
+                            <col style="width: 10%;">
+                            <col style="width: 16%;">
+                            <col style="width: 10%;">
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th>시험명</th>
+                                <th>접수 및 취소기간<br>
+                                <span>&#40;접수취소시간 &#58; 09&#58;00 &#126; 24&#58;00&#41;</span></th>
+                                <th>구분</th>
+                                <th>시험장소<br>공고일</th>
+                                <th>시험일</th>
+                                <th>합격자<br>발표일</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td rowspan="2">제1회 공개경쟁임용 &#40;간호직&#41;<br>
+                                제1회 경력경쟁임용 &#40;수의&#44; 속기직&#41;</td>
+                                <td rowspan="2"><strong class="blue">접수 &#58; 2&#46;21 &#40;월&#41; &#126; 2&#46;25 &#40;금&#41;</strong><br>
+                                *취소 &#58; 2&#46;21 &#40;월&#41; &#126; 2&#46;28 &#40;월&#41; 18시</td>
+                                <td>필기</td>
+                                <td>1&#126;2월 중</td>
+                                <td class="bg_gray">4&#46;30 &#40;토&#41;</td>
+                                <td>5&#46;20 &#40;금&#41;</td>
+                            </tr>
+                            <tr>
+                                <td>면접</td>
+                                <td>5월</td>
+                                <td class="bg_gray">5&#126;6월</td>
+                                <td>6&#46;10 &#40;금&#41;</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="2">제2회 공개경쟁임용 &#40;8&#183;9급 등&#41;</td>
+                                <td rowspan="2"><strong class="blue">접수 &#58; 3&#46;21 &#40;월&#41; &#126; 3&#46;25 &#40;금&#41;</strong><br>
+                                &#42;취소 &#58; 3&#46;21 &#40;월&#41; &#126; 3&#46;28 &#40;월&#41; 18시</td>
+                                <td>필기</td>
+                                <td>5&#46;18 &#40;수&#41;</td>
+                                <td class="bg_gray">6&#46;18 &#40;토&#41;</td>
+                                <td>7&#46;15 &#40;금&#41;</td>
+                            </tr>
+                            <tr>
+                                <td>면접</td>
+                                <td>7&#46;15 &#40;금&#41;</td>
+                                <td class="bg_gray">8&#46;1 &#40;월&#41; &#126; 8&#46;10 &#40;수&#41;</td>
+                                <td>8&#46;22 &#40;월&#41;</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="2">제3회 공개경쟁임용 &#40;7급 등&#41;<br>
+                                경력경쟁임용 &#40;연구&#183;지도사 등&#41;</td>
+                                <td rowspan="2"><strong class="blue">접수 &#58; 7&#46;18 &#40;월&#41; &#126; 7&#46;22 &#40;금&#41;</strong><br>
+                                &#42;취소 &#58; 7&#46;18 &#40;월&#41; &#126; 7&#46;25 &#40;월&#41; 18시</td>
+                                <td>필기</td>
+                                <td>9&#46;29 &#40;목&#41;</td>
+                                <td class="bg_gray">10&#46;29 &#40;토&#41;</td>
+                                <td>11&#46;22 &#40;화&#41;</td>
+                            </tr>
+                            <tr>
+                                <td>면접</td>
+                                <td>11&#46;22 &#40;화&#41;</td>
+                                <td class="bg_gray">12&#46;6 &#40;화&#41; &#126; 12&#46;8 &#40;목&#41;</td>
+                                <td>12&#46;20 &#40;화&#41;</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <p class="mt10">상기 일정은 시험시행 여건에 따라 변동될 수 있습니다.</p>
+                <p>※ 국가직 시험 일정 &#58; &#91;9급&#93; 4월 2일 &#40;토&#41; &#47; &#91;7급 1차&#93; 7월 23일 &#40;토&#41;</p>
+            </div>
+            
+
+            <h3 class="mb10">2022년도 수렵&#46;면허 시험일정표</h3>
+            <div class="tbl-group mb20">
+                <div class="tbl st01">
+                    <table>
+                        <caption class="sr-only">
+                            <strong>판례 검색</strong>
+                            <p>이 표는 한국, 미국, 일본, 유럽, 중국, 합계로 구성되었습니다.</p>
+                        </caption>
+                        <colgroup>
+                            <col style="width: 15%;">
+                            <col style="width: 30%;">
+                            <col style="width: 15%;">
+                            <col style="width: 25%;">
+                            <col style="width: 15%;">
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th>구분</th>
+                                <th>응시원서 접수기간</th>
+                                <th>장소 공고</th>
+                                <th>시험 일시</th>
+                                <th>합격자발표</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>상반기</td>
+                                <td><strong>2022&#46; 2&#46; 28&#46;&#40;월&#41; &#126; 3&#46; 2&#46;&#40;수&#41;</strong></td>
+                                <td><strong>3&#46; 30&#46;&#40;수&#41;</strong></td>
+                                <td><strong>2022&#46; 4&#46; 16&#46;&#40;토&#41;</strong></td>
+                                <td><strong>4&#46; 27&#46;&#40;수&#41;</strong></td>
+                            </tr>
+                            <tr>
+                                <td>하반기</td>
+                                <td><strong>2022&#46; 5&#46; 23&#46;&#40;월&#41; &#126; 5&#46; 25&#46;&#40;수&#41;</strong></td>
+                                <td><strong>6&#46; 15&#46;&#40;수&#41;</strong></td>
+                                <td><strong>2022&#46; 7&#46; 2&#46;&#40;토&#41;</strong></td>
+                                <td><strong>7&#46; 13&#46;&#40;수&#41;</strong></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="test_announcement" class="content">
+        <div class="inner">
+            <div class="cont_title_s wrap  mb20">
+                <ul class="cont_title wrap">
+                    <li class="on"><a href=""><h4>일반직공무원</h4></a></li>
+                    <li><a href=""><h4>소방직공무원</h4></a></li>
+                    <li><a href=""><h4>임기제, 전문경력관, 개방형직위, 별정직</h4></a></li>
+                    <li><a href=""><h4>청원경찰, 공무직수렵변허, 기타</h4></a></li>
+                </ul>
+                <div class="view_more"><a href="">더보기</a></div>
+            </div>
+            <ul class="cont_list wrap">
+                <li><a href="">
+                    <p>2022년도 충남 지방공무원 제 2회 공임 및 제2회 경임 최종합격자 결정 및 임용후보자 등...</p>
+                    <p class="gray">인사과</p>
+                    <p class="gray">2022-08-22</p>
+                </a></li>
+                <li><a href="">
+                    <p>2022년 충청남도 제2회 공임 및 경임 추가 면접시험 시행계획 공고</p>
+                    <p class="gray">인사과</p>
+                    <p class="gray">2022-08-22</p>
+                </a></li>
+                <li><a href="">
+                    <p>2022년도 충남 지방공무원 제 2회 공임 및 제2회 경임 최종합격자 결정 및 임용후보자 등...</p>
+                    <p class="gray">인사과</p>
+                    <p class="gray">2022-08-22</p>
+                </a></li>
+                <li><a href="">
+                    <p>2022년도 충남 지방공무원 제 2회 공임 및 제2회 경임 최종합격자 결정 및 임용후보자 등...</p>
+                    <p class="gray">인사과</p>
+                    <p class="gray">2022-08-22</p>
+                </a></li>
+            </ul>
+        </div>
+    </section>
+
+
+    <section id="questions" class="content">
+        <div class="inner">
+            <ul class="cont_list wrap">
+                <li>
+                    <h3 class="mb10">자주하는 질문</h3>
+                    <p class="mb10">시험에 관련된 주요 질문과 답변을 정리하였습니다</p>
+                    <div class="btn3">
+                        <a href="">더보기
+                            <img src="images/content/main/Icon awesome-angle-double-right.svg" alt="">
+                        </a>
+                    </div>
+                    <img src="images/content/main/questions_bg.svg" alt="">
+                </li>
+                <li><a href="">
+                    <p>2022년 충청남도 제2회 공임 및 경임 추가 면접시험 시행계획 공고</p>
+                </a></li>
+                <li><a href="">
+                    <p>2022년도 충남 지방공무원 제 2회 공임 및 제2회 경임 최종합격자 결정 및 임용후보자 등...</p>
+                </a></li>
+                <li><a href="">
+                    <p>2022년도 충남 지방공무원 제 2회 공임 및 제2회 경임 최종합격자 결정 및 임용후보자 등...</p>
+                </a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="test_statistics" class="content">
+        <div class="inner">
+            <h3 class="mb10 white">시험통계
+                <div class="view_more"><a class="white" href="">더보기</a></div>
+            </h3>
+            
+            <ul class="cont_list wrap">
+                <li><a href="">
+                    <p>2022년도 제1회 공개경쟁 및 경력경쟁 임용 필기시험 합격선</p>
+                    <p class="gray">인사과</p>
+                    <p class="gray">2022-08-22</p>
+                </a></li>
+                <li><a href="">
+                    <p>2021년도 제2회 공임 및 제3, 4회 경임 필기시험 합격선</p>
+                    <p class="gray">인사과</p>
+                    <p class="gray">2022-08-22</p>
+                </a></li>
+                <li><a href="">
+                    <p>2021년 제1회 공임 및 제2회 경임 필기시험 합격선</p>
+                    <p class="gray">인사과</p>
+                    <p class="gray">2022-08-22</p>
+                </a></li>
+                <li><a href="">
+                    <p>2020년 필기시험 합격선</p>
+                    <p class="gray">인사과</p>
+                    <p class="gray">2022-08-22</p>
+                </a></li>
+            </ul>
+        </div>
+    </section>
+    
+    
+    <footer id="footer_warp">
+        <div class="inner">
+            <div class="new_layout_area">
+                <!-- sns새소식 상단 부분 시작 -->
+               <div class="blog_wrap mb20">
+                   <span><a href="https://blog.naver.com/sinmunman" target="_blank" title="새창으로 열기"><img src="http://www.chungnam.go.kr/images/main/2018/responsive/ic_naverblog.png" alt="네이버뉴스블로그">뉴스 블로그</a></span>
+       <!-- 			<span><a href="https://blog.naver.com/topcnitv" target="_blank" title="새창으로 열기"><img src="/images/main/2018/responsive/ic_naverblog.png" alt="네이버영상블로그" />영상블로그</a></span> -->
+                   <span><a href="https://blog.naver.com/chungnamdojung" target="_blank" title="새창으로 열기"><img src="http://www.chungnam.go.kr/images/main/2018/responsive/ic_naverblog.png" alt="네이버도정신문블로그">도정신문 블로그</a></span>
+                   <span><a href="http://blog.daum.net/e-chungnam/" target="_blank" title="새창으로 열기"><img src="http://www.chungnam.go.kr/images/main/2018/responsive/ic_daumblog.png" alt="다음생활블로그">생활 블로그</a></span>
+                   <span><a href="https://story.kakao.com/ch/chungnam" target="_blank" title="새창으로 열기"><img class="last" src="http://www.chungnam.go.kr/images/main/2018/responsive/ic_kakao.png" alt="카카오스토리"></a></span>
+               </div>
+               <!-- //sns새소식 상단 부분 끝 -->
+                <!-- 하단 링크리스트부분 시작 -->
+                <div class="ftlink">
+                   <ul>
+                      <li class="ftlink_list" onmouseover="footerOver('1');" onmouseout="footerOut('1');">
+                          <a href="#none;" onfocus="footerOver('1');">실국 누리집</a>
+                          <dl style="display:none;" id="ftlink_list01">
+                              <dt>실국 누리집</dt>
+                              <dd>
+                                  <a href="/dept/content.do?mnu_cd=ORBMENU00006">공보관</a>
+                                  <a href="/dept/content.do?mnu_cd=ORCMENU00007">여성가족 정책관</a>
+                                  <a href="/dept/content.do?mnu_cd=ORQMENU00003">데이터정책관</a>
+                                  <a href="/dept/content.do?mnu_cd=ORPMENU00007">공동체지원국</a>
+                                  <a href="/dept/content.do?mnu_cd=ORAMENU00028">기획조정실</a>
+                                  <a href="/dept/content.do?mnu_cd=ORNMENU00005">재난안전실</a>
+                                  <a href="/dept/content.do?mnu_cd=ORHMENU00025">저출산보건복지실</a>
+                                  <a href="/dept/content.do?mnu_cd=ORDMENU00027">경제실</a>
+                                  <a href="/dept/content.do?mnu_cd=OREMENU00036">자치행정국</a>
+                                  <a href="/dept/content.do?mnu_cd=OROMENU00005">미래산업국</a>
+                                  <a href="/dept/content.do?mnu_cd=ORFMENU00021">문화체육관광국</a>
+                                  <a href="/dept/content.do?mnu_cd=ORGMENU00032">농림축산국</a>							
+                                  <a href="/dept/content.do?mnu_cd=ORIMENU00022">기후환경국</a>
+                                  <a href="/dept/content.do?mnu_cd=ORJMENU00036">건설교통국</a>
+                                  <a href="/dept/content.do?mnu_cd=OFHMENU00016">해양수산국</a>
+                                  <a href="http://www.cn119.go.kr/" target="_blank" title="새창으로 열기">소방본부</a>
+                              </dd>
+                          </dl>
+                      </li>
+                      <li class="ftlink_list" onmouseover="footerOver('2');" onmouseout="footerOut('2');">
+                          <a href="#none;" onfocus="footerOver('2');">시 · 군 누리집</a>
+                          <dl style="display:none;" id="ftlink_list02">
+                              <dt>시 · 군 누리집</dt>
+                              <dd>
+                                  <a href="http://www.cheonan.go.kr" target="_blank" title="새창으로 열기">천안시</a>
+                                  <a href="http://www.gongju.go.kr" target="_blank" title="새창으로 열기">공주시</a>
+                                  <a href="http://www.brcn.go.kr" target="_blank" title="새창으로 열기">보령시</a>
+                                  <a href="http://www.asan.go.kr" target="_blank" title="새창으로 열기">아산시</a>
+                                  <a href="http://www.seosan.go.kr/www/index.do" target="_blank" title="새창으로 열기">서산시</a>
+                                  <a href="http://www.nonsan.go.kr/" target="_blank" title="새창으로 열기">논산시</a>
+                                  <a href="http://www.gyeryong.go.kr/html/kr/index.html " target="_blank" title="새창으로 열기">계룡시</a>
+                                  <a href="http://www.dangjin.go.kr/" target="_blank" title="새창으로 열기">당진시</a>
+                                  <a href="http://www.geumsan.go.kr" target="_blank" title="새창으로 열기">금산군</a>
+                                  <a href="http://www.buyeo.go.kr" target="_blank" title="새창으로 열기">부여군</a>
+                                  <a href="http://www.seocheon.go.kr/kor.do" target="_blank" title="새창으로 열기">서천군</a>
+                                  <a href="http://www.cheongyang.go.kr" target="_blank" title="새창으로 열기">청양군</a>
+                                  <a href="http://www.hongseong.go.kr" target="_blank" title="새창으로 열기">홍성군</a>
+                                  <a href="http://www.yesan.go.kr" target="_blank" title="새창으로 열기">예산군</a>
+                                  <a href="http://www.taean.go.kr" target="_blank" title="새창으로 열기">태안군</a>
+                              </dd>
+                          </dl>
+                      </li>
+                      <li class="ftlink_list" onmouseover="footerOver('3');" onmouseout="footerOut('3');">
+                          <a href="#none;" onfocus="footerOver('3');">직속기관</a>
+                          <dl style="display:none;" id="ftlink_list03">
+                              <dt>직속기관</dt>
+                              <dd>
+                                  <a href="https://cnnongup.chungnam.go.kr" target="_blank" title="새창으로 열기">농업기술원</a>
+                                  <a href="/civileducationMain.do" target="_blank" title="새창으로 열기">충청남도인재개발원</a>
+                                  <a href="/healthenvMain.do" target="_blank" title="새창으로 열기">보건환경연구원</a>
+                                  <a href="http://cnsu.ac.kr" target="_blank" title="새창으로 열기">충남도립대학교</a>
+                                  <a href="http://www.cn119.go.kr/academy/index.cn119" target="_blank" title="새창으로 열기">충청소방학교</a>
+                              </dd>
+                          </dl>
+                      </li>
+       
+                      <li class="ftlink_list" onmouseover="footerOver('4');" onmouseout="footerOut('4');">
+                          <a href="#none;" onfocus="footerOver('4');">충남 사업소</a>
+                          <dl style="display:none;" id="ftlink_list04">
+                              <dt>충남 사업소</dt>
+                              <dd>
+                                  <a href="/cnvriMain.do" target="_blank" title="새창으로 열기">동물위생시험소</a>
+                                  <a href="https://keumkang.chungnam.go.kr:452/" target="_blank" title="새창으로 열기">산림자원연구소</a>
+                                  <a href="/constructionMain.do" target="_blank" title="새창으로 열기">종합건설사업소</a>
+                                  <a href="http://www.bhm.or.kr/html/kr" target="_blank" title="새창으로 열기">백제문화단지관리사업소</a>
+                                  <a href="/fisherylMain.do" target="_blank" title="새창으로 열기">수산자원연구소</a>
+                                  <a href="/liveStockMain.do" target="_blank" title="새창으로 열기">축산기술연구소</a>
+                                  <a href="https://library.chungnam.go.kr/main.do" target="_blank" title="새창으로 열기">충남도서관</a>
+                                  <a href="/dept/content.do?mnu_cd=SEOMENU00002" target="_blank" title="새창으로 열기">중앙협력본부</a>
+                              </dd>
+                          </dl>
+                      </li>
+                      <!-- 합의제행정기관 추가 -->
+                      <li class="ftlink_list" onmouseover="footerOver('6');" onmouseout="footerOut('6');">
+                          <a href="#none;" onfocus="footerOver('6');">합의제행정기관</a>
+                          <dl style="display:none;" id="ftlink_list06">
+                              <dt>합의제행정기관</dt>
+                              <dd>
+                                  <a href="/auditMain.do" target="_blank" title="새창으로 열기">충남감사위원회</a>
+                                  <a href="https://www.chungnam.go.kr/cnapc.do" target="_blank" title="새창으로 열기">충남자치경찰위원회</a>
+                              </dd>
+                          </dl>
+                      </li>
+                      <!-- 합의제행정기관 추가 -->			   
+                      <li class="ftlink_list" onmouseover="footerOver('5');" onmouseout="footerOut('5');">
+                          <a href="#none;" onfocus="footerOver('5');">충남 쇼핑몰</a>
+                          <dl style="display:none;" id="ftlink_list05">
+                              <dt>충남 쇼핑몰</dt>
+                              <dd>
+                                  <a href="http://www.nongsarang.co.kr" target="_blank" title="새창으로 열기">농사랑쇼핑몰</a>
+                                  <a href="http://chungnam.invil.org/index.html" target="_blank" title="새창으로 열기">정보화마을(내고향)쇼핑몰</a>
+                                  <a href="http://www.goodtraemarket.net/shop/main/index.php" target="_blank" title="새창으로 열기">굿뜨래장터</a>
+                                  <a href="https://www.taean-mall.com" target="_blank" title="새창으로 열기">태안장터</a>
+                                  <a href="http://www.dangjinfarm.com/shop/main/index.php" target="_blank" title="새창으로 열기">당진팜(해나루)</a>
+                                  <a href="https://www.gmjangter.com/new/_shop/index.php " target="_blank" title="새창으로 열기" onblur="footerOut('5');">공주고맛나루장터</a>
+                              </dd>
+                          </dl>
+                      </li>
+                      <li class="ftlink_shcut">
+                          <a href="/cnnet/content.do?mnu_cd=CNNMENU01039">관련 누리집</a>
+                      </li>
+                  </ul>
+               </div>
+                <!-- 하단 링크리스트부분 시작 -->
+                
+                <!-- 카피라이트 부분 전체 시작 -->
+                <div class="foot_cont">
+                    <!-- 하단 바로가기 시작 -->
+                    <div class="foot_menu">
+                           <ul>
+                             <li><a href="/cnnet/content.do?mnu_cd=CNNMENU01027">서비스약관</a></li>
+                             <li><a href="/cnnet/content.do?mnu_cd=CNNMENU02538"><span class="fCgreen bold">개인정보처리방침</span></a></li>
+                             <li><a href="/cnnet/content.do?mnu_cd=CNNMENU02054">저작권 정책</a></li>
+                             <li><a href="/cnnet/board.do?mnu_cd=CNNMENU00118">누리집 개선의견</a></li>
+                             <li><a href="/cnnet/userGuide.do?mnu_cd=CNNMENU01031">RSS서비스안내</a></li>
+                             <li><a href="/cnnet/content.do?mnu_cd=CNNMENU01030">뷰어 내려받기</a></li>
+                             <li><a href="/cnnet/content.do?mnu_cd=CNNMENU00975">찾아오시는길</a></li>
+                             <li><a href="/cnnet/content.do?mnu_cd=CNNMENU02195">청사배치도</a></li>
+                           </ul>
+                           <span class="f_top_btn"><a href="#"><img src="http://www.chungnam.go.kr/images/common/2018/top_btn.png" alt="맨위로 이동"></a></span>
+                     </div>
+                     <!--// 하단 바로가기 끝 -->
+       
+                     <!-- 카피라이트 -->
+                     <div class="copy_cnlogo"><img src="http://www.chungnam.go.kr/images/common/2018/copy_logo.png" alt="충청남도로고"></div>
+                     <div class="f_copyright">
+                       <div class="address2018">
+                           <address><span class="add_txt">(32255) 충청남도 홍성군 홍북읍 충남대로 21 충청남도청  <span class="copy_tel">☎ 대표 전화 041-120</span>&nbsp; 대표 팩스 041-635-3000 </span></address>
+                           <div class="copy">copyright ⓒ 2018 THE PROVINCE OF CHUNGCHEONGNAM-DO. All Rights Reserved.</div>
+                       </div>
+                     </div>
+                     <!-- //카피라이트 -->
+              
+                     <!-- 웹접근성 마크 부분 시작 -->
+                        <dl class="trademark_warp">
+                           <dt>트레이드마크</dt>
+                         <dd>
+                           <span class="tm01">
+                               <a href="http://webwatch.or.kr/certification/situation.html" target="_blank" title="WA 품질인증 마크, 웹와치(WebWatch) 2022.05.07 ~ 2023.05.06">
+                                   <img src="http://www.chungnam.go.kr/images/common/2014/foot_mark_img01.png" alt="과학기술정보통신부 WA(WEB접근성) 품질인증 마크, 웹와치(WebWatch) 2022.05.07 ~ 2023.05.06">
+                               </a>
+                           </span>
+                       
+                           <span class="tm01">
+                               <a href="https://kicoa.or.kr/winner-history" target="_blank" title="새창으로 열림">
+                                   <img src="http://www.chungnam.go.kr/images/common/2014/foot_mark_img02.png" alt="iECO IECO AWARD 17 WINNER">
+                               </a>
+                           </span>
+                         </dd>
+                     </dl>
+                     <!-- //웹접근성 마크 부분 끝-->
+                </div>
+                <!-- 카피라이트 부분 전체 끝 -->
+            </div>
+        </div>
+        
+    </footer>
+    
+</body>
+</html>

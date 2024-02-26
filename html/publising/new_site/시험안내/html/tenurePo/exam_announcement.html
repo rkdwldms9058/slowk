@@ -1,0 +1,733 @@
+<!-- 시험공고 -->
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <meta name="referrer" content="always">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no,address=no,email=no">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+    <!-- No cache -->
+    <meta http-equiv="Expires" content="-1">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-Control" content="no-cache; no-store; no-save">
+    <meta property="og:title" content="충청남도 시험안내">
+    <title>충청남도 시험안내</title>
+
+
+    <link rel="stylesheet" href="../../css/sub.css">
+    <link rel="stylesheet" href="../../css/layout.css">
+    <link rel="stylesheet" href="../../css/base.css">
+    <link rel="stylesheet" href="../../css/components.css">
+    <link rel="stylesheet" href="../../css/board.css">
+
+    <script src="/script/libs/jquery/jquery-1.12.4.min.js"></script>
+    <script src="/script/libs/swiper/swiper-4.5.3.min.js"></script>
+    <script type="text/javascript" src="/html/publising/new_site/시험안내/script/load_sub.js"></script>
+</head>
+
+<body>
+    <header id="header"></header>
+
+    <script>
+        // 마우스 오버할때 다른 이미지 보이기
+        $("#header .nav .lnb ul.dap2 li.lnb_cont ul.dap3>li").hover(
+            function () { // mouseover
+                $(this).find('img').attr("src", "../../images/header/bottom_bnt_on.svg");
+                $(this).children('a').css('border', '1px solid #0065E8');
+            },
+            function () { // mouseout
+                $(this).find('img').attr("src", "../../images/header/bottom_bnt_off.svg");
+                $(this).children('a').css('border', '1px solid #C6C6C6');
+            }
+        );
+    </script>
+
+
+    <section id="container" class="content">
+        <div class="inner">
+            <div class="wrap">
+                <div class="left">
+                    <div class="snb_wrap web">
+                        <div class="snb_tit">
+                            <div class="title">
+                                <h2 style="font-size: 23px;">임기제, 전문경력관, 개방형, 별정직</h2>
+                            </div>
+                        </div>
+                        <nav>
+                            <ul class="snb">
+                                <li>
+                                    <a href="../../html/generaljobPo/exam_announcement.html" class="on arrow">시험공고</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="cont_title mb30 wrap">
+                        <h2>시험공고</h2>
+                        <div class="float-r">
+                            <ul class="breadcrumb-list">
+                                <li class="home"><a href=""><span class="sr-only">홈으로</span></a></li>
+                                <li><a href="">
+                                        <span>임기제, 전문경력관, 개방형, 별정직</span>
+                                    </a>
+                                </li>
+                                <li><a href="">
+                                        <span>시험공고</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <form name="frm" action="/cnnet/board.do?mnu_cd=CNNMENU00396" method="post" class="bd_search">
+				
+                        <input type="hidden" name="field01" id="field01" value="02">
+                    
+                    
+                    <div class="boardHead">
+                        <div class="lSec">
+                            <p class="totalpage">전체<strong>632</strong>개, 현재<strong>1</strong>/전체<strong>64</strong>페이지</p>
+                        </div>
+                        <div class="rSec">
+                        <fieldset>
+                        <legend>검색영역</legend>
+                        <div class="search"><label for="searchCnd_" class="labHide">검색항목 선택</label>
+                            
+                            
+                            
+                            
+                            <select name="searchCnd" id="searchCnd_" title="검색조건 선택란">
+                                <option value="0" selected="selected">전체</option>
+                                
+                                
+                                
+                                    <option value="1">제목</option>
+                                    <option value="2">내용</option>		
+                                    <option value="3">작성자</option>
+                                
+                                
+                                    
+                            </select>
+                            
+                            <span class="item"><input type="text" id="searchWrd" name="searchWrd" value="" class="iText" placeholder="검색어를 입력하세요" title="검색어를 입력하세요"></span>
+                            <span class="btnwhite large"><button type="submit" title="검색">검색</button></span>
+                        </div>
+                        </fieldset>
+                        </div>
+                    </div>
+                    <table id="count" class="new_tbl_board">
+                        <caption>
+                        시험공고에서는 번호, 제목, 담당부서, 작성일,
+                        첨부, 조회 등의 정보를 제공합니다. "
+                        </caption>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                            <colgroup>
+                                <col style="width:7%;" class="tb_number"> 
+                                <col style="width:auto;">
+                                <col style="width:20%;">
+                                <col style="width:13%;" class="tb_writer"> 
+                                <col style="width:7%;" class="tb_date">
+                                <col style="width:7%;" class="tb_count">
+                            </colgroup>					
+                        
+                                            
+                        <thead>
+                        <tr>
+                            <th scope="col" class="tb_number">번호</th>
+                            
+                            
+                            
+                            <th scope="col">제목</th>
+                            <th scope="col">담당부서</th>
+                            
+                            <th scope="col" class="tb_writer">작성일</th>
+                            <th scope="col" class="tb_date">첨부</th>				
+                            
+                            <th scope="col" class="end tb_count">조회</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        
+                            <tr> 
+                                <td class="tb_number">632</td>
+                                    
+                                    
+                                
+                                
+                                
+                                
+                                 
+                                
+                                
+                                
+                                    <td class="title_comm"><a href="/cnnet/board.do?mnu_url=/cnbbs/view.do?board_seq=418747&amp;mnu_cd=CNNMENU00396&amp;searchCnd=0&amp;field01=02&amp;pageNo=1&amp;pageGNo=0&amp;showSplitNo=10&amp;code=61">
+                                    
+                                    <img src="http://www.chungnam.go.kr/images/cnportal/07mypage/icon_hot.gif" alt="hot">&nbsp;
+                                    
+                                    2022년도 제9회 임기제공무원(도정신문 기획 및 관리 분야) 임용시험 시행계획 공고</a></td>
+                                
+                                 
+                                
+                                
+                                
+                                <td>인사과</td>
+                                
+                                
+                                
+                                <td class="tb_writer">2022-10-21</td>
+                                
+                                
+                                
+                                
+                                <td class="tb_date"><span class="file">파일이미지</span></td>
+                                    
+                                    <td class="end tb_count">316</td>
+                            </tr>
+                        
+                            <tr> 
+                                <td class="tb_number">631</td>
+                                    
+                                    
+                                
+                                
+                                
+                                
+                                 
+                                
+                                
+                                
+                                    <td class="title_comm"><a href="/cnnet/board.do?mnu_url=/cnbbs/view.do?board_seq=418527&amp;mnu_cd=CNNMENU00396&amp;searchCnd=0&amp;field01=02&amp;pageNo=1&amp;pageGNo=0&amp;showSplitNo=10&amp;code=61">
+                                    
+                                    &nbsp;
+                                    
+                                    2022년도 충청남도중앙협력본부(개방형직위) 선발시험 최종합격자 결정 및 임용후보자 등록요령 공고</a></td>
+                                
+                                 
+                                
+                                
+                                
+                                <td>인사과</td>
+                                
+                                
+                                
+                                <td class="tb_writer">2022-10-18</td>
+                                
+                                
+                                
+                                
+                                <td class="tb_date"><span class="file">파일이미지</span></td>
+                                    
+                                    <td class="end tb_count">118</td>
+                            </tr>
+                        
+                            <tr> 
+                                <td class="tb_number">630</td>
+                                    
+                                    
+                                
+                                
+                                
+                                
+                                 
+                                
+                                
+                                
+                                    <td class="title_comm"><a href="/cnnet/board.do?mnu_url=/cnbbs/view.do?board_seq=418135&amp;mnu_cd=CNNMENU00396&amp;searchCnd=0&amp;field01=02&amp;pageNo=1&amp;pageGNo=0&amp;showSplitNo=10&amp;code=61">
+                                    
+                                    <img src="http://www.chungnam.go.kr/images/cnportal/07mypage/icon_hot.gif" alt="hot">&nbsp;
+                                    
+                                    2022년도 제8회 임기제공무원(안전관리 분야) 임용시험 시행계획 공고</a></td>
+                                
+                                 
+                                
+                                
+                                
+                                <td>인사과</td>
+                                
+                                
+                                
+                                <td class="tb_writer">2022-10-14</td>
+                                
+                                
+                                
+                                
+                                <td class="tb_date"><span class="file">파일이미지</span></td>
+                                    
+                                    <td class="end tb_count">230</td>
+                            </tr>
+                        
+                            <tr> 
+                                <td class="tb_number">629</td>
+                                    
+                                    
+                                
+                                
+                                
+                                
+                                 
+                                
+                                
+                                
+                                    <td class="title_comm"><a href="/cnnet/board.do?mnu_url=/cnbbs/view.do?board_seq=417746&amp;mnu_cd=CNNMENU00396&amp;searchCnd=0&amp;field01=02&amp;pageNo=1&amp;pageGNo=0&amp;showSplitNo=10&amp;code=61">
+                                    
+                                    &nbsp;
+                                    
+                                    2022년도 충청남도 제1회 개방형직위(중앙협력본부장) 재공고 선발시험 대상자 결정 및 선발시험 시행계획 공고</a></td>
+                                
+                                 
+                                
+                                
+                                
+                                <td>인사과</td>
+                                
+                                
+                                
+                                <td class="tb_writer">2022-10-11</td>
+                                
+                                
+                                
+                                
+                                <td class="tb_date"><span class="file">파일이미지</span></td>
+                                    
+                                    <td class="end tb_count">153</td>
+                            </tr>
+                        
+                            <tr> 
+                                <td class="tb_number">628</td>
+                                    
+                                    
+                                
+                                
+                                
+                                
+                                 
+                                
+                                
+                                
+                                    <td class="title_comm"><a href="/cnnet/board.do?mnu_url=/cnbbs/view.do?board_seq=415509&amp;mnu_cd=CNNMENU00396&amp;searchCnd=0&amp;field01=02&amp;pageNo=1&amp;pageGNo=0&amp;showSplitNo=10&amp;code=61">
+                                    
+                                    &nbsp;
+                                    
+                                    2022년도 제1회 충청남도 개방형직위(중앙협력본부장) 임용시험 시행계획 재공고</a></td>
+                                
+                                 
+                                
+                                
+                                
+                                <td>인사과</td>
+                                
+                                
+                                
+                                <td class="tb_writer">2022-09-13</td>
+                                
+                                
+                                
+                                
+                                <td class="tb_date"><span class="file">파일이미지</span></td>
+                                    
+                                    <td class="end tb_count">268</td>
+                            </tr>
+                        
+                            <tr> 
+                                <td class="tb_number">627</td>
+                                    
+                                    
+                                
+                                
+                                
+                                
+                                 
+                                
+                                
+                                
+                                    <td class="title_comm"><a href="/cnnet/board.do?mnu_url=/cnbbs/view.do?board_seq=414427&amp;mnu_cd=CNNMENU00396&amp;searchCnd=0&amp;field01=02&amp;pageNo=1&amp;pageGNo=0&amp;showSplitNo=10&amp;code=61">
+                                    
+                                    &nbsp;
+                                    
+                                    2022년도 제7회 충청남도 임기제공무원(재공고) 임용시험 최종합격자 결정 및 임용후보자 등록요령 공고</a></td>
+                                
+                                 
+                                
+                                
+                                
+                                <td>인사과</td>
+                                
+                                
+                                
+                                <td class="tb_writer">2022-08-30</td>
+                                
+                                
+                                
+                                
+                                <td class="tb_date"><span class="file">파일이미지</span></td>
+                                    
+                                    <td class="end tb_count">371</td>
+                            </tr>
+                        
+                            <tr> 
+                                <td class="tb_number">626</td>
+                                    
+                                    
+                                
+                                
+                                
+                                
+                                 
+                                
+                                
+                                
+                                    <td class="title_comm"><a href="/cnnet/board.do?mnu_url=/cnbbs/view.do?board_seq=414129&amp;mnu_cd=CNNMENU00396&amp;searchCnd=0&amp;field01=02&amp;pageNo=1&amp;pageGNo=0&amp;showSplitNo=10&amp;code=61">
+                                    
+                                    &nbsp;
+                                    
+                                    2022년도 충청남도감사위원장(개방형직위) 선발시험 최종합격자 결정 및 임용후보자 등록요령 공고</a></td>
+                                
+                                 
+                                
+                                
+                                
+                                <td>인사과</td>
+                                
+                                
+                                
+                                <td class="tb_writer">2022-08-26</td>
+                                
+                                
+                                
+                                
+                                <td class="tb_date"><span class="file">파일이미지</span></td>
+                                    
+                                    <td class="end tb_count">231</td>
+                            </tr>
+                        
+                            <tr> 
+                                <td class="tb_number">625</td>
+                                    
+                                    
+                                
+                                
+                                
+                                
+                                 
+                                
+                                
+                                
+                                    <td class="title_comm"><a href="/cnnet/board.do?mnu_url=/cnbbs/view.do?board_seq=413398&amp;mnu_cd=CNNMENU00396&amp;searchCnd=0&amp;field01=02&amp;pageNo=1&amp;pageGNo=0&amp;showSplitNo=10&amp;code=61">
+                                    
+                                    &nbsp;
+                                    
+                                    2022년도 제7회 충청남도 임기제공무원(재공고) 임용시험 서류전형 합격자 결정 및 면접시험 시행계획 공고</a></td>
+                                
+                                 
+                                
+                                
+                                
+                                <td>인사과</td>
+                                
+                                
+                                
+                                <td class="tb_writer">2022-08-19</td>
+                                
+                                
+                                
+                                
+                                <td class="tb_date"><span class="file">파일이미지</span></td>
+                                    
+                                    <td class="end tb_count">561</td>
+                            </tr>
+                        
+                            <tr> 
+                                <td class="tb_number">624</td>
+                                    
+                                    
+                                
+                                
+                                
+                                
+                                 
+                                
+                                
+                                
+                                    <td class="title_comm"><a href="/cnnet/board.do?mnu_url=/cnbbs/view.do?board_seq=413332&amp;mnu_cd=CNNMENU00396&amp;searchCnd=0&amp;field01=02&amp;pageNo=1&amp;pageGNo=0&amp;showSplitNo=10&amp;code=61">
+                                    
+                                    &nbsp;
+                                    
+                                    2022년도 충청남도보건환경연구원장(개방형직위) 선발시험 최종합격자 결정 및 임용후보자 등록요령 공고</a></td>
+                                
+                                 
+                                
+                                
+                                
+                                <td>인사과</td>
+                                
+                                
+                                
+                                <td class="tb_writer">2022-08-18</td>
+                                
+                                
+                                
+                                
+                                <td class="tb_date"><span class="file">파일이미지</span></td>
+                                    
+                                    <td class="end tb_count">189</td>
+                            </tr>
+                        
+                            <tr> 
+                                <td class="tb_number">623</td>
+                                    
+                                    
+                                
+                                
+                                
+                                
+                                 
+                                
+                                
+                                
+                                    <td class="title_comm"><a href="/cnnet/board.do?mnu_url=/cnbbs/view.do?board_seq=412960&amp;mnu_cd=CNNMENU00396&amp;searchCnd=0&amp;field01=02&amp;pageNo=1&amp;pageGNo=0&amp;showSplitNo=10&amp;code=61">
+                                    
+                                    &nbsp;
+                                    
+                                    2022년도 충청남도 개방형직위(감사위원회 위원장) 선발시험 대상자 결정 및 선발시험 시행계획 공고</a></td>
+                                
+                                 
+                                
+                                
+                                
+                                <td>인사과</td>
+                                
+                                
+                                
+                                <td class="tb_writer">2022-08-12</td>
+                                
+                                
+                                
+                                
+                                <td class="tb_date"><span class="file">파일이미지</span></td>
+                                    
+                                    <td class="end tb_count">390</td>
+                            </tr>
+                        
+                        </tbody>
+                    </table>
+                    <div class="boardFoot">
+                        <div class="lSec">
+                            <fieldset>
+                                <legend>출력 게시물 수 설정영역</legend>
+                                <div class="search"><label for="showSplitNo" class="labHide">게시물 출력수 선택</label>
+                                    <select class="showSplitNo" name="showSplitNo" id="showSplitNo" title="출력 게시물 수 설정란">
+                                        <option value="10" selected="selected">10개 출력</option>
+                                        <option value="15">15개 출력</option>
+                                        <option value="20">20개 출력</option>
+                                        <option value="30">30개 출력</option>
+                                    </select> 
+                                    <span class="btnwhite large"><button type="submit" title="확인">확인</button> </span>
+                                </div>
+                            </fieldset>					
+                        </div> 
+                        <div class="rSec"><!--  -->
+                        <!--  -->
+                        <!--  -->
+                        
+                        <span class="btnwhite large"><a href="/cnnet/board.do?mnu_cd=CNNMENU00396">전체목록</a></span>
+                        
+                        
+                                            
+                        </div>					
+                    </div>
+                    <div class="boardFootPage">
+                    <div class="pagination">
+                        
+    
+    
+        
+        
+            
+                
+                
+                    
+                    
+                        <a href="/cnnet//board.do?pageNo=1&amp;pageGNo=0&amp;showSplitNo=10&amp;mnu_cd=CNNMENU00396&amp;searchCnd=0&amp;field01=02" title="처음 페이지 이동"><span class="arrow pagefirst">처음 페이지 이동</span></a>
+                    
+                
+            
+            
+                <span class="arrow pageprev">이전 10페이지 이동</span>
+                
+            
+            
+                
+                    
+                        
+                            
+                            
+                            <a href="/cnnet/board.do?pageNo=1&amp;pageGNo=0&amp;showSplitNo=10&amp;mnu_cd=CNNMENU00396&amp;searchCnd=0&amp;field01=02"><strong title="현재페이지">1</strong></a>
+                            
+                        
+                        
+                    
+                    
+                
+            
+                
+                    
+                        
+                            
+                            
+                            <a href="/cnnet/board.do?pageNo=2&amp;pageGNo=0&amp;showSplitNo=10&amp;mnu_cd=CNNMENU00396&amp;searchCnd=0&amp;field01=02" class="pagenum">2</a>
+                            
+                        
+                        
+                    
+                    
+                
+            
+                
+                    
+                        
+                            
+                            
+                            <a href="/cnnet/board.do?pageNo=3&amp;pageGNo=0&amp;showSplitNo=10&amp;mnu_cd=CNNMENU00396&amp;searchCnd=0&amp;field01=02" class="pagenum">3</a>
+                            
+                        
+                        
+                    
+                    
+                
+            
+                
+                    
+                        
+                            
+                            
+                            <a href="/cnnet/board.do?pageNo=4&amp;pageGNo=0&amp;showSplitNo=10&amp;mnu_cd=CNNMENU00396&amp;searchCnd=0&amp;field01=02" class="pagenum">4</a>
+                            
+                        
+                        
+                    
+                    
+                
+            
+                
+                    
+                        
+                            
+                            
+                            <a href="/cnnet/board.do?pageNo=5&amp;pageGNo=0&amp;showSplitNo=10&amp;mnu_cd=CNNMENU00396&amp;searchCnd=0&amp;field01=02" class="pagenum">5</a>
+                            
+                        
+                        
+                    
+                    
+                
+            
+                
+                    
+                        
+                            
+                            
+                            <a href="/cnnet/board.do?pageNo=6&amp;pageGNo=0&amp;showSplitNo=10&amp;mnu_cd=CNNMENU00396&amp;searchCnd=0&amp;field01=02" class="pagenum">6</a>
+                            
+                        
+                        
+                    
+                    
+                
+            
+                
+                    
+                        
+                            
+                            
+                            <a href="/cnnet/board.do?pageNo=7&amp;pageGNo=0&amp;showSplitNo=10&amp;mnu_cd=CNNMENU00396&amp;searchCnd=0&amp;field01=02" class="pagenum">7</a>
+                            
+                        
+                        
+                    
+                    
+                
+            
+                
+                    
+                        
+                            
+                            
+                            <a href="/cnnet/board.do?pageNo=8&amp;pageGNo=0&amp;showSplitNo=10&amp;mnu_cd=CNNMENU00396&amp;searchCnd=0&amp;field01=02" class="pagenum">8</a>
+                            
+                        
+                        
+                    
+                    
+                
+            
+                
+                    
+                        
+                            
+                            
+                            <a href="/cnnet/board.do?pageNo=9&amp;pageGNo=0&amp;showSplitNo=10&amp;mnu_cd=CNNMENU00396&amp;searchCnd=0&amp;field01=02" class="pagenum">9</a>
+                            
+                        
+                        
+                    
+                    
+                
+            
+                
+                    
+                        
+                            
+                            
+                            <a href="/cnnet/board.do?pageNo=10&amp;pageGNo=0&amp;showSplitNo=10&amp;mnu_cd=CNNMENU00396&amp;searchCnd=0&amp;field01=02" class="pagenum">10</a>
+                            
+                        
+                        
+                    
+                    
+                
+            
+            
+                
+                
+                    
+                    
+                        <a href="/cnnet//board.do?pageNo=11&amp;pageGNo=1&amp;showSplitNo=10&amp;mnu_cd=CNNMENU00396&amp;searchCnd=0&amp;field01=02" title="다음 10페이지 이동"><span class="arrow pagenext">다음 10페이지 이동2</span></a>
+                    
+                
+            
+            
+                
+                
+                    
+                    
+                        <a href="/cnnet//board.do?pageNo=64&amp;pageGNo=6&amp;showSplitNo=10&amp;mnu_cd=CNNMENU00396&amp;searchCnd=0&amp;field01=02" title="마지막 페이지 이동"><span class="arrow pageend">마지막 페이지 이동</span></a>
+                    
+                
+            
+        
+    
+    
+                    </div>
+                    </div>
+                
+                                
+                </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer_warp"></footer>
+
+</body>
+
+</html>

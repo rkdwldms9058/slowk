@@ -1,0 +1,881 @@
+@charset "utf-8";
+
+/** 보편적인 디스플레이 사이즈 규격 ------> 320px - 모바일, 768px - 태블릿pc, 1024px - 데스크 탑 **/
+
+
+/* Skip Navi */
+#skiptoContent a.accessibility01{display:block;position:absolute;top:-10000px;left:0;width:100%;font-size:1.3em;text-align:center}
+#skiptoContent a.accessibility01:hover, #skiptoContent a.accessibility01:focus, #skiptoContent a.accessibility01:active
+{display:block; position:absolute; top:0; left:0; width:100%; padding:13px 0;background:#0d3200;font-weight:bold;color:#fff;  z-index:9999999999;}
+.accessibility02{display:block;position:absolute;top:4px;left:0;width:70px}
+.accessibility02 a{display:block;overflow:hidden;height:18px;background: url(/images/common/2014/accessibility02off.gif) no-repeat;font-size:0;line-height:0}
+.accessibility02 a:hover,.accessibility02 a:active,.accessibility02 a:focus{display:block;overflow:hidden;height:18px;background: url(/images/common/2014/accessibility02.gif) no-repeat;font-size:0;line-height:0}
+
+
+
+
+/* 공통레이아웃 */
+.new_layout_area{ position:relative; width:1170px; height:auto; margin:0 auto;} 
+
+
+#wrap{ width:100%;}  
+
+/* 하단 아이폰 위젯 추가 css */
+.footer_sjobs{margin-bottom:53px;}
+.foot_btn_ipo{position:fixed; background:#efefef; border:1px solid #d3d3d3; width:100%; bottom:0; z-index:100000; height:53px;}
+.foot_btn_ipo ul li{float:left; width:25%; height:23px;}
+.foot_btn_ipo li a{display:block;  height:23px; font-size:0;  width:27px; margin:0 auto; padding:15px 0;}
+.foot_btn_ipo .foot_btnip_home{ background:url(/images/common/foot_btn_home.png) no-repeat center; }
+.foot_btn_ipo .foot_btnip_prev{ background:url(/images/common/foot_btn_prev.png) no-repeat center;}
+.foot_btn_ipo .foot_btnip_prev_off{ background:url(/images/common/foot_btn_prev_off.png) no-repeat center;}
+.foot_btn_ipo .foot_btnip_next{ background:url(/images/common/foot_btn_next.png) no-repeat center;}
+.foot_btn_ipo .foot_btnip_next_off{ background:url(/images/common/foot_btn_next_off.png) no-repeat center;}
+.foot_btn_ipo .foot_btnip_reset{ background:url(/images/common/foot_btn_reset.png) no-repeat center;}
+/* //하단 아이폰 위젯 추가 css */
+
+
+
+/******************************* common style *******************************/
+/* header */
+#cnmain_header{width:100%; height:183px; position:relative;}
+
+		/* top_menu */
+		.top_menu {background:#eeeeee; height:28px; width:100%; font-size:13px;}
+		.tm_sitegroup {float:left;}
+		.tm_sitegroup ul > li {float:left; line-height:28px; color:#4e4e4e; background:url(/images/main/header/topmenu_bar.png) no-repeat center right; margin-right:12px; padding-right:12px;}
+		.tm_sitegroup ul > li:last-child {float:left; line-height:28px; color:#4e4e4e; background:none; margin-right:12px; padding-right:12px;}
+
+		.tm_logingroup {float:right;}
+		.tm_logingroup ul > li {float:left; position:relative; line-height:28px; color:#4e4e4e; background:url(/images/main/header/topmenu_bar.png) no-repeat center right; margin-right:12px; padding-right:12px;}
+		.tm_logingroup ul > li:last-child {float:left; line-height:28px; color:#4e4e4e; background:none; margin-right:0; padding-right:0;}
+		.tm_logingroup ul > li.language > button {background:#eeeeee url(/images/main/header/language_ic.png) no-repeat center right; border:none; padding-right:18px; font-size:12px; font-family:Tahoma, Geneva, sans-serif; letter-spacing:1px;}
+		.tm_logingroup ul > li.language > .language_list {position:absolute; top:27px; right:0; z-index:100;}
+		.tm_logingroup ul > li.language > .language_list > ul {border:1px solid #d5d5d5; margin:0; padding:0 18px; overflow:auto; max-height:110px; background:#fff;}
+		.tm_logingroup ul > li.language > .language_list > ul > li {float:left; background:none; margin:0; padding:0; width:100%; border-bottom:1px solid #eee; font-family:Tahoma, Geneva, sans-serif; font-size:12px; color:#4e4e4e; letter-spacing:1px;}
+		.tm_logingroup ul > li.language > .language_list > ul > li > a:hover {background:none; border-bottom:none; margin:0; padding:0; width:100%; font-family:Tahoma, Geneva, sans-serif; font-size:12px; color:#3d8100; letter-spacing:1px;}
+
+		/* //top_menu */
+
+		.topmid_area {padding:23px 0 0 0;}
+		/* 상단 충남로고 */
+		h1.cn_logo {float:left; width:166px;}
+		h1.cn_logo a {display:block;} /* padding-top:10px;*/
+		/* //상단 충남로고 */
+
+		/* 검색영역 전체 */
+		.search_wrap  {float:left; width:490px; margin:0 0 0 100px;}
+		.recommend_word {float:left; width:490px; margin:10px 0;}
+		span.recom_wtit {float:left; font-weight:600; font-size:13px; color:#444; background:url(/images/common/2018/recom_bar.png) no-repeat center right; padding:0 17px 0 23px; margin-right:17px;}
+		.recommend_word ul li {float:left; margin-right:15px;  }
+		.recommend_word ul li a {display:inline-block;}
+
+
+		.total_search_warp{float:left; width:600px; padding:5px 6px; background:#fff; border:1px solid #aaa893; border-radius: 0px; margin-bottom: 5px; margin-top:35px;}
+		.total_search_warp * {margin:0;padding:0; border:0;vertical-align:top;}
+		.total_search_warp > legend{ display:none;}
+		.total_search_warp .search_box_hid {float:left;overflow:hidden;}
+		.total_search_warp #findSelect {font-size:14px; width:85px; height:30px; margin:4px 10px 4px 20px; letter-spacing:1px; color:#aaa893; font-weight:600;}
+		/*20180622 추가*/
+		.total_search_warp #findWordipt { float:left; width:57%; height:30px; padding:2px 0 1px 0;margin:2px 0 0 2px;}
+		/*//20180622 추가*/
+		.total_search_warp button {cursor:pointer; background:none; border-radius:0px; width:70px; height:38px; float:right; margin-right:-1px; font-weight:600; color:#fff; text-align:center; letter-spacing:3px; text-indent:3px; background: #aaa893; font-size: 14px;}
+		/* //검색영역 전체 */
+        @media screen and (max-width: 640px){
+            .total_search_warp{width:100%;}
+        }
+		@media screen and (max-width: 420px){
+		    .total_search_warp #findSelect{margin:4px 0px 4px 15px;}
+		    /* .total_search_warp .search_box_hid{width:120px;} */
+			/*.total_search_warp #findSelect{width:93px; margin:4px 9px 4px 8px;}
+		    .total_search_warp .search_box_hid{width:100px;}*/
+		}
+		
+
+
+		/* 상단날씨 */
+		.top_weather_warp {float:right; width:180px;}
+		.weather_left {width:60px; text-align:center; float:left;}
+		.weather_left p {width:54px; text-align:center; font-size:11px;}
+		.weather_left p:first-child {padding:15px 0 0 0}
+		.weather_right {width:110px; float:right;  font-weight:600;}
+		.weather_right p.temper {font-size:18px; color:#333; margin-top:8px;display:inline-block}
+		.weather_right p.parti_matter {font-size:12px; color:#555555; margin-top:12px;display:inline-block}
+		.weather_right p.fine_parti_matter {font-size:12px; color:#555555; margin-top:2px;display:inline-block}
+		/* //상단날씨 */
+
+
+
+		/* 대메뉴전체 -- 메뉴네이밍은 변경못함 자바스크립트랑 연결되어있음*/
+		.nav_mobile{ display:none; position:absolute; top:17%;}
+		.nav_mobile > a{ display:block; padding:11px 13px; width:47px; height:40px; background:url(//www.chungnam.go.kr/images/main/header/icon_total_mn.png) no-repeat center center;}
+		.nav_mobile > a > span{ display:none;}
+
+		/* 대메뉴 */
+		.lnb{position:absolute; float:left; height:47px; border-bottom:2px solid #A8A793; margin-top:10px;}
+
+		#mNavi {height:47px; position:absolute; top:0; left:-10px;}
+        #mNavi ul{width: 1170px;}
+		#mNavi li{float:left}
+		#mNavi li a{display:block; height:47px;} 
+		#mNavi li > a{float:left; height:45px; line-height:45px; font-weight:600; display:inline-block; font-size:16px; color:#222222; }
+
+		#mNavi li.mNavi01 {background:url(/images/main/header/lnb_line.png) no-repeat center right;}
+		#mNavi li.mNavi01 > a{width:162px; color:#222222; text-align:center;}
+
+		#mNavi li.mNavi02 {background:url(/images/main/header/lnb_line.png) no-repeat center right;}
+		#mNavi li.mNavi02 > a{width:136px; color:#222222; text-align:center;}
+
+		#mNavi li.mNavi03 {background:url(/images/main/header/lnb_line.png) no-repeat center right;}
+		#mNavi li.mNavi03 > a{width:131px; color:#222222; text-align:center;} 
+
+		#mNavi li.mNavi04 {background:url(/images/main/header/lnb_line.png) no-repeat center right;}
+		#mNavi li.mNavi04 > a{width:133px; color:#222222; text-align:center;}
+
+		#mNavi li.mNavi05 {background:url(/images/main/header/lnb_line.png) no-repeat center right;}
+		#mNavi li.mNavi05 > a{width:133px; color:#222222; text-align:center;}
+
+		#mNavi li.mNavi06 {background:url(/images/main/header/lnb_line.png) no-repeat center right;}
+		#mNavi li.mNavi06 > a{width:133px; color:#222222; text-align:center;}
+
+		#mNavi li.mNavi07 {background:none;}
+		#mNavi li.mNavi07 > a{width:164px; color:#222222; text-align:center; background:none;}
+
+		#mNavi li.mNavi01 > a.on,#mNavi li.mNavi01 > a:hover,#mNavi li.mNavi01 > a:active,#mNavi li.mNavi01 > a:focus{color:#2b880a; background:url(/images/common/2018/lnb_bottom_arrow.png) no-repeat bottom center;}
+		#mNavi li.mNavi02 > a.on,#mNavi li.mNavi02 > a:hover,#mNavi li.mNavi02 > a:active,#mNavi li.mNavi02 > a:focus{color:#2b880a; background:url(/images/common/2018/lnb_bottom_arrow.png) no-repeat bottom center;}
+		#mNavi li.mNavi03 > a.on,#mNavi li.mNavi03 > a:hover,#mNavi li.mNavi03 > a:active,#mNavi li.mNavi03 > a:focus{color:#2b880a; background:url(/images/common/2018/lnb_bottom_arrow.png) no-repeat bottom center;}
+		#mNavi li.mNavi04 > a.on,#mNavi li.mNavi04 > a:hover,#mNavi li.mNavi04 > a:active,#mNavi li.mNavi04 > a:focus{color:#2b880a; background:url(/images/common/2018/lnb_bottom_arrow.png) no-repeat bottom center;}
+		#mNavi li.mNavi05 > a.on,#mNavi li.mNavi05 > a:hover,#mNavi li.mNavi05 > a:active,#mNavi li.mNavi05 > a:focus{color:#2b880a; background:url(/images/common/2018/lnb_bottom_arrow.png) no-repeat bottom center;}
+		#mNavi li.mNavi06 > a.on,#mNavi li.mNavi06 > a:hover,#mNavi li.mNavi06 > a:active,#mNavi li.mNavi06 > a:focus{color:#2b880a; background:url(/images/common/2018/lnb_bottom_arrow.png) no-repeat bottom center;}
+		#mNavi li.mNavi07 > a.on,#mNavi li.mNavi07 > a:hover,#mNavi li.mNavi07 > a:active,#mNavi li.mNavi07 > a:focus{color:#2b880a; background:url(/images/common/2018/lnb_bottom_arrow.png) no-repeat bottom center;}
+		/* //대메뉴 */
+
+		/* 드롭다운 전체 bg*/
+		#mNavi li.mNavi01 > div.nvbx_01{z-index:1000; position:absolute; left:10px; top:45px; width:1170px; border-top:2px solid #6eb92b; background:#f9f9f9; border-bottom:1px solid #bebebe;}
+		#mNavi li.mNavi02 > div.nvbx_01{z-index:1000; position:absolute; left:10px; top:45px; width:1170px; border-top:2px solid #6eb92b; background:#f9f9f9; border-bottom:1px solid #bebebe;}
+		#mNavi li.mNavi03 > div.nvbx_01{z-index:1000; position:absolute; left:10px; top:45px; width:1170px; border-top:2px solid #6eb92b; background:#f9f9f9; border-bottom:1px solid #bebebe;}
+		#mNavi li.mNavi04 > div.nvbx_01{z-index:1000; position:absolute; left:10px; top:45px; width:1170px; border-top:2px solid #6eb92b; background:#f9f9f9; border-bottom:1px solid #bebebe;}
+		#mNavi li.mNavi05 > div.nvbx_01{z-index:1000; position:absolute; left:10px; top:45px; width:1170px; border-top:2px solid #6eb92b; background:#f9f9f9; border-bottom:1px solid #bebebe;}
+		#mNavi li.mNavi06 > div.nvbx_01{z-index:1000; position:absolute; left:10px; top:45px; width:1170px; border-top:2px solid #6eb92b; background:#f9f9f9; border-bottom:1px solid #bebebe;}
+		#mNavi li.mNavi07 > div.nvbx_01{z-index:1000; position:absolute; left:10px; top:45px; width:1170px; border-top:2px solid #6eb92b; background:#f9f9f9; border-bottom:1px solid #bebebe;}
+		#mNavi li div.nvbx_02 {padding:20px 2% 0; width:96%;}
+		#mNavi li div.nvbx_03 {width:100%; vertical-align:top; float:left; margin-bottom:20px;}
+		/* //드롭다운 전체 bg */
+
+		/*2뎁스 전체*/
+		#mNavi ul li div.nvbx_03 > ul > li {padding:0; margin:0 11px; width:178px;}
+		#mNavi ul li div.nvbx_03 ul li a {margin:0; padding:0; height:30px; line-height:30px; font-weight:bold; color:#fff; font-size:13px;}
+		#mNavi ul li div.nvbx_03 ul li ul li a:hover,#mNavi ul li div.nvbx_03 ul li ul li a:active,#mNavi ul li div.nvbx_03 ul li ul li a:focus{color:#3d3d3d;font-weight:bold;}
+		#mNavi ul li div.nvbx_03 ul li span.icon_2d {
+		margin:0;
+		padding-left:10px;
+		height:30px;
+		line-height:30px;
+		font-size:13px;
+		border:1px solid #cccccc;
+		color:#469500;
+		background:#fff url(/images/common/2018/drop_1dep_ic.png) no-repeat 92% center;
+		width:180px;
+		text-align:left;
+		display: inline-block;
+		}
+		#mNavi ul li div.nvbx_03 ul li span.icon_2d:hover,#mNavi li ul li icon_2d:active,#mNavi li ul li icon_2d:focus{font-weight:bold; color:#234900;}
+		/*//2뎁스 전체*/
+
+		/*3뎁스*/
+		#mNavi ul li div.nvbx_03 ul li ul {float:left; position:relative; top:0; left:0; padding:15px 10px 10px 10px; width:190px; height:auto;}
+		#mNavi ul li div.nvbx_03 ul li ul li {width:100%; margin-bottom:8px; background:url(/images/common/2018/drop_menulist_ic.png) no-repeat left 5px; padding-left:10px;}
+		#mNavi ul li div.nvbx_03 ul li ul li a {height:auto; line-height:16px; color:#86846d; font-weight:normal; margin:0 0 2px 0;}
+		/*//3뎁스*/
+		/* //대메뉴전체 */
+
+
+		/* 모바일 메뉴 시작-- */
+		
+		#mNavi_t{width:960px;height:86px;display:none;}
+		#mNavi_t li{float:left}
+		#mNavi_t li a{display:block;height:90px;font-size:0;line-height:0} 
+		
+		#mNavi_t li > a{background:url(http://www.chungnam.net/images/common/2014/2013lnb_mnlist.png) no-repeat;}
+		#mNavi_t li.mNavi_t01 > a{width:110px;  margin-left:135px; background-position:0 5px}
+		#mNavi_t li.mNavi_t02 > a{width:90px; background-position:-111px 5px}
+		#mNavi_t li.mNavi_t03 > a{width:82px; background-position:-200px 5px} 
+		#mNavi_t li.mNavi_t04 > a{width:91px; background-position:-280px 5px}
+		#mNavi_t li.mNavi_t05 > a{width:83px; background-position:-375px 5px}
+		#mNavi_t li.mNavi_t06 > a{width:87px; background-position:-450px 5px}
+		#mNavi_t li.mNavi_t07 > a{width:120px; background-position:-540px 5px}
+		
+		#mNavi_t li.mNavi_t01 a.on,#mNavi_t li.mNavi_t01 a:hover,#mNavi_t li.mNavi_t01 a:active,#mNavi_t li.mNavi_t01 a:focus{background-position:0 -50px}
+		#mNavi_t li.mNavi_t02 a.on,#mNavi_t li.mNavi_t02 a:hover,#mNavi_t li.mNavi_t02 a:active,#mNavi_t li.mNavi_t02 a:focus{background-position:-111px -50px}
+		#mNavi_t li.mNavi_t03 a.on,#mNavi_t li.mNavi_t03 a:hover,#mNavi_t li.mNavi_t03 a:active,#mNavi_t li.mNavi_t03 a:focus{background-position:-200px -50px}
+		#mNavi_t li.mNavi_t04 a.on,#mNavi_t li.mNavi_t04 a:hover,#mNavi_t li.mNavi_t04 a:active,#mNavi_t li.mNavi_t04 a:focus{background-position:-280px -50px}
+		#mNavi_t li.mNavi_t05 a.on,#mNavi_t li.mNavi_t05 a:hover,#mNavi_t li.mNavi_t05 a:active,#mNavi_t li.mNavi_t05 a:focus{background-position:-375px -50px}
+		#mNavi_t li.mNavi_t06 a.on,#mNavi_t li.mNavi_t06 a:hover,#mNavi_t li.mNavi_t06 a:active,#mNavi_t li.mNavi_t06 a:focus{background-position:-450px -50px}
+		#mNavi_t li.mNavi_t07 a.on,#mNavi_t li.mNavi_t07 a:hover,#mNavi_t li.mNavi_t07 a:active,#mNavi_t li.mNavi_t07 a:focus{background-position:-540px -50px}
+		
+		#mNavi_t li.mNavi_t01 li a.on,#mNavi_t li.mNavi_t02 li a.on,#mNavi_t li.mNavi_t03 li a.on,#mNavi_t li.mNavi_t04 li a.on,#mNavi_t li.mNavi_t05 li a.on,#mNavi_t li.mNavi_t06 li a.on,#mNavi_t li.mNavi_t07 li a.on{color:#4d4d4d; font-weight:bold}
+		#mNavi_t li ul li a:hover,#mNavi_t li ul li a:active,#mNavi_t li ul li a:focus{color:#ffea00; font-weight:bold}
+		#mNavi_t li ul li ul li a:hover,#mNavi_t li ul li ul li a:active,#mNavi_t li ul li ul li a:focus{color:#3d3d3d;font-weight:bold;}
+		
+		
+		#mNavi_t li.mNavi_t01 > div.nvbx_01{ margin-left:-95px;}
+		#mNavi_t li.mNavi_t02 > div.nvbx_01{ margin-left:-205px;}
+		#mNavi_t li.mNavi_t03 > div.nvbx_01{margin-left:-295px;}
+		#mNavi_t li.mNavi_t04 > div.nvbx_01{ margin-left:-377px;}
+		#mNavi_t li.mNavi_t05 > div.nvbx_01{ margin-left:-468px;}
+		#mNavi_t li.mNavi_t06 > div.nvbx_01{margin-left:-551px;}
+		#mNavi_t li.mNavi_t07 > div.nvbx_01{ margin-left:-638px;}
+		
+		#mNavi_t li.mNavi_t04 li a,#mNavi_t li.mNavi_t05 li a,#mNavi_t li.mNavi_t06 li a,#mNavi_t li.mNavi_t07 li a{width:auto;padding:0 0 0 0;margin-left:0}
+		
+		#mNavi_t li.mNavi_t01 li a{width:auto;padding:0 13px;margin-left:0}
+		#mNavi_t li.mNavi_t02 li a{width:auto;padding:0 13px;margin-left:0}
+		#mNavi_t li.mNavi_t03 li a{width:auto;padding:0 13px;margin-left:0}
+		#mNavi_t li.mNavi_t04 li a{width:auto;padding:0 13px;margin-left:0}
+		#mNavi_t li.mNavi_t05 li a{width:auto;padding:0 13px;margin-left:0}
+		#mNavi_t li.mNavi_t06 li a{width:auto;padding:0 13px;margin-left:0}
+		#mNavi_t li.mNavi_t07 li a{width:auto;padding:0 13px;margin-left:0}
+		
+		
+		
+		#mNavi_t li div.nvbx_01 {display:block; position:absolute; overflow:hidden; border-left:1px solid #bebebe; border-right:1px solid #bebebe;  border-bottom:1px solid #bebebe;  border-top:1px solid #62870d; 
+								width:958px; min-height:200px;  background:#fff; top:90px;}
+		#mNavi_t li div.nvbx_02 {padding:17px 0 0 19px; width:939px; min-height:200px;}
+		#mNavi_t li div.nvbx_03 {margin:7px 0 7px 0;  width:920px; background:url(http://www.chungnam.net/images/common/2014/nv_2d_ul_bg_line.jpg) repeat-y 0 0;}
+		
+		#mNavi_t li li{padding:3px 0 0 0;margin:0; text-align:center; width:153px;}
+		#mNavi_t li li a{display:block;float:left; padding:0;margin:0;background:none; font-weight:normal; font-size:1em;line-height:1.5em;color:#4d4d4d;white-space:nowrap}
+		
+		#mNavi_t li ul { display:block;overflow:hidden; margin:0; width:920px; background:url(http://www.chungnam.net/images/common/2014/nv_2d_ul_bg.gif) repeat-x 0 0; }
+		#mNavi_t li ul li a {margin:0 0 0 0; padding:0 0 0 0; height:21px; line-height:1.0em; font-weight:bold; color:#fff; font-size:12px;}
+		#mNavi_t li ul li span.icon_2d {position:relative; top:5px; margin:0; padding:0 0 0 0; height:20px;}
+		#mNavi_t li ul li ul {margin:10px 0 0 0; padding:10px 0 20px 0; width:150px; background:none; min-height:20px; }
+		
+		#mNavi_t li div div ul li ul li a {height:21px; color:#86846d; font-weight:normal;}
+		#mNavi_t li div div ul li ul li {height:15px;}
+		
+			
+
+
+		/* 상단통합복지 배너 */
+		.gnb_banner_zone{display:inline-block; float:right;}
+		.gnb_banner_zone > a {float:left; position:absolute; right:15px; top:10px; background: #525252; padding: 4px 10px; color: white;}
+		/* //상단통합복지 배너 */
+
+		.gnb_mobile{ display:none;}
+/* //header */
+
+
+
+/* contents */
+#mContainer{ width:1050px; height:auto; margin:0 auto; padding:40px 0 0 0; border-top:5px solid #61870d; }
+#mContentsArea{ width:1050px; height:auto; margin:0 auto;}
+.mContainer{ width:810px;}
+
+
+/******************************* sub_layout style *******************************/
+#sContainer{ position:relative; width:1050px; margin:0 auto; min-height:500px; padding:40px 0; overflow:hidden; }
+.hidden02,#contents .hidden02{position:absolute; text-indent:-9999px; width:0;height:0;margin:0;padding:0;background:none;font-size:0;line-height:0}
+
+/* snb */
+.snb {position:relative; border-left:1px solid #dadada; border-right:1px solid #dadada; border-bottom:1px solid #dadada; border-top:4px solid #409229; border-radius:7px; float: left; letter-spacing: -1px; margin: 0 30px 0 0; width: 220px; box-sizing:border-box; padding-top:85px; overflow:hidden;}
+	
+.snb_01 {background: url("http://www.chungnam.net/images/cnportal/snb_bgbox_01.gif") no-repeat scroll left bottom; float: left; letter-spacing: -1px; margin: 0 20px 0 0; padding: 0 0 5px; width: 205px;}
+
+.snb_01 h2.sub07{background-image:url(/images/cnportal/navi/snb_title07_01.gif)}
+
+.snb h2 {position:absolute; left:15px; top:30px; font-size:26px; color:#444;}	
+.snb_01 h2 {background: rgba(0, 0, 0, 0) none no-repeat scroll left top; float: left; font-size: 0; height: 85px; line-height: 0; margin: 0; padding: 0; width: 205px;}
+.snb h2.sub01{width:115px;height:65px;background-image:url(http://www.chungnam.net/images/cnportal/navi/snb_title01.gif)}
+.snb h2.sub02{background-image:url(http://chungnam.go.kr/images/cnportal/navi/snb_title02.gif)}
+.snb h2.sub03{background-image:url(http://chungnam.go.kr/images/cnportal/navi/snb_title03.gif)}
+.snb h2.sub04{background-image:url(http://chungnam.go.kr/images/cnportal/navi/snb_title04.gif)}
+.snb h2.sub05{background-image:url(http://chungnam.go.kr/images/cnportal/navi/snb_title05.gif)}
+.snb h2.sub06{background-image:url(http://chungnam.go.kr/images/cnportal/navi/snb_title06.gif)}
+.snb h2.sub07{background-image:url(http://chungnam.go.kr/images/cnportal/navi/snb_title07.gif)}
+.snb h2.sub08{background-image:url(http://chungnam.go.kr/images/cnportal/navi/snb_title08.gif)}
+.snb h2.sub09{background-image:url(http://chungnam.go.kr/images/cnportal/navi/snb_title09.gif)}
+.snb h2.sub09_ORAMENU00000{background-image:url(http://chungnam.go.kr/images/cnportal/navi/snb_title09_04.gif)}
+.snb h2.sub09_ORBMENU00000{background-image:url(http://chungnam.go.kr/images/cnportal/navi/snb_title09_01.gif)}
+.snb h2.sub09_ORCMENU00000{background-image:url(http://chungnam.go.kr/images/cnportal/navi/snb_title09_03.gif)}
+.snb h2.sub09_ORPMENU00000{background-image:url(http://chungnam.go.kr/images/cnportal/navi/snb_title09_20.gif)}/* 공동체새마을정책관 */ 
+.snb h2.sub09_ORDMENU00000{background-image:url(http://chungnam.go.kr/images/cnportal/navi/snb_title09_05.gif)}
+.snb h2.sub09_OREMENU00000{background-image:url(http://chungnam.go.kr/images/cnportal/navi/snb_title09_06.gif)}
+.snb h2.sub09_ORFMENU00000{background-image:url(http://chungnam.go.kr/images/cnportal/navi/snb_title09_07.gif)}
+.snb h2.sub09_ORGMENU00000{background-image:url(http://chungnam.go.kr/images/cnportal/navi/snb_title09_08.gif)}
+.snb h2.sub09_ORHMENU00000{background-image:url(/images/cnportal/navi/snb_title09_09.gif)}
+.snb h2.sub09_ORIMENU00000{background-image:url(/images/cnportal/navi/snb_title09_10.gif)}
+.snb h2.sub09_ORJMENU00000{background-image:url(/images/cnportal/navi/snb_title09_11.gif)}
+.snb h2.sub09_ORKMENU00000{background-image:url(/images/cnportal/navi/snb_title09_12.gif)}
+.snb h2.sub09_ORLMENU00000{background-image:url(/images/cnportal/navi/snb_title09_13.gif)}
+.snb h2.sub09_ORMMENU00000{background-image:url(/images/cnportal/navi/snb_title09_16.gif)}
+.snb h2.sub09_OFHMENU00000{background-image:url(/images/cnportal/navi/snb_title09_15.gif)}
+.snb h2.sub09_ORNMENU00000{background-image:url(/images/cnportal/navi/snb_title09_17.gif)}
+.snb h2.sub09_OROMENU00000{background-image:url(/images/cnportal/navi/snb_title09_18.gif)}
+.snb h2.sub09_SEOMENU00000{background-image:url(/images/cnportal/navi/snb_title09_19.gif)}
+
+ 
+
+ul.vNav{float:left;margin:0;padding:0;	background:#fff}
+ul.vNav li{position:relative;width:218px;border-top:1px solid #e4e4e4;vertical-align:top}
+ul.vNav li a{display:block;position:relative;padding:15px 20px;color:#444;font-weight:600;font-size:15px;line-height:normal;text-decoration:none}
+ul.vNav li a:hover{ background:#ebf9dd; color:#000; -webkit-transition: all .3s ease; -moz-transition: all .3s ease; -ms-transition: all .3s ease; -o-transition: all .3s ease; transition: all .3s ease;}
+ul.vNav li a .i{position:absolute;top:0;right:0;margin:19px 20px 0 0; width:7px;height:8px;background:url(http://www.chungnam.net/images/common/2014/ico_snb.gif) no-repeat left top}
+ul.vNav li a:hover .i{position:absolute;top:0;right:0;margin:19px 20px 0 0; width:7px;height:8px; }
+
+ul.vNav li ul{padding:0 0 15px;border:0}
+ul.vNav li li{border:0;background:url(http://www.chungnam.net/images/common/2014/ico_snb_dotline.gif) repeat-y 30px top}
+ul.vNav li li a{padding:4px 10px 5px 40px;font-weight:normal;font-size:13px;line-height:16px;color:#555555;}
+ul.vNav li li a:hover{ background:none; text-decoration:underline;}
+ul.vNav li li a span{color:#222}
+ul.vNav li.on{border-top:1px solid #e4e4e4}
+ul.vNav li.on a{color:#3c8700}
+ul.vNav li.on a:hover{ background:none; }
+ul.vNav li.on a .i{background:url(http://www.chungnam.net/images/common/2014/ico_snb.gif) no-repeat left top; background-position:0 -8px;  }
+ul.vNav li.on a:hover .i{background:url(http://www.chungnam.net/images/common/2014/ico_snb.gif) no-repeat left top; background-position:0 -8px; }
+
+ul.vNav li.on li a{border:0}
+ul.vNav li.on ul{display:block;border-top:0}
+ul.vNav li li.on{border:0;background:url(http://www.chungnam.net/images/common/2014/ico_snb_block.gif) no-repeat 30px 1px;}
+ul.vNav li.on li.on a span{color:#639314;  font-weight:600;}
+
+ul.vNav_01{float:left;margin:0;padding:0;border-right:1px solid #dadada;border-left:1px solid #dadada;background:#fff}
+ul.vNav_01 li{position:relative;width:203px;border-top:1px solid #e4e4e4;vertical-align:top}
+ul.vNav_01 li a{display:block;position:relative;padding:15px 30px;color:#555555;font-weight:bold;font-size:1.167em;line-height:normal;text-decoration:none}
+ul.vNav_01 li a .i{position:absolute;top:0;right:0;margin:19px 20px 0 0;width:7px;height:8px;background:url(http://www.chungnam.net/images/common/2014/ico_snb.gif) no-repeat left top}
+ul.vNav_01 li ul{padding:0 0 15px;border:0}
+ul.vNav_01 li li{border:0;background:url(http://www.chungnam.net/images/common/2014/ico_snb_dotline.gif) repeat-y 40px top}
+ul.vNav_01 li li a{padding:4px 10px 3px 50px;font-weight:normal;font-size:12px;line-height:1.083em;color:#555555;letter-spacing:-1px}
+ul.vNav_01 li li a span{color:#555555}
+ul.vNav_01 li.on{border-top:1px solid #e4e4e4}
+ul.vNav_01 li.on a{color:#62870d}
+ul.vNav_01 li.on .i{background-position:0 -8px}
+ul.vNav_01 li.on li a{border:0}
+ul.vNav_01 li.on ul{display:block;border-top:0}
+ul.vNav_01 li li.on{border:0;background:url(http://www.chungnam.net/images/common/2014/ico_snb_block.gif) no-repeat 40px top}
+ul.vNav_01 li.on li.on a span{color:#639314}
+
+ul.CommvNav li{width:113px}
+ul.CommvNav li a{padding:10px 15px}
+ul.CommvNav li a .i{margin:13px 15px 0 0}
+ul.CommvNav li.first{border-top:0}
+ul.CommvNav li ul{padding:0 0 13px}
+ul.CommvNav li li{background:url(http://www.chungnam.net/images/common/2014/ico_snb_dotline.gif) repeat-y 20px top}
+ul.CommvNav li li a{padding:4px 10px 3px 30px}
+ul.CommvNav li li.on{background:url(http://www.chungnam.net/images/common/2014/ico_snb_block.gif) no-repeat 20px -1px}
+
+
+
+
+.content_area{ float:left; min-height:100%; width:800px;}
+.content_area_01{ float:left; min-height:100%; width:825px;}
+
+.spot{position:relative; overflow:hidden; width:100%;margin:0 0 30px; padding-bottom:15px; border-bottom:1px solid #dadada}
+		.spot.submain{height:30px;margin:-30px 0 0;border-bottom:0}
+		.spot.subComm{height:125px}
+		.spot.subCommArticle{height:30px;border-bottom:0}
+
+
+/* location */
+ul.location{float:right;margin:5px 30px 0 0;padding:0;font-weight:normal;line-height:normal;color:#9e9e9e;font-size:13px;}
+ul.location li{float:left;margin:0 5px 0 0;padding:0 10px 0 0;background:url(http://www.chungnam.net/images/common/2014/ico_arrow.gif) no-repeat right 2px;}
+ul.location li.nobg{margin:0;padding:0;background:none}
+ul.location li a{display:block;margin:0;padding:0;color:#9e9e9e;text-decoration:none}
+ul.location li a.home{width:12px;height:13px;margin:0;padding:0;background:url(http://www.chungnam.net/images/common/2014/ico_home.gif) no-repeat left 2px;font-size:0;line-height:0}
+/* h3 */
+.spot h3{float:left;margin:14px 0 0 0;padding:0;width:100%; font-size:28px; letter-spacing:-1px; color:#222;}
+.h3_desc{float:left;margin:15px 0 0 0;padding:0;width:100%;font-weight:normal;font-size:1em;line-height:1.25em;color:#555555}
+.spot.subComm h3{margin:44px 0 0 0;}
+
+/* browsctrl */
+.browsctrl{position:absolute;top:0;right:0;margin:0;padding:0}
+.browsctrl dt{position:absolute;visibility:hidden;width:0;height:0;margin:0;padding:0;background:none;font-size:0;line-height:0}
+.browsctrl dd{float:left; margin:0 0 0 4px;padding:0}
+.browsctrl dd a{float:left;width:22px;height:22px;background:url(http://www.chungnam.net/images/common/2014/browsctrl_list.gif) no-repeat;font-size:0;line-height:0}
+.browsctrl dd.browsctrl1 a{background-position:left top}
+.browsctrl dd.browsctrl2 a{background-position:-26px top}
+.browsctrl dd.browsctrl3 a{background-position:-52px top}
+.browsctrl dd.browsctrl1 a img{display:none}
+
+	#contents{position:relative;width:800px;min-height:100%;margin:0 0 0 0px; font-size:12px;}
+	#contents_01{position:relative;width:825px;min-height:100%;margin:0 0 0 0px; font-size:12px;}
+	#contents.submain{margin:0}	
+	#contents.contentComm{width:100%;margin:0}	
+	#contents.contentCommTS{width:580px;margin:0}
+
+
+
+/* 만족도 조사 */
+/* contentsFoot */
+.contentsFoot{clear:both;display:inline-block;position:relative;width:798px;margin:30px 0 20px;border:1px solid #dadada;color:#767676; font-size:12px;}
+.contentsFoot h5{float:left;padding:0;margin:0;border-bottom:1px solid #dadada;background:#f3f3f3 url(http://www.chungnam.net/images/common/contentsFoot_title.gif) no-repeat;font-size:0;line-height:0}
+.contentsFoot h5.research01{width:175px;height:108px;background-position:0 0}
+.contentsFoot h5.charge01{width:175px;height:105px;border-bottom:0;background-position:0 -115px}
+.contentsFoot h5.research02{width:115px;height:126px;background-position:0 -230px}
+.contentsFoot h5.charge02{width:115px;height:143px;border-bottom:0;background-position:0 -380px}
+.contentsFoot h5.research03{width:115px;height:144px;background-position:0 -530px}
+.contentsFoot h5.charge03{width:115px;height:140px;border-bottom:0;background-position:0 -690px}
+.contentsFoot .researchConts01{float:left;width:568px;height:76px;height:78px;border-bottom:1px solid #dadada;padding:16px 15px;padding:15px}
+.contentsFoot .chargeConts01{float:left;width:568px;padding:16px 15px;padding:15px}
+.contentsFoot .question{padding:0 0 0 20px;margin-bottom:10px;background:url(http://www.chungnam.net/images/common/ico_comment.gif) no-repeat left 3px;font-weight:bold; font-size:14px; color:#555;}
+.contentsFoot .question.w253{width:253px}
+.contentsFoot .answer{padding:0;}
+.contentsFoot .answer input[type=radio]{display:inline-block;margin:0 0 1px;padding:0;width:13px;height:13px;vertical-align:bottom}
+.contentsFoot .answer input[type=radio]+label{text-align:left;display:inline-block;margin:0 8px 0 2px;line-height:normal;vertical-align:bottom;cursor:pointer}
+.contentsFoot .answer input[type=text]{display:inline-block;padding:5px 4px 1px;margin:15px 0 0;border:1px solid #b7b7b7;border-right-color:#e1e1e1;border-bottom-color:#e1e1e1;background:#fff;
+										font:normal 1em/1em '굴림',Gulim,AppleGothic,sans-serif}
+
+.contentsFoot .answer span.answer_sel{ display:inline-block; width:545px; margin-bottom:10px;}
+.contentsFoot .answer input.w558{width:558px}
+.contentsFoot .answer input.w533{width:533px}
+.contentsFoot .answer input.w523{width:523px}
+.contentsFoot .answer input.w423{width:423px}
+.contentsFoot .answer input.w100p{width:98.8%}
+.contentsFoot .evalBtn{position:absolute;top:40px;right:15px}
+.contentsFoot .evalBtntop50{top:50px}
+.contentsFoot .evalBtntop70{top:70px}
+.contentsFoot dl{clear:both;width:100%;margin-bottom:5px;color:#767676}
+.contentsFoot dt, .contentsFoot dd{margin-bottom:8px;}
+.contentsFoot dt{float:left;padding-right:6px;font-weight:bold}
+.contentsFoot dd{float:left;padding-right:15px}
+.contentsFoot dd.middleStage{width:224px}
+.contentsFoot dd.smallStage{width:140px}
+.contentsFoot p.desc{clear:both;color:#999;line-height: 21px;padding-top: 10px;}
+.contentsFoot p.lastDate{float:right;font-family:Tahoma,AppleGothic,sans-serif;color:#767676;line-height:normal}
+.contentsFoot .scrapMNG{position:absolute;top:10px;right:15px;font-weight:bold;z-index:99999999}
+.contentsFoot .scrapMNG .bar{font-weight:normal}
+.contentsFoot .scrapMNG a{text-decoration:none}
+.contentsFoot.midStage{width:800px;}
+.contentsFoot.midStage .researchConts02{float:left;width:653px;height:94px;height:96px;border-bottom:1px solid #dadada; border-right:1px solid #dadada; padding:16px 15px;padding:15px}
+.contentsFoot.midStage .chargeConts02{float:left;width:653px; height:113px; padding:16px 15px;padding:15px;  border-right:1px solid #dadada; font-size:13px;}
+.contentsFoot.smallStage{width:578px;margin-top:30px}
+.contentsFoot.smallStage .researchConts03{float:left;width:433px;height:112px;height:114px;border-bottom:1px solid #dadada;padding:16px 15px;padding:15px}
+.contentsFoot.smallStage .chargeConts03{float:left;width:433px;padding:16px 15px;padding:15px}
+
+
+@media screen and (min-width:1px) and (max-width:1049px) {
+#aside{ display:none;}
+#sContainer {width:100%; min-height:auto; padding-bottom: 0; padding:20px 0 40px 0;}
+.content_area {width:94%; margin:0 auto; float:none; margin-bottom: 40px;}
+.browsctrl{ display:none;}
+ul.location{float:left; line-height:18px;}
+
+
+#contents {width:100%; margin: 0;}
+
+.contentsFoot{ width:99.8%; margin-bottom:0;}
+.contentsFoot h5{ float:none; font-size:14px; line-height:18px; padding:12px 2.5%; width:95%;}
+.contentsFoot h5.research02, .contentsFoot h5.charge02{ width:auto; height:auto; background-image:none;}
+.contentsFoot h5.charge02{border-bottom:1px solid #dadada}
+.contentsFoot.midStage{ width:100%;margin-left:0px}
+.contentsFoot.midStage .researchConts02{ width:95%; padding:15px 2.5%; height:auto;}
+.contentsFoot.midStage .chargeConts02{ width:95%; padding:15px 2.5%; height:auto;}
+
+
+.contentsFoot dt, .contentsFoot dd{ margin:2px 0;}
+.contentsFoot dt{padding-right:2%; width:23%;}
+.contentsFoot dd{width:auto; padding-right:0%; float:right;}
+.contentsFoot dd.middleStage{width:70%;}
+.contentsFoot dd.middleStage:after{clear:both; content:""; display:block;}
+
+.contentsFoot .answer span.answer_sel{ width:auto;}
+.contentsFoot .answer input.w523{width:99.5%}
+.contentsFoot p.desc{ padding:10px 0;}
+
+.contentsFoot .evalBtn{ top:7px;}
+
+}
+
+
+
+
+
+/* footer */
+	/* sns새소식 상단부분 */
+	.blog_wrap {width:530px; display:inline-block; color:#555555; font-size:15px; font-weight:600; margin-top:7px;}
+	.blog_wrap > span {padding-right:9px; margin-right:6px; background:url(/images/main/2018/responsive/blog_line.png) no-repeat right center;}
+	.blog_wrap > span:last-child {padding-right:0; margin-right:0; background:none;} 
+	.blog_wrap > span > a > img {margin-right:3px; vertical-align:middle;}
+	.blog_wrap > span > a > img.last {margin-right:0; vertical-align:middle;}
+	.sns_wrap {float:left; width:100%; margin-top:10px;}
+	/* //sns새소식 상단부분 */
+#footer_warp {float:left; width:100%; padding:25px 0; background:#fff; border-top:1px solid #e5e5e5; margin-top:40px;}
+#footer_warp2 {float:left; width:100%; padding:15px 0; background:#fff; border-top:1px solid #e5e5e5;}
+
+	/* 하단링크부분 */
+	.ftlink {width:100%; float:left; margin-bottom:13px; position:relative; border:1px solid #ccc;}
+	.ftlink ul li.ftlink_list {float:left;}
+	.ftlink ul li.ftlink_list > a {width: 145px;box-sizing:border-box;display:block;border-right:1px solid #cccccc;height:36px;line-height:36px;padding-left: 15px;font-size:13px;color:#444444;background:url(/images/common/2018/qlink_off_ic.png) no-repeat 90% center;}
+	.ftlink ul li.ftlink_list > a:hover {color:#111; font-weight:600; background:#f4fcf4 url(/images/common/2018/qlink_on_ic.png) no-repeat 90% center;}
+	.ftlink ul li.ftlink_shcut {float:left;}
+	.ftlink ul li.ftlink_shcut > a {width:175px;box-sizing:border-box;display:block;height:36px;line-height:36px;padding-left: 15px;font-size:13px;color:#444444;background:url(/images/common/2018/qlink_shcut_off.png) no-repeat 90% center;}
+	.ftlink ul li.ftlink_shcut > a:hover {color:#111; font-weight:600; background:#f4fcf4 url(/images/common/2018/qlink_shcut_on.png) no-repeat 90% center;}
+	
+	.ftlink ul li dl {position:absolute;left:0;bottom:35px;width:950px;padding:20px 50px;background:#fff;line-height:1.6;z-index:100;border:solid #ddd;border-width:1px 1px 1px;overflow:hidden;}
+    .ftlink ul li dl dt {display:none;}
+	.ftlink ul li dl dd {float:left; width:100%;}
+	.ftlink ul li dl dd a {float:left; margin-right:2%; width:17%; height:22px; line-height:22px; font-size:13px; color:#888; background:url(/images/common/2018/ftlink_ic.png) no-repeat left center; padding-left:8px;}
+	.ftlink ul li dl dd a:hover {float:left; margin-right:2%; width:17%; height:22px; line-height:22px; font-size:13px; color:#000;}
+	/* //하단링크부분 */
+
+
+
+
+
+	/* 하단 카피라이트 부분 */
+	#footer_warp .copy_cnlogo{float:left; margin:0 50px 0 0;}
+	#footer_warp2 .copy_cnlogo{float:left; margin:0 50px 0 0;}
+	.foot_cont{float:left; width:100%; position:relative;}
+	.foot_cont .copyright{float:left; margin-top:13px;}
+	.foot_menu{float:left; text-align:left; width:100%; padding-top:1px; color:#222222; border-bottom:1px solid #e5e5e5; padding-bottom:13px; margin-top:10px; margin-bottom:20px;}
+	.foot_menu li{float:left; background:url(/images/common/2018/footermenu_line.png) no-repeat right center; padding-right:18px; margin-right:18px; }
+	.foot_menu li a {color:#222222;}
+	.foot_menu li a:hover {color:#43830b;}
+	span.f_top_btn {position:absolute; right:0; top:0;}
+	.copy_tel{ display:inline-block; background:#4aa11c; color:#fff; border-radius:15px;  padding:3px 10px; margin-top:5px; margin-left:5px;}
+
+	.address2018{ float:left;}
+	address{ font-size:13px; font-style:normal; color:#222222;}
+	.add_txt{ display:inline-block; margin-right:10px; margin-bottom:5px;}
+	/* //하단 카피라이트 부분 */
+
+
+	/* 웹접근성 마크 부분 */
+	.trademark_warp{position:absolute; right:0; top:60px; width:240px; margin-bottom:20px;}
+	.trademark_warp dt{position:absolute;visibility:hidden;width:0;height:0;margin:0;padding:0;background:none;font-size:0;line-height:0}
+	.trademark_warp dd{float:right;overflow:hidden;margin:0;padding:0;height:62px;vertical-align:top}
+	.trademark_warp dd span{float:left;margin:0;font-size:0;line-height:0}
+	.trademark_warp dd span.tm01{height:62px;margin-right:0; margin-left:7px;}
+	.trademark_warp dd span.tm02{width:46px;height:37px;background:url(/images/common/2014/foot_trademark02.gif) no-repeat;}
+	.trademark_warp dd span.tm03{width:62px;height:37px;background:url(/images/common/2014/foot_trademark03.gif) no-repeat; margin-right:7px}
+	/* //웹접근성 마크 부분 */
+/* //footer */
+
+
+.new_layout_area:after{content:""; display:block; clear:both;}
+
+
+/******************************* main_layout style *******************************/
+
+/* main_contents */
+#main_Container{width:100%; height:auto;}
+.micon {width:1050px;}
+
+#main_ContentsArea{width:1050px; height:auto; margin:0 auto;}
+.main_Container{width:1050px; }
+
+
+@media screen and (max-width: 1200px){
+    .lnb{margin-top: 0;}
+}
+
+
+@media screen and (min-width:1px) and (max-width:1049px) {
+#cnmain_header{ height:inherit; padding-bottom:20px;}	
+.new_layout_area{width:96%; padding:0 2%;}
+
+.lnb > .new_layout_area{ background:#628526; padding:0 0 0 0 ; width:100%;}
+.top_menu{display:none;}
+.search_wrap{ margin:0 auto; float:none; width:96%; padding:0 2%;}
+.total_search_warp{float:none; padding-left:0;}
+/*.total_search_warp .search_box_hid{ padding-left:15px;}*/
+#main_ContentsArea{width:96%; padding:0 2%;}
+h1.cn_logo{margin:0 auto 10px; float:none; padding-top:5px;} 
+#mNavi{display:none;}
+#mlnb_mainNav { display:none;}
+.gnb_banner_zone{display:none;}
+.lnb{float:none; border-bottom:none; height:inherit;}
+.trademark_warp{display:none;}
+.copy_cnlogo{display:none;}
+.nav_mobile {display: block;right: 2%;}
+.aside{display: none;}
+.gnb_mobile{ display:block; }
+
+.lnb{width:280px;left: 2%;z-index: 999 !important;left: auto; right: 0; top: 0; border-bottom: none;}
+
+/* 모바일용 로그인메뉴 */
+.gnb_mobile{display:block; background: #61870D url(/images/common/bg_mob_logo.png) no-repeat center 50px;width:234px; 
+   padding:15px 20px; text-align:right;}
+.gnb_mobile a.mNavi_close{ display:inline-block; width:20px; height:20px;background: url(/images/common/btn_mob_close.png) no-repeat left top;}
+.gnb_mobile a.mNavi_close span{ display:none;}
+.gnb_mobile dl{margin-top:50px;}
+.gnb_mobile dl dt{ display:none;}
+.gnb_mobile dl dd { margin-bottom:5px;}
+.gnb_mobile dl dd a{ display:block; border:1px solid #fff; color:#fff; text-align:center; padding:8px 0;}
+.gnb_mobile dl dd a:hover{ background:#4f7006;}
+.gnb_mobile .gnb_open_list{ border: 1px solid #A0B76E; background:#4f7006; margin-top:2px;}
+.gnb_mobile .gnb_open_list li a{ border:none; color:#cde9b6; font-size:0.92em; padding:6px; border-top:1px dotted #8eb141; }
+.gnb_mobile .gnb_open_list li:first-child a{ border-top:none;}
+.gnb_mobile .gnb_open_list li a:hover{ background:#466208;}
+/* 2019.06.03 김동현 추가 */
+.gnb_mobile .gnb_open_list .gnb_open_list_sub{ border: 1px solid #ffffff; background:#61870D; margin:5px;}
+.gnb_mobile .gnb_open_list .gnb_open_list_sub li a{ border:none; color:#ffffff; font-size:0.92em; padding:10px; border-top:1px dotted #ffffff; }
+.gnb_mobile .gnb_open_list_sub li:first-child a{ border-top: none;}
+.gnb_mobile .gnb_open_list_sub li a:hover{ background:#466208;}
+/* 모바일용 로그인메뉴 */
+.gnb_mobile a.mNavi_t_close{ display:inline-block; width:20px; height:20px;background: url(/images/common/btn_mob_close.png) no-repeat left top;}
+.gnb_mobile a.mNavi_t_close span{ display:none;}
+
+
+/* 모바일용 대메뉴*/
+
+#mNavi_t{ display:block; position:inherit; width:279px; left:auto; top:auto; background:#61870d; height:auto;}
+#mNavi_t li{ float:none; margin-top:1px; background:#426405; }
+#mNavi_t li a{ height:58px; line-height:58px; padding:0 20px; background-color:#497000; background-image:none; font-size:14px; color:#fff; font-weight:bold;}
+#mNavi_t li > a.mn_1dep_on{background-color:#395704;}
+
+
+#mNavi_t li div.nvbx_01 {display:block; position:inherit; border:none;
+						width:auto; min-height:auto;  background:#426405;}
+#mNavi_t li div.nvbx_02 {padding:0; width:auto; min-height:auto;}
+#mNavi_t li div.nvbx_03 {margin:0;  width:auto; background:none;}
+
+
+#mNavi_t li > div.nvbx_01{ margin:0 !important;}
+
+#mNavi_t li a{background:none;}
+#mNavi_t li.mNavi_t01 a{width:auto;  margin-left:0;}
+#mNavi_t li.mNavi_t02 a{width:auto;}
+#mNavi_t li.mNavi_t03 a{width:auto;} 
+#mNavi_t li.mNavi_t04 a{width:auto;}
+#mNavi_t li.mNavi_t05 a{width:auto;}
+#mNavi_t li.mNavi_t06 a{width:auto;}
+#mNavi_t li.mNavi_t07 a{width:auto;}
+
+#mNavi_t li.mNavi_t01 li a, #mNavi_t li.mNavi_t02 li a, #mNavi_t li.mNavi_t03 li a, #mNavi_t li.mNavi_t04 li a, #mNavi_t li.mNavi_t05 li a, #mNavi_t li.mNavi_t06 li a, #mNavi_t li.mNavi_t07 li a{width:auto;padding:0;margin-left:0}
+
+
+
+#mNavi_t li li{ padding:0;}
+#mNavi_t li ul { width:100%; background:none;  background-color:#426405; border-top:1px solid #61870d;}
+#mNavi_t li ul li{ border-top:1px dotted #6f8941; margin:0 8%; padding:0; width:84%;}
+#mNavi_t li ul li:first-child{border-top:none;}
+#mNavi_t li ul li a {height:auto; line-height:40px; font-weight:normal; color:#fff; font-size:14px; background:#426405 url(/images/common/icon_mob_2dep.gif) no-repeat 98% center;}
+#mNavi_t li ul li span.icon_2d {top:0px; height:auto; display:block;}
+
+
+#mNavi_t li ul li ul {margin:0; padding:10px 5%; width:90%; background:none; border-top:1px dotted #6f8941; min-height:auto; }
+
+#mNavi_t li li{width:100%; text-align:left; }
+#mNavi_t li li a{float:none; color:#d0d8c0; padding:0 20px;}
+
+#mNavi_t li div div ul li ul{background:#5b701c;}
+#mNavi_t li div div ul li ul li {height:auto; border:none; margin:0; padding:0; width:100%;}
+#mNavi_t li div div ul li ul li a { background-image:none;background:#5b701c url(/images/common/icon_mob_3dep.gif) no-repeat left center;height:auto; line-height:22px; 
+									color:#d0d8c0; font-weight:normal; font-size:12px; padding-left:10px !important;}
+#mNavi_t li div div ul li ul li a:hover{ color:#fff; font-weight:normal; text-decoration:underline;background:#5b701c url(/images/common/icon_mob_3dep.gif) no-repeat left center;}
+
+.f_top_btn{ display:none;}
+.blog_wrap > span{ margin-bottom:10px; display:inline-block;}
+
+.ftlink ul li dl{width:100%; box-sizing:border-box; padding:20px 20px 10px;}
+.ftlink ul li dl dd a, .ftlink ul li dl dd a:hover{width:30%; margin-bottom:10px;}
+.blog_wrap{width:100%;}
+}
+
+/* Tablet */
+@media screen and (min-width:600px) and (max-width:1049px) {
+	#footer_warp{width:100%;}
+	.ftlink ul li dl{ bottom:72px;}
+	.ftlink ul li{width:33.3%;}
+	.ftlink ul li.ftlink_list > a{width:100%;}
+	.ftlink ul li:nth-of-type(3n).ftlink_list > a{border-right:none;}
+	.ftlink ul li:nth-of-type(1).ftlink_list > a, .ftlink ul li:nth-of-type(2).ftlink_list > a, .ftlink ul li:nth-of-type(3).ftlink_list > a,
+	.ftlink ul li:nth-of-type(4).ftlink_list > a, .ftlink ul li:nth-of-type(5).ftlink_list > a, .ftlink ul li:nth-of-type(6).ftlink_list > a {border-bottom:1px solid #ccc;}
+
+	.ftlink ul li.ftlink_shcut > a{width:100%;}
+
+}
+
+
+@media screen and (min-width:1px) and (max-width:600px) {
+	.total_search_warp{width: auto;}
+	h1.cn_logo{width:140px; margin:0 0 10px 15px;}	
+	h1.cn_logo a img{width:140px;}	
+	/* .total_search_warp #findWordipt{width:40%;} */
+	.foot_menu li{ margin-bottom:10px;}
+}
+
+
+
+@media screen and (min-width:1px) and (max-width:540px) {
+.ftlink ul li dl{ bottom:108px;}
+.ftlink ul li dl dd a, .ftlink ul li dl dd a:hover{width:auto; margin-bottom:10px;}
+.ftlink ul li{width:50%;}
+.ftlink ul li.ftlink_list > a{width:100%;}
+.ftlink ul li:nth-of-type(2).ftlink_list > a,.ftlink ul li:nth-of-type(4).ftlink_list > a,.ftlink ul li:nth-of-type(6).ftlink_list > a {border-right:none;}
+.ftlink ul li:nth-of-type(1).ftlink_list > a, .ftlink ul li:nth-of-type(2).ftlink_list > a, .ftlink ul li:nth-of-type(3).ftlink_list > a , .ftlink ul li:nth-of-type(4).ftlink_list > a,
+.ftlink ul li:nth-of-type(5).ftlink_list > a , .ftlink ul li:nth-of-type(6).ftlink_list > a{border-bottom:1px solid #ccc;}
+.ftlink ul li.ftlink_shcut > a{width:100%;}
+
+.nav_mobile{right: 4%; top: 28%;}
+}
+
+@media screen and (max-width:500px){
+    .total_search_warp #findWordipt{width:30%;}
+	.nav_mobile{right: 4%; top: 16%;}
+}
+@media screen and (max-width:400px){
+    .nav_mobile{right: 4%; top: 17.5%;}
+}
+
+
+/******************************************************* 소통 레이아웃 *****************************************************************/
+
+/* contents */
+#mCommunication{position:relative; width:1050px; height:auto; margin:0 auto; padding:30px 0 50px 0;}
+#mCommunication:after{ content:""; display:block; clear:both;}
+
+
+#commNewsArea{width:740px; float:left; padding:0 2px 0 0; }
+#commNewsArea #comm_left .article img{max-width:100%;}
+#commLinkArea{ width:285px; float:right }
+
+@media screen and (min-width:1px) and (max-width:1049px) {
+
+#mCommunication{ width:96%; padding:40px 2%;}
+#commNewsArea, #commLinkArea{ float:none; width:100%;}
+#mlnb_mainNav { display:none;}
+}
+
+.contentCommArea{width:100%}
+
+.article .snsComment{clear:both;position:relative;width:100%;margin:0 0 30px; margin:auto}
+.article .snsComment fieldset{margin:0;padding:0}
+.article .snsComment legend{position:absolute;left:0;top:0;width:1px;height:1px;font-size:0;line-height:0;visibility:hidden}
+.article .snsCommentBox{padding:15px;border:1px solid #ccc;background:#f3f3f3; margin:auto}
+
+.article .snsCommentHead{width:100%;height:24px;border-bottom:1px solid #dadada}
+.article .snsCommentHead h4{float:left;width:52px;height:18px;padding:0;margin:2px 7px 0 0;
+						background:#F3F3F3 url(http://www.chungnam.net/images/contents/sns_title.gif) no-repeat left top;font-size:0;line-height:0}
+.article .snsCommentHead .desc{float:left;padding:1px 0 0 0;font:1em '굴림',Gulim,AppleGothic,sans-serif;color:#767676}
+.article .snsCommentHead .snsCommentInfo{ float:left; margin-right:10px;}
+.article .snsCommentHead .writeCountWrap{float:right;color:#555}
+
+.article .snsCommentFrm{ clear:both;border:1px solid #9ea4b0; height:58px;margin-top:10px;background:#ECECEC url(http://www.chungnam.net/images/contents/sns_icon.gif) no-repeat 2px top;}
+.article .snsCommentFrm .contentInput{float:left; width:82%; height:58px;margin:0px 0 0px 8%;padding:0; background:#fff;}
+.article .snsCommentFrm .contentInput textarea{ width:98%; height:52px;padding:5px 1% 1px;margin:0;
+											border:0;border-left:1px solid #9ea4b0; background:#fff; font:normal 1em/1em '굴림',Gulim,AppleGothic,sans-serif}
+.article .snsCommentFrm .contentWrite{ float:right; width:10%;height:58px; background:#767a84;}
+.article .snsCommentFrm .contentWrite a.comment_btn{ display:block;line-height:58px; text-align:center; font-weight:bold; color:#fff;}
+
+.article .snsCommentFoot{clear:both;width:100%;margin-top:7px}
+.article .snsCommentFoot .desc{font:1em '굴림',Gulim,AppleGothic,sans-serif;color:#767676; padding-left:16px;background:url(http://www.chungnam.net/images/contents/ico_submain01.gif) no-repeat -148px -98px}
+.article .snsCommentFoot .desc .descIco{float:left;width:11px;height:11px;margin:2px 5px 0 0;}
+
+.article .snsCommentReplyArea .snsComment{clear:both;position:relative;width:100%;margin:0 0 30px; margin:auto}
+.article .snsCommentReplyArea .snsComment fieldset{margin:0;padding:0}
+.article .snsCommentReplyArea .snsComment legend{position:absolute;left:0;top:0;width:1px;height:1px;font-size:0;line-height:0;visibility:hidden}
+
+
+@media screen and (min-width:1px) and (max-width:1049px) {
+
+
+.article .snsComment{ float:none;}
+.article .snsCommentBox{width:auto;}
+.article .snsCommentHead{ height:auto; padding-bottom:5px;}
+.article .snsCommentHead h4{ background:none; font-size:1.2em;line-height:1.6; font-weight:bold; width:auto;}
+.article .snsCommentHead .writeCountWrap{ clear:both;float:none; display:block; text-align:right; color:#555}
+.article .snsCommentHead:after{ clear:both;content:""; display:block; }
+
+.article .snsCommentFrm .contentInput{ width:85%; margin:0; }
+.article .snsCommentFrm .contentInput textarea{border-left:0;}
+.article .snsCommentFrm .contentWrite{ width:15%;}
+.article .snsCommentHead .snsCommentInfo a{ display:inline-block;}
+.article .snsCommentHead .snsCommentInfo img{ width:18px; height:18px;}
+
+
+}
+
+/* Mobile */
+@media screen and (min-width:1px) and (max-width:639px) {
+
+
+.article .snsCommentFrm{ height:auto;}
+
+.article .snsCommentFrm .contentInput{ float:none; width:100%; height:auto; margin:0; }
+.article .snsCommentFrm .contentWrite{ float:none; width:100%; height:auto;}
+.article .snsCommentFrm .contentWrite a.comment_btn{ line-height:32px;}
+
+.article .snsCommentHead .desc{ padding:5px 0;}
+.article .snsCommentFoot .desc{ background:none; padding-left:0;}
+
+
+}
+
+
+.snsCommentList ul{margin:0;padding:0}
+.snsCommentList li{position:relative;width:100%;margin:0;padding:12px 0 10px;border-bottom:1px solid #e3e3e3; clear:both;}
+.snsCommentList li.reply{padding-left:30px;}
+
+.snsCommentList .thumb{display:block;float:left;width:50px;margin:4px 15px 0 0;padding-bottom:15px;background:#fff}
+.snsCommentList .thumb a{display:block;position:relative;overflow:hidden;width:50px;height:50px;font-size:0 !important;line-height:0 !important;text-align:center;cursor:pointer;}
+.snsCommentList .thumb .grid{position:absolute;left:0;top:0;width:50px;height:50px;background:url(http://www.chungnam.net/images/board/bg_realthum.png);}
+
+.snsCommentList .thumb .valign{display:inline-block;overflow:hidden;height:100%;margin-top:-1px;vertical-align:middle}
+.snsCommentList .thumb img{vertical-align:middle;margin-right:-1px}
+.snsCommentList dl{display:block;margin:0 0 0 0}
+.snsCommentList dl.reply{ margin-left:3%;}
+.snsCommentList dt{height:20px}
+.snsCommentList dt a{font-size:12px}
+.snsCommentList dd{ clear:both;display:block;width:100%;margin:5px 0 0}
+.snsCommentList dd em{display:block;float:left;font-weight:normal;color:#666}
+.snsCommentList dd .txt_writer{color:#999}
+.snsCommentList dd .comment_txt{ padding:10px 0;}
+
+.snsCommentList dd span{display:inline-block;float:left}
+.snsCommentList .txt_block{color:#767676;}
+.snsCommentList .txt_block a,.snsCommentList .txt_block a:visited{float:left;margin:0 5px;color:#767676}
+.snsCommentList .txt_block .bar{float:left;width:1px;height:11px;margin:3px 5px 0 5px;background:url(http://www.chungnam.net/images/board/responsive/sprite_bullet.gif) no-repeat right -1054px;vertical-align:middle}
+.snsCommentList .txt_block .dateTime{float:left;margin:-1px 5px 0;font-family:Tahoma}
+.snsCommentList .txt_block .commentWrtieBtn{float:left;width:auto}
+.snsCommentList .txt_block .commentWrtieBtn .btnComment a{height:16px;background:url(http://www.chungnam.net/images/contents/ico_submain01.gif) no-repeat;font-size:0;line-height:0}
+.snsCommentList .txt_block .commentWrtieBtn .btnComment.RT a{width:20px;height:16px;margin:0 5px;background-position:-90px -290px}
+.snsCommentList .txt_block .commentWrtieBtn .btnComment.MOD a{width:15px;height:16px;margin:0 5px 0 0;background-position:-50px -290px}
+.snsCommentList .txt_block .commentWrtieBtn .btnComment.DEL a{width:15px;height:16px;margin:0 5px 0 0;background-position:-70px -290px}
+
+.snsCommentList .rt_state{position:absolute;right:0;top:0;width:70px;margin:0;font:1em/1.25em '굴림',dotum,applegothic,sans-serif;color:#47a0e0;letter-spacing:-1px;text-align:center}
+.snsCommentList .rt_state span{display:block;overflow:hidden;height:16px;margin-bottom:5px}
+.snsCommentList .rt_state strong{letter-spacing:0}
+.snsCommentList .rt_state strong.sympathy{color:#3f8fc7}
+.snsCommentList .rt_state strong.reverse{color:#ff4050}
+.snsCommentList .rt_state.last{color:#767676}
+.snsCommentList .rt_state.rd2{top:18px}
+.snsCommentList .rt_state .report a{display:block;width:32px;height:16px;margin:0 auto;background:url(http://www.chungnam.net/images/contents/ico_submain01.gif) no-repeat -120px -290px;font-size:0;line-height:0}
+.snsCommentList .TWComment a{float:left;width:46px;height:20px;margin:2px 8px 0 0;background:url(http://www.chungnam.net/images/contents/ico_submain01.gif) no-repeat 0 -290px;font-size:0;line-height:0}
+
+
+/* SNS Icon */
+.snsCommentInfo .snsIcon a{float:left;background:url(http://www.chungnam.net/images/cnportal/submain/ico_submain01.gif) no-repeat left top;font-size:0;line-height:0}
+.snsCommentInfo .snsIcon.snsTW a{width:18px;height:18px;margin:1px 5px 0 0;background-position:0 -205px}
+.snsCommentInfo .snsIcon.snsFB a{width:18px;height:18px;margin:1px 5px 0 0;background-position:-23px -205px}
+.snsCommentInfo .snsIcon.snsM2 a{width:18px;height:18px;margin:1px 5px 0 0;background-position:-46px -205px}
+.snsCommentInfo .snsIcon.snsYZ a{width:18px;height:18px;margin:1px 5px 0 0;background-position:-69px -205px}
+.snsCommentInfo .snsIcon.snsCY a{width:18px;height:18px;margin:1px 5px 0 0;background-position:-92px -205px}
+.snsCommentInfo .snsIcon.snsCN a{width:18px;height:18px;margin:1px 5px 0 0;background-position:-138px -205px}
+.snsCommentInfo .snsIcon.snsOffTW a{width:18px;height:18px;margin:1px 5px 0 0;background-position:0 -385px}
+.snsCommentInfo .snsIcon.snsOffFB a{width:18px;height:18px;margin:1px 5px 0 0;background-position:-23px -385px}
+.snsCommentInfo .snsIcon.snsOffM2 a{width:18px;height:18px;margin:1px 5px 0 0;background-position:-46px -385px}
+.snsCommentInfo .snsIcon.snsOffYZ a{width:18px;height:18px;margin:1px 5px 0 0;background-position:-69px -385px}
+.snsCommentInfo .snsIcon.snsOffCY a{width:18px;height:18px;margin:1px 5px 0 0;background-position:-92px -385px}
+.snsCommentInfo .snsIcon.snsOffCN a{width:18px;height:18px;margin:1px 5px 0 0;background-position:-138px -385px}
+
+#contents.contentComm{width:100%;margin:0}	
+#contents.contentCommTS{width:580px;margin:0}
+
+/* sns_form_area */
+.sns_form_area .twitterMark{clear:both;display:inline-block;width:355px;height:21px;margin-top:-1px;border:1px solid #dadada;background:url(http://www.chungnam.net/images/cnportal/01communication/sns_subtitle01.gif) no-repeat left top;font-size:0;line-height:0}
+.sns_form_area .facebookMark{position:absolute;bottom:1px;left:1px;width:363px;height:21px;background:url(http://www.chungnam.net/images/cnportal/01communication/sns_subtitle02.gif) no-repeat left top;font-size:0;line-height:0}
+.sns_form_area {position:relative;overflow:hidden;float:left;width:365px;}
+
+h5.sns_t01{background:url(/images/cnportal/01communication/sns_title.gif) no-repeat 0 0;display:inline-block;}
+h5.sns_t02{background:url(/images/cnportal/01communication/sns_title.gif) no-repeat 0 -50px;display:inline-block}
+h5.sns_t02 span,h5.sns_t01 span{visibility: hidden;}
+
+.sns_form{border:1px solid #dadada;height:250px; /* overflow-y: scroll; */ width:335px;float:left;padding:10px;color:#787878; }
+.sns_form p a{color:#629315;text-decoration:underline}
+.sns_form p img{float:left;margin-right:10px;margin-bottom:10px}
+.sns_form p strong{display:block}
+.sns_form p span{display:block;margin-bottom:10px}
+
+.sns_form2013{border:1px solid #dadada;height:275px; width:400px;float:left;padding:0;color:#787878}
+

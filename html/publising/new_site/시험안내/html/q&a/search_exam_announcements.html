@@ -1,0 +1,741 @@
+<!-- 시험공고검색 -->
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <meta name="referrer" content="always">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no,address=no,email=no">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+    <!-- No cache -->
+    <meta http-equiv="Expires" content="-1">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-Control" content="no-cache; no-store; no-save">
+    <meta property="og:title" content="충청남도 시험안내">
+    <title>충청남도 시험안내</title>
+
+
+    <link rel="stylesheet" href="../../css/sub.css">
+    <link rel="stylesheet" href="../../css/layout.css">
+    <link rel="stylesheet" href="../../css/base.css">
+    <link rel="stylesheet" href="../../css/components.css">
+    <link rel="stylesheet" href="../../css/board.css">
+
+    <script src="/script/libs/jquery/jquery-1.12.4.min.js"></script>
+    <script src="/script/libs/swiper/swiper-4.5.3.min.js"></script>
+    <script type="text/javascript" src="/html/publising/new_site/시험안내/script/load_sub.js"></script>
+    
+</head>
+
+<body>
+    <header id="header"></header>
+
+    <section id="container" class="content">
+        <div class="inner">
+            <div class="wrap">
+                <div class="left">
+                    <div class="snb_wrap web">
+                        <div class="snb_tit">
+                            <div class="title">
+                                <h2 style="font-size: 23px;">Q & A</h2>
+                            </div>
+                        </div>
+                        <nav>
+                            <ul class="snb">
+                                <li>
+                                    <a href="../../html/q&a/search_exam_announcements.html" class="on arrow">시험공고검색</a>
+                                </li>
+                                <li>
+                                    <a href="../../html/q&a/frequently_asked_questions.html" class="arrow">자주하는질문</a>
+                                </li>
+                                <li>
+                                    <a href="../../html/q&a/ask_and_answer/generaljobPo.html" class="arrow">묻고답하기</a>
+                                </li>
+                                <li>
+                                    <a href="../../html/q&a/test_statistics.html" class="arrow cc">시험통계</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="cont_title mb30 wrap">
+                        <h2>시험공고검색</h2>
+                        <div class="float-r">
+                            <ul class="breadcrumb-list">
+                                <li class="home"><a href=""><span class="sr-only">홈으로</span></a></li>
+                                <li><a href="">
+                                        <span>Q&A</span>
+                                    </a>
+                                </li>
+                                <li><a href="">
+                                        <span>시험공고</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <form name="frm" action="/cnnet/board.do?mnu_cd=CNNMENU00396" method="post" class="bd_search">
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+				
+				
+                        <div class="boardHead">
+                            <div class="lSec">
+                                <p class="totalpage">전체<strong>5163</strong>개, 현재<strong>1</strong>/전체<strong>517</strong>페이지</p>
+                            </div>
+                            <div class="rSec">
+                            <fieldset>
+                            <legend>검색영역</legend>
+                            <div class="search"><label for="searchCnd_" class="labHide">검색항목 선택</label>
+                                
+                                
+                                
+                                
+                                <select name="searchCnd" id="searchCnd_" title="검색조건 선택란">
+                                    <option value="0" selected="selected">전체</option>
+                                    
+                                    
+                                    
+                                        <option value="1">제목</option>
+                                        <option value="2">내용</option>		
+                                        <option value="3">작성자</option>
+                                    
+                                    
+                                        
+                                </select>
+                                
+                                <span class="item"><input type="text" id="searchWrd" name="searchWrd" value="" class="iText" placeholder="검색어를 입력하세요" title="검색어를 입력하세요"></span>
+                                <span class="btnwhite large"><button type="submit" title="검색">검색</button></span>
+                            </div>
+                            </fieldset>
+                            </div>
+                        </div>
+                        <table id="count" class="new_tbl_board">
+                            <caption>
+                            시험공고에서는 번호, 제목, 담당부서, 작성일,
+                            첨부, 조회 등의 정보를 제공합니다. "
+                            </caption>
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                                <colgroup>
+                                    <col style="width:7%;" class="tb_number"> 
+                                    <col style="width:auto;">
+                                    <col style="width:20%;">
+                                    <col style="width:13%;" class="tb_writer"> 
+                                    <col style="width:7%;" class="tb_date">
+                                    <col style="width:7%;" class="tb_count">
+                                </colgroup>					
+                            
+                                                
+                            <thead>
+                            <tr>
+                                <th scope="col" class="tb_number">번호</th>
+                                
+                                
+                                
+                                <th scope="col">제목</th>
+                                <th scope="col">담당부서</th>
+                                
+                                <th scope="col" class="tb_writer">작성일</th>
+                                <th scope="col" class="tb_date">첨부</th>				
+                                
+                                <th scope="col" class="end tb_count">조회</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            
+                                <tr> 
+                                    <td class="tb_number">5163</td>
+                                        
+                                        
+                                    
+                                    
+                                    
+                                    
+                                     
+                                    
+                                    
+                                    
+                                        <td class="title_comm"><a href="/cnnet/board.do?mnu_url=/cnbbs/view.do?board_seq=419613&amp;mnu_cd=CNNMENU00396&amp;searchCnd=0&amp;pageNo=1&amp;pageGNo=0&amp;showSplitNo=10&amp;code=61">
+                                        
+                                        &nbsp;
+                                        
+                                        보건복지부 공모직위(사회서비스사업과장) 공개모집</a></td>
+                                    
+                                     
+                                    
+                                    
+                                    
+                                    <td>보건복지부</td>
+                                    
+                                    
+                                    
+                                    <td class="tb_writer">2022-11-02</td>
+                                    
+                                    
+                                    
+                                    
+                                    <td class="tb_date"><span class="file">파일이미지</span></td>
+                                        
+                                        <td class="end tb_count">9</td>
+                                </tr>
+                            
+                                <tr> 
+                                    <td class="tb_number">5162</td>
+                                        
+                                        
+                                    
+                                    
+                                    
+                                    
+                                     
+                                    
+                                    
+                                    
+                                        <td class="title_comm"><a href="/cnnet/board.do?mnu_url=/cnbbs/view.do?board_seq=419611&amp;mnu_cd=CNNMENU00396&amp;searchCnd=0&amp;pageNo=1&amp;pageGNo=0&amp;showSplitNo=10&amp;code=61">
+                                        
+                                        &nbsp;
+                                        
+                                        2022년 제2회 성주군의회 지방임기제공무원 임용시험</a></td>
+                                    
+                                     
+                                    
+                                    
+                                    
+                                    <td>경상북도 성주군의회</td>
+                                    
+                                    
+                                    
+                                    <td class="tb_writer">2022-11-02</td>
+                                    
+                                    
+                                    
+                                    
+                                    <td class="tb_date"><span class="file">파일이미지</span></td>
+                                        
+                                        <td class="end tb_count">9</td>
+                                </tr>
+                            
+                                <tr> 
+                                    <td class="tb_number">5161</td>
+                                        
+                                        
+                                    
+                                    
+                                    
+                                    
+                                     
+                                    
+                                    
+                                    
+                                        <td class="title_comm"><a href="/cnnet/board.do?mnu_url=/cnbbs/view.do?board_seq=419608&amp;mnu_cd=CNNMENU00396&amp;searchCnd=0&amp;pageNo=1&amp;pageGNo=0&amp;showSplitNo=10&amp;code=61">
+                                        
+                                        &nbsp;
+                                        
+                                        군산시 보건소장(개방형직위) 임용시험 시행계획 공고</a></td>
+                                    
+                                     
+                                    
+                                    
+                                    
+                                    <td>전라북도 군산시</td>
+                                    
+                                    
+                                    
+                                    <td class="tb_writer">2022-11-02</td>
+                                    
+                                    
+                                    
+                                    
+                                    <td class="tb_date"><span class="file">파일이미지</span></td>
+                                        
+                                        <td class="end tb_count">7</td>
+                                </tr>
+                            
+                                <tr> 
+                                    <td class="tb_number">5160</td>
+                                        
+                                        
+                                    
+                                    
+                                    
+                                    
+                                     
+                                    
+                                    
+                                    
+                                        <td class="title_comm"><a href="/cnnet/board.do?mnu_url=/cnbbs/view.do?board_seq=419549&amp;mnu_cd=CNNMENU00396&amp;searchCnd=0&amp;pageNo=1&amp;pageGNo=0&amp;showSplitNo=10&amp;code=61">
+                                        
+                                        &nbsp;
+                                        
+                                        도민 소통 및 민원현장 지원을 위한 기간제근로자 서류전형 합격자 및 면접시험 공고</a></td>
+                                    
+                                     
+                                    
+                                    
+                                    
+                                    <td>정책기획관</td>
+                                    
+                                    
+                                    
+                                    <td class="tb_writer">2022-11-01</td>
+                                    
+                                    
+                                    
+                                    
+                                    <td class="tb_date"><span class="file">파일이미지</span></td>
+                                        
+                                        <td class="end tb_count">50</td>
+                                </tr>
+                            
+                                <tr> 
+                                    <td class="tb_number">5159</td>
+                                        
+                                        
+                                    
+                                    
+                                    
+                                    
+                                     
+                                    
+                                    
+                                    
+                                        <td class="title_comm"><a href="/cnnet/board.do?mnu_url=/cnbbs/view.do?board_seq=419529&amp;mnu_cd=CNNMENU00396&amp;searchCnd=0&amp;pageNo=1&amp;pageGNo=0&amp;showSplitNo=10&amp;code=61">
+                                        
+                                        &nbsp;
+                                        
+                                        기상청 광주지방기상청 기후서비스과장 공모직위 공개모집</a></td>
+                                    
+                                     
+                                    
+                                    
+                                    
+                                    <td>기상청</td>
+                                    
+                                    
+                                    
+                                    <td class="tb_writer">2022-11-01</td>
+                                    
+                                    
+                                    
+                                    
+                                    <td class="tb_date"><span class="file">파일이미지</span></td>
+                                        
+                                        <td class="end tb_count">45</td>
+                                </tr>
+                            
+                                <tr> 
+                                    <td class="tb_number">5158</td>
+                                        
+                                        
+                                    
+                                    
+                                    
+                                    
+                                     
+                                    
+                                    
+                                    
+                                        <td class="title_comm"><a href="/cnnet/board.do?mnu_url=/cnbbs/view.do?board_seq=419525&amp;mnu_cd=CNNMENU00396&amp;searchCnd=0&amp;pageNo=1&amp;pageGNo=0&amp;showSplitNo=10&amp;code=61">
+                                        
+                                        &nbsp;
+                                        
+                                        국토교통부 공항정책관(개방형 직위) 공개모집</a></td>
+                                    
+                                     
+                                    
+                                    
+                                    
+                                    <td>국토교통부</td>
+                                    
+                                    
+                                    
+                                    <td class="tb_writer">2022-11-01</td>
+                                    
+                                    
+                                    
+                                    
+                                    <td class="tb_date"><span class="file">파일이미지</span></td>
+                                        
+                                        <td class="end tb_count">45</td>
+                                </tr>
+                            
+                                <tr> 
+                                    <td class="tb_number">5157</td>
+                                        
+                                        
+                                    
+                                    
+                                    
+                                    
+                                     
+                                    
+                                    
+                                    
+                                        <td class="title_comm"><a href="/cnnet/board.do?mnu_url=/cnbbs/view.do?board_seq=419514&amp;mnu_cd=CNNMENU00396&amp;searchCnd=0&amp;pageNo=1&amp;pageGNo=0&amp;showSplitNo=10&amp;code=61">
+                                        
+                                        &nbsp;
+                                        
+                                        2022년도 충청남도 지방공무원 제3회 공개경쟁 및 제3·4회 경력경쟁 임용 필기시험 응시결과</a></td>
+                                    
+                                     
+                                    
+                                    
+                                    
+                                    <td>인사과</td>
+                                    
+                                    
+                                    
+                                    <td class="tb_writer">2022-11-01</td>
+                                    
+                                    
+                                    
+                                    
+                                    <td class="tb_date"><span class="file">파일이미지</span></td>
+                                        
+                                        <td class="end tb_count">361</td>
+                                </tr>
+                            
+                                <tr> 
+                                    <td class="tb_number">5156</td>
+                                        
+                                        
+                                    
+                                    
+                                    
+                                    
+                                     
+                                    
+                                    
+                                    
+                                        <td class="title_comm"><a href="/cnnet/board.do?mnu_url=/cnbbs/view.do?board_seq=419435&amp;mnu_cd=CNNMENU00396&amp;searchCnd=0&amp;pageNo=1&amp;pageGNo=0&amp;showSplitNo=10&amp;code=61">
+                                        
+                                        &nbsp;
+                                        
+                                        2022년도 제1회 광주광역시 동구의회 임기제공무원 경력경쟁임용시험 시행계획 공고</a></td>
+                                    
+                                     
+                                    
+                                    
+                                    
+                                    <td>광주광역시 동구의회</td>
+                                    
+                                    
+                                    
+                                    <td class="tb_writer">2022-10-31</td>
+                                    
+                                    
+                                    
+                                    
+                                    <td class="tb_date"><span class="file">파일이미지</span></td>
+                                        
+                                        <td class="end tb_count">60</td>
+                                </tr>
+                            
+                                <tr> 
+                                    <td class="tb_number">5155</td>
+                                        
+                                        
+                                    
+                                    
+                                    
+                                    
+                                     
+                                    
+                                    
+                                    
+                                        <td class="title_comm"><a href="/cnnet/board.do?mnu_url=/cnbbs/view.do?board_seq=419431&amp;mnu_cd=CNNMENU00396&amp;searchCnd=0&amp;pageNo=1&amp;pageGNo=0&amp;showSplitNo=10&amp;code=61">
+                                        
+                                        &nbsp;
+                                        
+                                        2022년 화성시 감사관(개방형직위) 모집 공고</a></td>
+                                    
+                                     
+                                    
+                                    
+                                    
+                                    <td>경기도 화성시</td>
+                                    
+                                    
+                                    
+                                    <td class="tb_writer">2022-10-31</td>
+                                    
+                                    
+                                    
+                                    
+                                    <td class="tb_date"><span class="file">파일이미지</span></td>
+                                        
+                                        <td class="end tb_count">52</td>
+                                </tr>
+                            
+                                <tr> 
+                                    <td class="tb_number">5154</td>
+                                        
+                                        
+                                    
+                                    
+                                    
+                                    
+                                     
+                                    
+                                    
+                                    
+                                        <td class="title_comm"><a href="/cnnet/board.do?mnu_url=/cnbbs/view.do?board_seq=419428&amp;mnu_cd=CNNMENU00396&amp;searchCnd=0&amp;pageNo=1&amp;pageGNo=0&amp;showSplitNo=10&amp;code=61">
+                                        
+                                        &nbsp;
+                                        
+                                        중부지방산림청 일반임기제 국가공무원 경력경쟁채용시험 재공고</a></td>
+                                    
+                                     
+                                    
+                                    
+                                    
+                                    <td>중부지방산림청</td>
+                                    
+                                    
+                                    
+                                    <td class="tb_writer">2022-10-31</td>
+                                    
+                                    
+                                    
+                                    
+                                    <td class="tb_date"><span class="file">파일이미지</span></td>
+                                        
+                                        <td class="end tb_count">60</td>
+                                </tr>
+                            
+                            </tbody>
+                        </table>
+                        <div class="boardFoot">
+                            <div class="lSec">
+                                <fieldset>
+                                    <legend>출력 게시물 수 설정영역</legend>
+                                    <div class="search"><label for="showSplitNo" class="labHide">게시물 출력수 선택</label>
+                                        <select class="showSplitNo" name="showSplitNo" id="showSplitNo" title="출력 게시물 수 설정란">
+                                            <option value="10" selected="selected">10개 출력</option>
+                                            <option value="15">15개 출력</option>
+                                            <option value="20">20개 출력</option>
+                                            <option value="30">30개 출력</option>
+                                        </select> 
+                                        <span class="btnwhite large"><button type="submit" title="확인">확인</button> </span>
+                                    </div>
+                                </fieldset>					
+                            </div> 
+                            <div class="rSec"><!--  -->
+                            <!--  -->
+                            <!--  -->
+                            
+                            
+                            
+                            
+                                                
+                            </div>					
+                        </div>
+                        <div class="boardFootPage">
+                        <div class="pagination">
+                            
+        
+        
+            
+            
+                
+                    
+                    
+                        
+                        
+                            <a href="/cnnet//board.do?pageNo=1&amp;pageGNo=0&amp;showSplitNo=10&amp;mnu_cd=CNNMENU00396&amp;searchCnd=0" title="처음 페이지 이동"><span class="arrow pagefirst">처음 페이지 이동</span></a>
+                        
+                    
+                
+                
+                    <span class="arrow pageprev">이전 10페이지 이동</span>
+                    
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                <a href="/cnnet/board.do?pageNo=1&amp;pageGNo=0&amp;showSplitNo=10&amp;mnu_cd=CNNMENU00396&amp;searchCnd=0"><strong title="현재페이지">1</strong></a>
+                                
+                            
+                            
+                        
+                        
+                    
+                
+                    
+                        
+                            
+                                
+                                
+                                <a href="/cnnet/board.do?pageNo=2&amp;pageGNo=0&amp;showSplitNo=10&amp;mnu_cd=CNNMENU00396&amp;searchCnd=0" class="pagenum">2</a>
+                                
+                            
+                            
+                        
+                        
+                    
+                
+                    
+                        
+                            
+                                
+                                
+                                <a href="/cnnet/board.do?pageNo=3&amp;pageGNo=0&amp;showSplitNo=10&amp;mnu_cd=CNNMENU00396&amp;searchCnd=0" class="pagenum">3</a>
+                                
+                            
+                            
+                        
+                        
+                    
+                
+                    
+                        
+                            
+                                
+                                
+                                <a href="/cnnet/board.do?pageNo=4&amp;pageGNo=0&amp;showSplitNo=10&amp;mnu_cd=CNNMENU00396&amp;searchCnd=0" class="pagenum">4</a>
+                                
+                            
+                            
+                        
+                        
+                    
+                
+                    
+                        
+                            
+                                
+                                
+                                <a href="/cnnet/board.do?pageNo=5&amp;pageGNo=0&amp;showSplitNo=10&amp;mnu_cd=CNNMENU00396&amp;searchCnd=0" class="pagenum">5</a>
+                                
+                            
+                            
+                        
+                        
+                    
+                
+                    
+                        
+                            
+                                
+                                
+                                <a href="/cnnet/board.do?pageNo=6&amp;pageGNo=0&amp;showSplitNo=10&amp;mnu_cd=CNNMENU00396&amp;searchCnd=0" class="pagenum">6</a>
+                                
+                            
+                            
+                        
+                        
+                    
+                
+                    
+                        
+                            
+                                
+                                
+                                <a href="/cnnet/board.do?pageNo=7&amp;pageGNo=0&amp;showSplitNo=10&amp;mnu_cd=CNNMENU00396&amp;searchCnd=0" class="pagenum">7</a>
+                                
+                            
+                            
+                        
+                        
+                    
+                
+                    
+                        
+                            
+                                
+                                
+                                <a href="/cnnet/board.do?pageNo=8&amp;pageGNo=0&amp;showSplitNo=10&amp;mnu_cd=CNNMENU00396&amp;searchCnd=0" class="pagenum">8</a>
+                                
+                            
+                            
+                        
+                        
+                    
+                
+                    
+                        
+                            
+                                
+                                
+                                <a href="/cnnet/board.do?pageNo=9&amp;pageGNo=0&amp;showSplitNo=10&amp;mnu_cd=CNNMENU00396&amp;searchCnd=0" class="pagenum">9</a>
+                                
+                            
+                            
+                        
+                        
+                    
+                
+                    
+                        
+                            
+                                
+                                
+                                <a href="/cnnet/board.do?pageNo=10&amp;pageGNo=0&amp;showSplitNo=10&amp;mnu_cd=CNNMENU00396&amp;searchCnd=0" class="pagenum">10</a>
+                                
+                            
+                            
+                        
+                        
+                    
+                
+                
+                    
+                    
+                        
+                        
+                            <a href="/cnnet//board.do?pageNo=11&amp;pageGNo=1&amp;showSplitNo=10&amp;mnu_cd=CNNMENU00396&amp;searchCnd=0" title="다음 10페이지 이동"><span class="arrow pagenext">다음 10페이지 이동2</span></a>
+                        
+                    
+                
+                
+                    
+                    
+                        
+                        
+                            <a href="/cnnet//board.do?pageNo=517&amp;pageGNo=51&amp;showSplitNo=10&amp;mnu_cd=CNNMENU00396&amp;searchCnd=0" title="마지막 페이지 이동"><span class="arrow pageend">마지막 페이지 이동</span></a>
+                        
+                    
+                
+            
+        
+        
+                        </div>
+                        </div>
+                    
+                                    
+                    </form>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer_warp"></footer>
+
+</body>
+
+</html>

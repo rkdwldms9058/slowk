@@ -1,0 +1,19 @@
+<svg id="그룹_9" data-name="그룹 9" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32.295" height="40.5" viewBox="0 0 32.295 40.5">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_45" data-name="사각형 45" width="32.295" height="40.5" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="그룹_8" data-name="그룹 8">
+    <g id="그룹_7" data-name="그룹 7" clip-path="url(#clip-path)">
+      <path id="패스_6" data-name="패스 6" d="M159.1,10.344h-7.566V2.935a.615.615,0,0,1,1.05-.435l6.951,6.794a.615.615,0,0,1-.435,1.05m-6.781-.785h6.364l-6.364-6.22Zm-.287-6.5,0,0Z" transform="translate(-127.738 -1.955)" fill="#1a1311"/>
+      <path id="패스_7" data-name="패스 7" d="M83.328,158.686l-4.9-6.41h2.349v-6.4h5.1v6.4h2.349Zm-3.31-5.625,3.31,4.332,3.31-4.332H85.092v-6.4H81.564v6.4Z" transform="translate(-66.112 -122.969)" fill="#1a1311"/>
+      <path id="패스_8" data-name="패스 8" d="M36.031,0H13.61V4.689H14.4V.785H35.706l7.276,7.276V39.715H14.4V12.461H13.61V40.5H43.768V7.736Z" transform="translate(-11.473 0)" fill="#1a1311"/>
+      <path id="패스_9" data-name="패스 9" d="M30.213,30.639v6.2H18.61v.785H31V29.854H18.61v.785Z" transform="translate(-15.688 -25.165)" fill="#1a1311"/>
+      <path id="패스_10" data-name="패스 10" d="M.785,36.841v-6.2H2.137v-.785H0v7.772H2.137v-.785Z" transform="translate(0 -25.165)" fill="#1a1311"/>
+      <rect id="사각형_43" data-name="사각형 43" width="0.785" height="0.785" transform="translate(2.137 11.675)" fill="#1a1311"/>
+      <rect id="사각형_44" data-name="사각형 44" width="0.785" height="0.785" transform="translate(2.137 4.689)" fill="#1a1311"/>
+    </g>
+  </g>
+  <text id="PDF" transform="translate(3.375 10.299)" fill="#1a1311" font-size="5" font-family="HancomGothicBold, Hancom Gothic"><tspan x="0" y="0">PDF</tspan></text>
+</svg>
